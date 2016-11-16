@@ -13,10 +13,16 @@ export BOOT_EMIT_TARGET=no
 
 export PATH=/nix/var/nix/profiles/per-app/lb/bin:${RIEMANN_PING_HOME}/bin:${PATH}
 
-# Is boot in nix?
-# yes, boot version is 2.2.0, current version is 2.5.5
-
 # Start emacs with bundled prelude configuration.
 function e-prelude {
-    (export TERM=xterm HOME="$RIEMANN_PING_HOME"; nice emacs "$@")
+    (export TERM=xterm
+
+     # These are needed to get emacs to ignore the user's real .emacs.d.
+     # See: https://www.gnu.org/software/emacs/manual/html_node/emacs/Find-Init.html#Find-Init
+     export HOME="$RIEMANN_PING_HOME"
+     unset USER
+     unset LOGNAME
+
+     # Start with nice in case running on a production server.
+     nice emacs "$@")
 }
