@@ -14,7 +14,7 @@ export BOOT_EMIT_TARGET=no
 export PATH=/nix/var/nix/profiles/per-app/lb/bin:${RIEMANN_PING_HOME}/bin:${PATH}
 
 # Start emacs with bundled prelude configuration.
-function e-prelude {
+function rp-emacs {
     (export TERM=xterm
 
      # These are needed to get emacs to ignore the user's real .emacs.d.
@@ -26,3 +26,8 @@ function e-prelude {
      # Start with nice in case running on a production server.
      nice emacs "$@")
 }
+
+alias rp="cd $RIEMANN_PING_HOME"
+
+# List outdated dependencies.
+alias rp-outdated="(cd $RIEMANN_PING_HOME; boot -d boot-deps ancient)"
