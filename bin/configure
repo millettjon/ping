@@ -14,3 +14,7 @@ git submodule update
 # Source bootstrap utilities.
 source "$(dirname $BASH_SOURCE)/../opt/bootstrap/bootstrap.bash"
 
+# TODO: Install as systemd service.
+# TODO: Install crontab.
+# TODO: Install bash integration.
+# OPENVAS RIEMANN-PING
