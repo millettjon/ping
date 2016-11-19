@@ -14,6 +14,9 @@ git submodule update
 # Source bootstrap utilities.
 source "$(dirname $BASH_SOURCE)/../opt/bootstrap/bootstrap.bash"
 
+# Install emacs prelude customizations.
+ensure_link etc/emacs/custom.el $PROJECT_HOME/.emacs.d/personal/custom.el
+
 # TODO: Install as systemd service.
 # TODO: Install crontab.
 # TODO: Install bash integration.
