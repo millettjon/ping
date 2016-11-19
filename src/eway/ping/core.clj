@@ -6,6 +6,7 @@
    [eway.ping.lb :as lb]
    [eway.app.riemann :as rm]
 
+   [clojure.core.async :as async]
    [chime :refer [chime-at]]
    [clj-time.core :as t]
    [clj-time.periodic :refer [periodic-seq]]
@@ -14,6 +15,12 @@
 
 ;; ----- WEB CHECK -----
 (defn now [] (System/currentTimeMillis))
+
+
+(defn log-event [event]
+  (let [event (merge event {:tags ["ping"]
+                            :ttl 300})]
+    (async/>!! rm/event-channel event)))
 
 (defn check-status [frontend]
   "Checks the status of a frontend."
@@ -28,14 +35,24 @@
 
       (http/get url options
                 (fn [{:keys [status headers body error opts]}] ;; asynchronous response handling
-                  (let [elapsed-ms (- (now) (:start-time opts))]
+                  (let [elapsed-ms (- (now) (:start-time opts))
+                        event {:host host
+                               :service (str host " " proto)
+                               :protocol proto
+                               :metric elapsed-ms
+                               :status status
+                               :state (if (= status 200) "ok" "critical")
+                               :description url}]
                     ;;(prn "opts:" opts)
                     (if error
-                      (println host " Failed, exception is " error)
-                      (println host proto elapsed-ms "ms" "status" status))))))))
-
-;; TODO: Forward response to riemman.
-;; TODO: Handle exceptions: e.g. java.net.UnknownHostException
+                      (do 
+                        ;; (println host " Failed, exception is " error)
+                        (log-event (assoc event
+                                          :status (-> error .getClass .getName)
+                                          :description (println-str url "\n" error))))
+                      (do
+                        ;; (println host proto elapsed-ms "ms" "status" status)
+                        (log-event event)))))))))
 
 ;; ----- SCHEDULER -----
 (defn normalize-frontend [[_name [type data]]]
@@ -69,7 +86,6 @@
   :start (start-scheduler)
   :stop (doseq [cancel-fn @scheduled-jobs] (cancel-fn)))
 
-
 ;; Command line entry point.
 (defn -main [& _]
   (mount/start))
@@ -78,3 +94,4 @@
   (mount/stop)
   (mount/start))
 #_ (reset)
+#_ (mount/stop #'eway.ping.core/scheduled-jobs)

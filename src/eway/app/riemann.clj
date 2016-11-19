@@ -16,7 +16,6 @@
      (-> c (rm/send-event {:service "http" :state "ok" :tags ["haproxy2"] :ttl 60 :http-request "/foo/bar/baz"})
          (deref 5000 ::timeout)))
 
-
 (defn batch-reader
   [batch-size batch-time-ms]
   (fn [event-channel]
