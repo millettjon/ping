@@ -1,0 +1,17 @@
+[Unit]
+Description=eWay Ping
+After=local-fs.target network.target
+Requires=local-fs.target network.target
+
+[Service]
+User=admin
+WorkingDirectory={{home}}
+Environment=PATH=/usr/local/rbenv/shims:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart={{home}}/bin/daemon start
+# ExecStop=/bin/kill -TERM $MAINPID
+ExecReload=/bin/kill -HUP $MAINPID
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

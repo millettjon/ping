@@ -107,8 +107,12 @@
 
 ;; ----- COMMAND LINE -----
 ;; Command line entry point.
+(def done (promise))
 (defn -main [& _]
-  (mount/start))
+  (mount/start)
+  @done
+  (l/info "Exiting.")
+  (mount/stop))
 
 (defn reset []
   (mount/stop)
@@ -120,3 +124,11 @@
 (sig/with-handler :hup
   (l/info "Caught signal HUP")
   (reset))
+
+(sig/with-handler :term
+  (l/info "Caught signal TERM")
+  (deliver done true))
+
+(sig/with-handler :int
+  (l/info "Caught signal INT")
+  (deliver done true))

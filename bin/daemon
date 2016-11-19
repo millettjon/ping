@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Wrapper to run ping as a daemon.
+
+# Change to the project root directory.
+PROJECT_HOME="$(cd $(dirname $BASH_SOURCE)/..; pwd)"
+cd $PROJECT_HOME
+
+source .bashrc
+
+exec bin/boot run
+

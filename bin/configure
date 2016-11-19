@@ -27,5 +27,7 @@ set_setting $PROJECT_HOME/.git/info/exclude .m2/repository/cider/cider-nrepl/0.1
 ensure_link .bashrc ~admin/.bash.d/ping
 ensure_link .prompt /opt/eway/etc/prompt.d/ping
 
-# TODO: Install as systemd service.
-# TODO: Install crontab.
+# ---------------------------------------------------
+# DAEMON
+# ---------------------------------------------------
+systemd_ensure_service ping "{home: '$PROJECT_HOME'}"
