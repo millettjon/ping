@@ -6,7 +6,9 @@
    [eway.ping.lb :as lb]
    [eway.app.riemann :as rm]
 
+   [eway.util.string :as ustring]
    [clojure.core.async :as async]
+   [clojure.string :as s]
    [chime :refer [chime-at]]
    [clj-time.core :as t]
    [clj-time.periodic :refer [periodic-seq]]
@@ -19,14 +21,31 @@
 
 (defn log-event [event]
   (let [event (merge event {:tags ["ping"]
-                            :ttl 300})]
+                            :ttl #_ (/ (config :interval) 1000) 30})]
     (async/>!! rm/event-channel event)))
 
-(defn calculate-state [status elapsed-ms]
+(defn calculate-state [status elapsed-ms body]
   (cond (not= status 200) "critical"
         (< elapsed-ms 400) "ok"
         (< elapsed-ms 1000) "warning"
         :default "critical"))
+
+(defn check-error [event error]
+  (if error
+    (assoc event
+           :state "critical"
+           :status (-> error .getClass .getName)
+           :description (println-str (:description event) error))
+    event))
+
+(defn check-body [event body]
+  (let [{:keys [response-string]} config]
+    (if (or (not= 200 (event :status)) (s/includes? body response-string))
+      event
+      (assoc event
+             :state "critical"
+             :status "bad response"
+             :description (println-str (:description event) "Failed to find string" (pr-str response-string) "in response body.\n" (-> body (truncate 1000) prn-str))))))
 
 (defn check-status [frontend]
   "Checks the status of a frontend."
@@ -35,11 +54,9 @@
           path "/"
           url (str proto "://" host path)
           options {:timeout (:timeout config)
-                   :user-agent "riemann-ping"
+                   :user-agent "eway.ping"
                    :start-time (now)}]
-      ;; @(http/get url)
-
-      (http/get url options
+       (http/get url options
                 (fn [{:keys [status headers body error opts]}] ;; asynchronous response handling
                   (let [elapsed-ms (- (now) (:start-time opts))
                         event {:host host
@@ -47,18 +64,12 @@
                                :protocol proto
                                :metric elapsed-ms
                                :status status
-                               :state (calculate-state status elapsed-ms)
-                               :description url}]
-                    ;;(prn "opts:" opts)
-                    (if error
-                      (do 
-                        ;; (println host " Failed, exception is " error)
-                        (log-event (assoc event
-                                          :status (-> error .getClass .getName)
-                                          :description (println-str url "\n" error))))
-                      (do
-                        ;; (println host proto elapsed-ms "ms" "status" status)
-                        (log-event event)))))))))
+                               :state (calculate-state status elapsed-ms body)
+                               :description (println-str "url:" url)}]
+                    (-> event
+                        (check-error error)
+                        (check-body body)
+                        log-event)))))))
 
 ;; ----- SCHEDULER -----
 (defn normalize-frontend [[_name [type data]]]

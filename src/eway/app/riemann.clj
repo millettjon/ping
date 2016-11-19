@@ -53,9 +53,9 @@
                         deref) ;; block to apply backpressure
                    :retry)
                  (catch Exception ex
-                   (timbre/error ex "GOT AN EX")
-                   #_ :retry
-                   nil
+                   (timbre/error (str ex))
+                   :retry
+                   ;;nil
                    )))))))
 
 (defstate event-channel
