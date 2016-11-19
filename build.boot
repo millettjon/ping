@@ -11,6 +11,6 @@
                  [org.clojure/core.async "0.2.395"]
                  [mount "0.1.10"]
                  [jarohen/chime "0.1.9"]
-])
+                 [spootnik/signal "0.2.0"]])
 
 (require 'boot.repl)

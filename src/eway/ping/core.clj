@@ -6,9 +6,11 @@
    [eway.ping.lb :as lb]
    [eway.app.riemann :as rm]
 
-   [eway.util.string :as ustring]
+   [taoensso.timbre :as l]
+   [eway.util.string :as u]
    [clojure.core.async :as async]
    [clojure.string :as s]
+   [signal.handler :as sig]
    [chime :refer [chime-at]]
    [clj-time.core :as t]
    [clj-time.periodic :refer [periodic-seq]]
@@ -21,7 +23,7 @@
 
 (defn log-event [event]
   (let [event (merge event {:tags ["ping"]
-                            :ttl #_ (/ (config :interval) 1000) 30})]
+                            :ttl (/ (config :interval) 1000)})]
     (async/>!! rm/event-channel event)))
 
 (defn calculate-state [status elapsed-ms body]
@@ -45,7 +47,7 @@
       (assoc event
              :state "critical"
              :status "bad response"
-             :description (println-str (:description event) "Failed to find string" (pr-str response-string) "in response body.\n" (-> body (truncate 1000) prn-str))))))
+             :description (println-str (:description event) "Failed to find string" (pr-str response-string) "in response body.\n" (-> body (u/truncate 1000) prn-str))))))
 
 (defn check-status [frontend]
   "Checks the status of a frontend."
@@ -103,6 +105,7 @@
   :start (start-scheduler)
   :stop (doseq [cancel-fn @scheduled-jobs] (cancel-fn)))
 
+;; ----- COMMAND LINE -----
 ;; Command line entry point.
 (defn -main [& _]
   (mount/start))
@@ -112,3 +115,8 @@
   (mount/start))
 #_ (reset)
 #_ (mount/stop #'eway.ping.core/scheduled-jobs)
+
+;; ----- SIGNALS -----
+(sig/with-handler :hup
+  (l/info "Caught signal HUP")
+  (reset))
