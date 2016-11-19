@@ -14,12 +14,16 @@ git submodule update
 # Source bootstrap utilities.
 source "$(dirname $BASH_SOURCE)/../opt/bootstrap/bootstrap.bash"
 
-# Install emacs prelude customizations.
+# ----- EMACS -----
+# Install prelude customizations.
 ensure_link etc/emacs/custom.el $PROJECT_HOME/.emacs.d/personal/custom.el
 # Ignore .emacs.d/ido.last.
 set_setting $PROJECT_HOME/.git/modules/.emacs.d/info/exclude ido.last ""
 
-# bash integration
+# ----- MAVEN -----
+set_setting $PROJECT_HOME/.git/info/exclude .m2/repository/cider/cider-nrepl/0.15.0-SNAPSHOT/resolver-status.properties ""
+
+# ----- BASH -----
 ensure_link .bashrc ~admin/.bash.d/ping
 ensure_link .prompt /opt/eway/etc/prompt.d/ping
 
