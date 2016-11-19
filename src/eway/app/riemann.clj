@@ -1,4 +1,4 @@
-(ns eway.riemann.client
+(ns eway.app.riemann
   (:require [clojure.core.async :as async]
             [riemann.client :as rm]
             [taoensso.timbre :as timbre]

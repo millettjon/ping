@@ -1,5 +1,0 @@
--? Are there out of date deps?
--? How to start from repl?
--? How to start from command line?
--? How to run as a daemon?
--? How to log stuff to a file?

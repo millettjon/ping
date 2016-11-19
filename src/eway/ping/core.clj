@@ -1,17 +1,16 @@
-(ns eway.riemann.ping
+(ns eway.ping.core
   (:require
    ;; mount component dependencies
-   [eway.riemann.log]
-   [eway.riemann.config :refer [config]]
-   [eway.riemann.client :as rm]
+   [eway.app.log]
+   [eway.app.config :refer [config]]
+   [eway.ping.lb :as lb]
+   [eway.app.riemann :as rm]
 
-   [taoensso.timbre :as timbre]
    [chime :refer [chime-at]]
    [clj-time.core :as t]
    [clj-time.periodic :refer [periodic-seq]]
    [org.httpkit.client :as http]
    [mount.core :as mount :refer [defstate]]))
-
 
 ;; ----- WEB CHECK -----
 (defn now [] (System/currentTimeMillis))
@@ -35,7 +34,6 @@
                       (println host " Failed, exception is " error)
                       (println host proto elapsed-ms "ms" "status" status))))))))
 
-;; TODO: See what check pingdom uses. /
 ;; TODO: Forward response to riemman.
 ;; TODO: Handle exceptions: e.g. java.net.UnknownHostException
 
@@ -50,7 +48,7 @@
 (defn start-scheduler []
   "Schedules jobs by staggering start times so that they are evenly distributed over each repeat interval."
   (let [jobs (atom [])
-        num-frontends (count (:lb config))
+        num-frontends (count lb/config)
         interval (:interval config)
         interval-ms (t/millis interval)
         step-ms (long (/ interval num-frontends))
@@ -62,7 +60,7 @@
                          callback-fn (fn [time] (check-status frontend) #_ (println time frontend))
                          cancel-fn (chime-at (periodic-seq job-time interval-ms) callback-fn {:error-handler error-fn})]
                      (swap! jobs conj cancel-fn)))]
-    (->> (:lb config)
+    (->> lb/config
          (map-indexed make-job)
          dorun)
     jobs))

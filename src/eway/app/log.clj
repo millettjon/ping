@@ -1,4 +1,4 @@
-(ns eway.riemann.log
+(ns eway.app.log
   (:require [taoensso.timbre :as timbre]
             [mount.core :as mount :refer [defstate]]))
 
