@@ -19,7 +19,9 @@ ensure_link etc/emacs/custom.el $PROJECT_HOME/.emacs.d/personal/custom.el
 # Ignore .emacs.d/ido.last.
 set_setting $PROJECT_HOME/.git/modules/.emacs.d/info/exclude ido.last ""
 
+# bash integration
+ensure_link .bashrc ~admin/.bash.d/ping
+ensure_link .prompt /opt/eway/etc/prompt.d/ping
+
 # TODO: Install as systemd service.
 # TODO: Install crontab.
-# TODO: Install bash integration.
-# OPENVAS RIEMANN-PING

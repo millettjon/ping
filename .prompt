@@ -1,0 +1,10 @@
+# -*- shell-script -*-
+
+# Add link application prompt and title items.
+function qmM4NaejV {
+    local color=$co_lred
+    push app_prompt_info "${color}PING${co_default}"
+    push app_title_info "PING"
+}
+qmM4NaejV
+unset qmM4NaejV
