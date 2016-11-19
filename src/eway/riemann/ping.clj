@@ -1,92 +1,75 @@
 (ns eway.riemann.ping
-  (:require [clojure.edn :as edn]
-            [yaml.core :as yaml]
-            [clojure.spec :as s]
-            [clojure.core.async :as async]
-            [eway.riemann.client :as rm]
-            [taoensso.timbre :as timbre]
-            [org.httpkit.client :as http]
-            [mount.core :as mount :refer [defstate]]))
+  (:require
+   ;; mount component dependencies
+   [eway.riemann.log]
+   [eway.riemann.config :refer [config]]
+   [eway.riemann.client :as rm]
 
-;; ----- LOGGING -----
-(defn init-logging!
-  []
-  ;; Disable stack trace colors.
-  (timbre/merge-config!
-   {:output-fn (partial timbre/default-output-fn {:stacktrace-fonts {}})})
-  (timbre/set-level! :debug #_ :info))
+   [taoensso.timbre :as timbre]
+   [chime :refer [chime-at]]
+   [clj-time.core :as t]
+   [clj-time.periodic :refer [periodic-seq]]
+   [org.httpkit.client :as http]
+   [mount.core :as mount :refer [defstate]]))
 
-(defstate log
-  :start (init-logging!))
 
-#_ timbre/*config* ; Inspect logging config.
+;; ----- WEB CHECK -----
+(defn now [] (System/currentTimeMillis))
 
-;; ----- CONFIGURATION -----
+(defn check-status [frontend]
+  "Checks the status of a frontend."
+  (doseq [proto (:protocols frontend)]
+    (let [host (:name frontend)
+          path "/"
+          url (str proto "://" host path)
+          options {:timeout (:timeout config)
+                   :user-agent "riemann-ping"
+                   :start-time (now)}]
+      ;; @(http/get url)
 
-(def etc-dir
-  (str (System/getProperty "user.dir") "/etc"))
+      (http/get url options
+                (fn [{:keys [status headers body error opts]}] ;; asynchronous response handling
+                  (let [elapsed-ms (- (now) (:start-time opts))]
+                    ;;(prn "opts:" opts)
+                    (if error
+                      (println host " Failed, exception is " error)
+                      (println host proto elapsed-ms "ms" "status" status))))))))
 
-(defn load-config []
-  "Loads configuration from disk."
-  (-> (str etc-dir "/config.edn")
-      slurp
-      edn/read-string))
-
-;; Expected schema for link clusters in LBAdmin.yaml.
-;; Simple values.
-(s/def :eway.riemann.ping/dns-name keyword?)
-(s/def :eway.riemann.ping/backend string?)
-
-;; Compound values.
-(s/def :eway.riemann.ping.link/protocols
-  (s/coll-of #{"http" "https"} :kind vector? :distinct true :min-count 1 :max-count 2))
-(s/def :eway.riemann.ping.link/cluster
-  (s/or :long (s/keys :req-un [:eway.riemann.ping.link/protocols] :opt-un [:eway.riemann.ping/backend])
-        :short :eway.riemann.ping.link/protocols))
-(s/def :eway.riemann.ping.link/clusters (s/map-of :eway.riemann.ping/dns-name :eway.riemann.ping.link/cluster))
-
-(defn load-lb-config []
-  "Loads the load balancer configuration from yaml."
-  (let [        
-        ;; We use yaml here instead of edn since LBAdmin.yaml is pulled form the "lb" project.
-        ;; Note: yaml/from-file returns keys as strings so use yaml/parse-string instead.
-        lb-conf (-> (str etc-dir "/LBAdmin.yaml")
-                    slurp
-                    yaml/parse-string)
-
-        link-frontends (get-in lb-conf [:profiles :lb2 :frontends :link])]
-    
-    (s/conform :eway.riemann.ping.link/clusters link-frontends)))
-
-(defstate config
-  :start (assoc (load-config) :lb (load-lb-config)))
-
-(let [host "link.ixs1.net"
-      proto "http"
-      path "/s/om?showStats"
-      url (str proto "://" host path)
-      options {:timeout 200             ; ms
-               :user-agent "riemann-ping"}]
-  ;; @(http/get url)
-  
-  (http/get url options
-            (fn [{:keys [status headers body error]}] ;; asynchronous response handling
-              (if error
-                (println "Failed, exception is " error)
-                (println "Async HTTP GET: " status)))))
-
-;; TODO: Time requests.
-;; TODO: Check response.
-;; TODO: Create unit tests.
+;; TODO: See what check pingdom uses. /
 ;; TODO: Forward response to riemman.
-;; TODO: Retry every 60? 120? 300? seconds?
-;; TODO: Does the request rate need to be limited or randomized?
-;;       - otherwise will add 250 hits in 1 second or something
-;;       -? use timer per service?
-;;       -? use ms delay between each request? (total checks/window)
-;; TODO: Should it back off if service is down?
-;; TODO: Add edn configuration file.
-;; TODO: Read list of services to test from configuration file.
+;; TODO: Handle exceptions: e.g. java.net.UnknownHostException
+
+;; ----- SCHEDULER -----
+(defn normalize-frontend [[_name [type data]]]
+  (let [frontend (if (= type :short)
+                   {:protocols data}    ; expand short form
+                   data)]
+    ;; Coerce frontend name to a string.
+    (assoc frontend :name (name _name))))
+
+(defn start-scheduler []
+  "Schedules jobs by staggering start times so that they are evenly distributed over each repeat interval."
+  (let [jobs (atom [])
+        num-frontends (count (:lb config))
+        interval (:interval config)
+        interval-ms (t/millis interval)
+        step-ms (long (/ interval num-frontends))
+        start-time (t/now)
+        error-fn (fn [e] (prn e))
+        make-job (fn [i frontend]
+                   (let [frontend (normalize-frontend frontend)
+                         job-time (t/plus start-time (t/millis (* i step-ms)))
+                         callback-fn (fn [time] (check-status frontend) #_ (println time frontend))
+                         cancel-fn (chime-at (periodic-seq job-time interval-ms) callback-fn {:error-handler error-fn})]
+                     (swap! jobs conj cancel-fn)))]
+    (->> (:lb config)
+         (map-indexed make-job)
+         dorun)
+    jobs))
+
+(defstate scheduled-jobs
+  :start (start-scheduler)
+  :stop (doseq [cancel-fn @scheduled-jobs] (cancel-fn)))
 
 
 ;; Command line entry point.

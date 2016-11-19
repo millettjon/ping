@@ -9,6 +9,8 @@
                  [http-kit "2.2.0"]
                  [com.taoensso/timbre "4.7.4"]
                  [org.clojure/core.async "0.2.395"]
-                 [mount "0.1.10"]])
+                 [mount "0.1.10"]
+                 [jarohen/chime "0.1.9"]
+])
 
 (require 'boot.repl)
