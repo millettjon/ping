@@ -22,6 +22,12 @@
                             :ttl 300})]
     (async/>!! rm/event-channel event)))
 
+(defn calculate-state [status elapsed-ms]
+  (cond (not= status 200) "critical"
+        (< elapsed-ms 400) "ok"
+        (< elapsed-ms 1000) "warning"
+        :default "critical"))
+
 (defn check-status [frontend]
   "Checks the status of a frontend."
   (doseq [proto (:protocols frontend)]
@@ -41,7 +47,7 @@
                                :protocol proto
                                :metric elapsed-ms
                                :status status
-                               :state (if (= status 200) "ok" "critical")
+                               :state (calculate-state status elapsed-ms)
                                :description url}]
                     ;;(prn "opts:" opts)
                     (if error
