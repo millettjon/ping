@@ -28,6 +28,14 @@ function p-emacs {
 }
 
 alias p="cd $PING_HOME"
+alias p-ps="systemctl --no-pager status ping"
+alias p-status="p-ps"
+alias p-start="sudo systemctl start ping"
+alias p-stop="sudo systemctl stop ping"
+alias p-restart="sudo systemctl restart ping"
+alias p-reload="sudo systemctl reload ping"
+alias p-log="journalctl -u ping"
+alias p-tail="journalctl -f -u ping"
 
 # List outdated dependencies.
 alias p-outdated="(cd $PING_HOME; boot -d boot-deps ancient)"
