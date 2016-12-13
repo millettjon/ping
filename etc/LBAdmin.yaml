@@ -281,6 +281,13 @@ profiles:
         link.eml.ixsdw.net: [http, https]
         link.eml.ixsfm.net: [http]
         link.eml.csengage1.net: [http, https]
+        link.eml.calibrmail3.com: [http]
+        link.eml.csacq1.net: [http]
+        link.choicehomewarranty.csacq1.com: [http, https]
+        link.proactiv.csewd.net: [http, https]
+        link.eml.acqixs.com: [http, https]
+        link.eml.csax1.net: [http, https]
+        link.dermablend.csax1.com: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
