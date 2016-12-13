@@ -1,0 +1,32 @@
+#!/usr/bin/env ruby
+
+require '/opt/eway/lib/bootstrap'
+require 'LogFile'
+require 'thor'
+
+class PingAdmin < Thor
+  DOMAIN_ADMIN_FILE = "etc/DomainAdmin.yaml"
+
+  desc "update", "Updates the mailer based on the latest commit."
+  def update
+    $log.info "Checking for updates to the load balancer configuration."
+    Dir.chdir("etc") do
+      system "git archive --remote=git@git:lb master:etc LBAdmin.yaml | tar -x"
+    end
+
+    # If there is an update, process it.
+    out = sh "git status --porcelain etc/LBAdmin.yaml"
+    if out.empty?
+      $log.info "No changes."
+      return
+    end
+
+    $log.info "Saving and reloading new configuration."
+    sys ["git", "commit", "-m", "LBAdmin.yaml - Saving updated configuration from lb repo (ping-admin).", "etc/LBAdmin.yaml"]
+    sys "sudo systemctl reload ping"
+  end
+end
+
+$log.info "Started with arguments: #{ARGV.inspect}."
+Dir.chdir PROJECT_DIR
+PingAdmin.start
