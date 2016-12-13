@@ -31,3 +31,6 @@ ensure_link .prompt /opt/eway/etc/prompt.d/ping
 # DAEMON
 # ---------------------------------------------------
 systemd_ensure_service ping "{home: '$PROJECT_HOME'}"
+
+# Install crontab.
+render etc/crontab.mustache /etc/cron.d/ping "{home: '$PROJECT_HOME'}"
