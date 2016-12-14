@@ -17,6 +17,7 @@ source "$(dirname $BASH_SOURCE)/../opt/bootstrap/bootstrap.bash"
 # ----- EMACS -----
 # Install prelude customizations.
 ensure_link etc/emacs/custom.el $PROJECT_HOME/.emacs.d/personal/custom.el
+ensure_link etc/emacs/prelude-modules.el $PROJECT_HOME/.emacs.d/prelude-modules.el
 # Ignore .emacs.d/ido.last.
 set_setting $PROJECT_HOME/.git/modules/.emacs.d/info/exclude ido.last ""
 
