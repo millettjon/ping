@@ -3,7 +3,7 @@
 host: sftp.ewaydirect.com
 
 # Number of seconds to sleep between attempts.
-interval: 60
+interval: 300
 
 # Number of seconds to wait for all checks to complete without error.
 timeout: 10
