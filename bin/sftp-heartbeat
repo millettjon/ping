@@ -7,6 +7,7 @@
 require '/opt/eway/lib/bootstrap'
 require 'LogFile'
 require 'MailAlert'
+require 'PagerAlert'
 require 'net/sftp'
 require 'net/ftp'
 
