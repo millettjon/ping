@@ -1,0 +1,97 @@
+#!/usr/bin/env ruby
+
+#
+# Heartbeat script to monitor status of sftp service.
+#
+
+require '/opt/eway/lib/bootstrap'
+require 'LogFile'
+require 'MailAlert'
+require 'net/sftp'
+require 'net/ftp'
+
+class Heartbeat
+  #
+  # CONFIGURATION
+  #
+  HOST = $config['host']
+  USER = $config['login']['user']
+  PASSWORD = $config['login']['password']
+  INTERVAL = $config['interval']
+  TIMEOUT = $config['timeout']
+  TEST_DIR=VAR_DIR/NAME/'test'
+
+  class << self
+
+    def check_sftp
+      $log.info "sftp: check"
+
+      Net::SFTP.start(HOST, USER, :password => PASSWORD) do |sftp|
+        td = TEST_DIR
+
+        # Upload a file.
+        f = 'data.txt'
+        up = 'upload'
+        sftp.upload! td/f, up/f
+        sftp.stat! up/f
+        sftp.remove! up/f
+
+        # Download a file.
+        f = '.heartbeat-test-file-do-not-delete'
+        FileUtils.remove(td/f) if File.exists?(td/f)
+        sftp.download! 'download'/f, td/f
+        FileUtils.remove td/f
+      end
+
+      $log.info "sftp: ok"
+    rescue
+      $log.error "sftp: #{$!}"
+    end
+
+    def check_ftp
+      $log.info "ftp: check"
+
+      Net::FTP.open(HOST) do |ftp|
+        # Make sure to use passive mode to prevent the server from
+        # trying to open a connection back to the client (active
+        # mode).
+        ftp.passive = true
+
+        ftp.login USER, PASSWORD
+        ftp.chdir('upload')
+        ftp.putbinaryfile TEST_DIR/"data.txt"
+        ftp.delete "data.txt"
+      end
+
+      $log.info "ftp: ok"
+    rescue
+      $log.error "ftp: #{$!}"
+    end
+
+    def check_all
+      thread = Thread.new do
+        check_sftp
+        check_ftp
+      end
+      thread.join TIMEOUT or raise "timed out after #{TIMEOUT} seconds"
+    end
+
+    def start
+      while true do
+        begin
+          check_all
+        rescue
+          $log.error "start: #{$!}"
+        end
+
+        sleep INTERVAL
+      end
+    end
+
+  end
+end
+
+Dir.chdir PROJECT_DIR
+$stdout.sync = true
+
+Heartbeat.start

@@ -33,5 +33,9 @@ ensure_link .prompt /opt/eway/etc/prompt.d/ping
 # ---------------------------------------------------
 systemd_ensure_service ping "{home: '$PROJECT_HOME'}"
 
+# ftp/sftp check daemon
+ensure_gem net-sftp
+systemd_ensure_service sftp-heartbeat "{home: '$PROJECT_HOME'}"
+
 # Install crontab.
 render etc/crontab.mustache /etc/cron.d/ping "{home: '$PROJECT_HOME'}"

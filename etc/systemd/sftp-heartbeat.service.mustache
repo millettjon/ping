@@ -1,0 +1,16 @@
+[Unit]
+Description=eWay sftp heartbeat
+After=local-fs.target network.target
+Requires=local-fs.target network.target
+
+[Service]
+User=admin
+WorkingDirectory={{home}}
+Environment=PATH=/usr/local/rbenv/shims:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
+ExecStart={{home}}/bin/sftp-heartbeat
+ExecStop=/bin/kill -TERM $MAINPID
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target

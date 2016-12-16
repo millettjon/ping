@@ -1,0 +1,14 @@
+# Heartbeat configuration file (yaml format: http://www.yaml.org/refcard.html)
+
+host: sftp.ewaydirect.com
+
+# Number of seconds to sleep between attempts.
+interval: 60
+
+# Number of seconds to wait for all checks to complete without error.
+timeout: 10
+
+# Test acount login info
+login:
+  user: "su5438"
+  password: "Einahph6"
