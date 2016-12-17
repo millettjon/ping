@@ -15,14 +15,20 @@ class Heartbeat
   #
   # CONFIGURATION
   #
-  HOST = $config['host']
-  USER = $config['login']['user']
-  PASSWORD = $config['login']['password']
-  INTERVAL = $config['interval']
-  TIMEOUT = $config['timeout']
-  TEST_DIR=VAR_DIR/NAME/'test'
+  HOST      = $config['host']
+  USER      = $config['login']['user']
+  PASSWORD  = $config['login']['password']
+  INTERVAL  = $config['interval']
+  TIMEOUT   = $config['timeout']
+  TEST_DIR  = VAR_DIR/NAME/'test'
 
   class << self
+
+    # Appends a unique suffix to path to prevent collisions from
+    # multiple versions of this script checking the same host.
+    def uniquify(path)
+      path + "." + HOSTNAME
+    end
 
     def check_sftp
       $log.info "sftp: check"
@@ -32,10 +38,11 @@ class Heartbeat
 
         # Upload a file.
         f = 'data.txt'
+        fr = uniquify f
         up = 'upload'
-        sftp.upload! td/f, up/f
-        sftp.stat! up/f
-        sftp.remove! up/f
+        sftp.upload! td/f, up/fr
+        sftp.stat! up/fr
+        sftp.remove! up/fr
 
         # Download a file.
         f = '.heartbeat-test-file-do-not-delete'
@@ -60,8 +67,10 @@ class Heartbeat
 
         ftp.login USER, PASSWORD
         ftp.chdir('upload')
-        ftp.putbinaryfile TEST_DIR/"data.txt"
-        ftp.delete "data.txt"
+        f = "data.txt"
+        fr = uniquify f
+        ftp.putbinaryfile TEST_DIR/f, fr
+        ftp.delete fr
       end
 
       $log.info "ftp: ok"
