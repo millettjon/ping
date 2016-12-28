@@ -26,12 +26,6 @@
                             :ttl (/ (config :interval) 1000)})]
     (async/>!! rm/event-channel event)))
 
-(defn calculate-state [status elapsed-ms body]
-  (cond (not= status 200) "critical"
-        (< elapsed-ms 400) "ok"
-        (< elapsed-ms 1000) "warning"
-        :default "critical"))
-
 (defn check-error [event error]
   (if error
     (assoc event
@@ -66,7 +60,7 @@
                                :protocol proto
                                :metric elapsed-ms
                                :status status
-                               :state (calculate-state status elapsed-ms body)
+                               :state (if (= status 200) "ok" "critical")
                                :description (println-str "url:" url)}]
                     (-> event
                         (check-error error)
