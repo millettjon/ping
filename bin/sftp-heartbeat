@@ -20,6 +20,7 @@ class Heartbeat
   PASSWORD  = $config['login']['password']
   INTERVAL  = $config['interval']
   TIMEOUT   = $config['timeout']
+  ATTEMPTS  = $config['attempts']
   TEST_DIR  = VAR_DIR/NAME/'test'
 
   class << self
@@ -53,7 +54,7 @@ class Heartbeat
 
       $log.info "sftp: ok"
     rescue
-      $log.error "sftp: #{$!}"
+      raise "sftp: #{$!}"
     end
 
     def check_ftp
@@ -75,15 +76,20 @@ class Heartbeat
 
       $log.info "ftp: ok"
     rescue
-      $log.error "ftp: #{$!}"
+      raise "ftp: #{$!}"
     end
 
     def check_all
+      tries ||= ATTEMPTS
       thread = Thread.new do
         check_sftp
         check_ftp
       end
       thread.join TIMEOUT or raise "timed out after #{TIMEOUT} seconds"
+    rescue
+      $log.info "retrying after error: #{$!}"
+      retry unless (tries -= 1).zero?
+      raise
     end
 
     def start
@@ -91,7 +97,7 @@ class Heartbeat
         begin
           check_all
         rescue
-          $log.error "start: #{$!}"
+          $log.error "sftp-heartbeat: #{$!}"
         end
 
         sleep INTERVAL

@@ -37,5 +37,9 @@ alias p-reload="sudo systemctl reload ping"
 alias p-log="journalctl -u ping"
 alias p-tail="journalctl -f -u ping"
 
+alias p-sftp-start="sudo systemctl start sftp-heartbeat"
+alias p-sftp-status="sudo systemctl status sftp-heartbeat"
+alias p-sftp-stop="sudo systemctl stop sftp-heartbeat"
+
 # List outdated dependencies.
 alias p-outdated="(cd $PING_HOME; boot -d boot-deps ancient)"
