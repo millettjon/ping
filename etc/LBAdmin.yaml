@@ -42,7 +42,7 @@ profiles:
     frontends:
       link:
         link-lb2.ixs1.net: [http]
-        link.us.rado.com: [http, https]
+        link.us.rado.com: [http]
         link.us.hamiltonwatch.com: [http, https]
         link.e.lifetimesterling.com: [http, https]
         link.us.omegawatches.com: [http]
