@@ -286,6 +286,7 @@ profiles:
         link.proactiv.csesp1.com: [http, https]
         link.xout.cs-acq.net: [http, https]
         link.fs.calibremail.com: [http, https]
+        link.eml.ewaymail90.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
