@@ -289,6 +289,11 @@ profiles:
         link.esquire.ewaymail80.com: [http]
         link.marieclaire.ewaymail20.com: [http]
         link.roadandtrack.ewaymail50.com: [http]
+        link.cosmopolitan.ewaymail60.com: [http]
+        link.goodhousekeeping.calibr2.com: [http]
+        link.popularmechanics.calibrmail1.com: [http]
+        link.countryliving.calibrplatform.com: [http]
+        link.housebeautiful.ewdcse.net: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
