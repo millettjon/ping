@@ -285,6 +285,10 @@ profiles:
         link.xout.cs-acq.net: [http, https]
         link.fs.calibremail.com: [http, https]
         link.eml.ewaymail90.com: [http]
+        link.womansday.csemacq.com: [http]
+        link.esquire.ewaymail80.com: [http]
+        link.marieclaire.ewaymail20.com: [http]
+        link.roadandtrack.ewaymail50.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
