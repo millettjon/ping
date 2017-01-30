@@ -294,7 +294,6 @@ profiles:
         link.popularmechanics.calibrmail1.com: [http, https]
         link.countryliving.calibrplatform.com: [http, https]
         link.housebeautiful.ewdcse.net: [http, https]
-        link.caranddriver.ewcsacq.net: [https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
