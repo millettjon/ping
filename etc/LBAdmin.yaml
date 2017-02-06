@@ -119,7 +119,7 @@ profiles:
         link.ebrochures.avon.com: [http]
         link.ewaymail.com: [http, https]
         link.eml.hartstrings.com: [http, https]
-        link.email.homeprotectwarranty.com: [http, https]
+        link.email.homeprotectwarranty.com: [http]
         link.eml.canvaspeople.com: [http, https]
         link.e.lexmod.com: [http, https]
         link.eway10.com: [http, https]
