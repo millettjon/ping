@@ -200,7 +200,6 @@ profiles:
         link.snowandgraham.secureixs.com: [http, https]
         link.acturus.secureixs.com: [http]
         link.ewdcse.com: [http, https]
-        link.chicos.ewcsacq.net: [http]
         link.soma.ewdcsa.net: [http]
         link.whitehouseblackmarket.ewdcse.net: [http]
         link.xout.csesp1.net: [http, https]
