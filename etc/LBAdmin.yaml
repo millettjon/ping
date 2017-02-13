@@ -141,7 +141,6 @@ profiles:
         link.e.palmbeachjewelrydeals.com: [http, https]
         link.e.parentsociety.com: [http]
         link.ixsto.net: [http, https]
-        link.jomashop.ixs1.net: [http]
         link.e.swimsuitsforall.com: [http, https]
         link.harlequin.ewaymail.com: [http]
         link.e.pchgiveaway.com: [http, https]
@@ -149,7 +148,6 @@ profiles:
         link.emailping.onlinedialog.com:
           protocols: [http, https]
           backend: emailping
-        link.libmed.emart10.com: [http]
         link.email.leadershipmattersforamerica.org: [http]
         link.skinceuticals.ewaymail30.com: [http, https]
         link.myscore.ixs2.net: [http]
@@ -166,7 +164,6 @@ profiles:
         link.everydayhappy.csacq1.com: [http, https]
         link.edayhappy.ixs1.net: [http, https]
         link.edh.ixs1.net: [http]
-        link.lejeune.csemacq.net: [http]
         link.fastline-email.com: [http]
         link.eaglemoss.csengage2.com: [http, https]
         link.em.e3.ixs1.net: [http, https]
