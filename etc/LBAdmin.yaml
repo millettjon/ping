@@ -205,7 +205,6 @@ profiles:
         link.freeshipping.ewdcse.com: [http, https]
         link.baxterofcalifornia.calibrmsg.com: [http, https]
         link.lancomeca.calibr3.com: [http, https]
-        link.dailyworth.calibrmail.com: [http, https]
         link.email.ls-advantage.com: [http]
         link.e.tourbillon.com: [http]
         link.eml.tourbillon.com: [http]
