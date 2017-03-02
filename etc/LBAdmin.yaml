@@ -266,7 +266,7 @@ profiles:
         link.email.palmbeachjewelrydeals.com: [http, https]
         link.bhmail.creditloan.com: [http]
         link.bhmail.moneymutual.com: [http]
-        link.eml.csesp2.com: [http]
+        link.eml.csesp2.com: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
