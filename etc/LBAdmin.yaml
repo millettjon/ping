@@ -198,7 +198,7 @@ profiles:
         link.email.freshsquared.com: [http]
         link.gerber.calibrplatform.com: [http]
         link.travelplus.csacq2.com: [http, https]
-        link.freeshipping.ewaymail70.com: [http]
+        link.freeshipping.ewaymail70.com: [http, https]
         link.email.samplememore.com: [http]
         link.e.samplememore.com: [http]
         link.freeshipping.ewdcse.com: [http, https]
