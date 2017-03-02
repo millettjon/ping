@@ -187,7 +187,6 @@ profiles:
         link.email.thecutekid.com: [http, https]
         link.email.freshsquared.secureixs.com: [http]
         link.lancome.securedmi.com: [http, https]
-        link.savethechildren.ixs1.net: [http]
         link.magazines.csewd.net: [http]
         link.sparkpost.ixs1.net: [http]
         link.xout.securedmi.com: [http, https]
