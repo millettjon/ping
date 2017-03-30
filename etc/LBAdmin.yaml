@@ -16,9 +16,9 @@ profiles:
         ftp.ewaydirect.com: 
     backends:
       soap:
-        servers: [api2, api3]
+        servers: [api1, api2, api3]
       soap-test:
-        servers: [api1]
+        servers: [api-dev1]
       ecards:
         servers: [ecards1, ecards2]
       sftp:
