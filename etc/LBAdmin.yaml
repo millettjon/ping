@@ -269,6 +269,7 @@ profiles:
         link.email1.jobsonline.com: [http, https]
         link.eml.optonfinance.com: [http, https]
         link.proactiv.csacq2.net: [http, https]
+        link.email.horizonfastcapital.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
