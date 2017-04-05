@@ -270,7 +270,6 @@ profiles:
         link.eml.optonfinance.com: [http, https]
         link.proactiv.csacq2.net: [http, https]
         link.email.horizonfastcapital.com: [http]
-        link.amora.ixs1.net: [https]
         link.amoracoffee.ixs1.net: [https]
     backends:
       link:
