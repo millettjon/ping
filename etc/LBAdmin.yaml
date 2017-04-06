@@ -271,6 +271,9 @@ profiles:
         link.proactiv.csacq2.net: [http, https]
         link.email.horizonfastcapital.com: [http]
         link.amoracoffee.ixs1.net: [https]
+        link.cledepeaubeaute.csengage2.net: [http]
+        link.cledepeaubeaute.csengage2.com: [http]
+        link.eml.pickjobsnow.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
