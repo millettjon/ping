@@ -274,6 +274,7 @@ profiles:
         link.cledepeaubeaute.csengage2.net: [http, https]
         link.cledepeaubeaute.csengage2.com: [http, https]
         link.eml.pickjobsnow.com: [http, https]
+        link.helpwithpain.co: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
