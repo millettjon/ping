@@ -275,6 +275,9 @@ profiles:
         link.cledepeaubeaute.csengage2.com: [http, https]
         link.eml.pickjobsnow.com: [http, https]
         link.helpwithpain.co: [http, https]
+        link.cosmopolitan.ewcsacq.net: [http]
+        link.goodhousekeeping.ewdcse.net: [http]
+        link.popularmechanics.ewaymail80.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
