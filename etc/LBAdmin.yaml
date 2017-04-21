@@ -104,7 +104,6 @@ profiles:
         link.e.searshomewarranty.com: [http]
         link.email.ewaydirect.com: [http, https]
         link.sas.calibrmsg.com: [http]
-        link.email.earthbox.com: [http, https]
         link.amora.calibrmail3.com: [http, https]
         link.e.draftmag.ewaymail10.com: [http, https]
         link.e.heart.avon.com: [http]
