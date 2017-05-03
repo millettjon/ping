@@ -268,7 +268,7 @@ profiles:
         link.email1.jobsonline.com: [http, https]
         link.eml.optonfinance.com: [http, https]
         link.proactiv.csacq2.net: [http, https]
-        link.email.horizonfastcapital.com: [http]
+        link.email.horizonfastcapital.com: [http, https]
         link.amoracoffee.ixs1.net: [https]
         link.cledepeaubeaute.csengage2.net: [http, https]
         link.cledepeaubeaute.csengage2.com: [http, https]
