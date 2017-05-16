@@ -281,7 +281,7 @@ profiles:
         link-qa.ixs1.net:
           protocols: [http, https]
           backend: link-qa
-        link.csacq.net: [http]
+        link.csacq.net: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
