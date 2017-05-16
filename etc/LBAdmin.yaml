@@ -278,6 +278,7 @@ profiles:
         link.goodhousekeeping.ewdcse.net: [http, https]
         link.popularmechanics.ewaymail80.com: [http, https]
         link.eml.calibrmail.com: [http, https]
+        link-qa.ixs1.net: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
