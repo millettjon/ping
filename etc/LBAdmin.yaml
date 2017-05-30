@@ -208,7 +208,7 @@ profiles:
         link.e.ls-advantage.com: [http]
         link.e.avon.ro: [http]
         link.lancome.csemacq.net: [http, https]
-        link.biotherm.calibrdirect.com: [http, https]
+        link.biotherm.calibrdirect.com: [http]
         link.palmbeachjewelry.ecsaq.net: [http, https]
         link.skinceuticals.csengage1.com: [http, https]
         link.pfaltzgraff.ixscs.net: [http, https]
