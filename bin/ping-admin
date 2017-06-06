@@ -7,11 +7,11 @@ require 'thor'
 class PingAdmin < Thor
   DOMAIN_ADMIN_FILE = "etc/DomainAdmin.yaml"
 
-  desc "update", "Updates the mailer based on the latest commit."
+  desc "update", "Updates the list of ping targets based on the latest commit."
   def update
     $log.info "Checking for updates to the load balancer configuration."
     Dir.chdir("etc") do
-      system "git archive --remote=git@git:lb master:etc LBAdmin.yaml | tar -x"
+      system "git archive --remote=git@git:lb-config master: LBAdmin.yaml | tar -x"
     end
 
     # If there is an update, process it.
