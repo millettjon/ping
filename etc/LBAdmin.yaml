@@ -266,7 +266,6 @@ profiles:
         link.eml.optonfinance.com: [http, https]
         link.proactiv.csacq2.net: [http, https]
         link.email.horizonfastcapital.com: [http, https]
-        link.amoracoffee.ixs1.net: [https]
         link.cledepeaubeaute.csengage2.net: [http, https]
         link.cledepeaubeaute.csengage2.com: [http, https]
         link.eml.pickjobsnow.com: [http, https]
@@ -283,7 +282,7 @@ profiles:
         link.retailmenot.ixsff.com: [http, https]
         link.proactiv.ixap1.com: [http, https]
         link.proactiv.ixap1.net: [http, https]
-        link.shopsmarter.ixlat.net: [http]
+        link.shopsmarter.ixlat.net: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
