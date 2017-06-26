@@ -30,9 +30,12 @@
                     slurp
                     yaml/parse-string)
 
-        link-frontends (get-in lb-conf [:profiles :lb2 :frontends :link])]
+        link-frontends (merge (get-in lb-conf [:profiles :lb2 :frontends :link])
+                              (get-in lb-conf [:profiles :lb3 :frontends :link]))]
     
     (s/conform :eway.ping.link/clusters link-frontends)))
+
+#_ (load-config)
 
 (defstate config
   :start (load-config))
