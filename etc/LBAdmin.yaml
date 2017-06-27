@@ -293,8 +293,7 @@ profiles:
     virtual_router_id: 2
   lb-dev1:
     frontends:
-      link:
-        link-test.ixs1.net: [https, http]
+      link: {}
     backends:
       link:
         servers: [link-dev1]
@@ -315,6 +314,7 @@ profiles:
         link.e.ice.com: [http, https]
         link.amora.ixsfr.net: [http, https]
         link.amoracoffee.ixs1.net: [http, https]
+        link-test.ixs1.net: [https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
