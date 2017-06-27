@@ -293,8 +293,7 @@ profiles:
     virtual_router_id: 2
   lb-dev1:
     frontends:
-      link:
-        link-test.ixs1.net: [http, https]
+      link: {}
     backends:
       link:
         servers: [link-dev1]
