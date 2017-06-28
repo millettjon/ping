@@ -302,17 +302,8 @@ profiles:
   lb3:
     frontends:
       link:
-        link.chicos.ewcsacq.net: [http, https]
-        link.aarp-ctg.ixs1.net: [http]
-        link.aarp.csacq.com: [http]
-        link.am.ewaymail.com: [http]
-        link.ar.ewdcsa.net: [http]
-        link.arca.ewaymail.com: [http]
-        link.arcamax.csesp2.com: [http]
-        link.ctg.ixs1.net: [http]
         link.fastline-email.com: [http]
         link.modway.ixs1.net: [http]
-        link.e.ice.com: [http, https]
         link.amora.ixsfr.net: [http, https]
         link.amoracoffee.ixs1.net: [http, https]
         link-test.ixs1.net: [http, https]
