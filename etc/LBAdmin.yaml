@@ -283,7 +283,7 @@ profiles:
         link.proactiv.ixap1.com: [http, https]
         link.proactiv.ixap1.net: [http, https]
         link.shopsmarter.ixlat.net: [http, https]
-        link-test.ixs1.net: [http]
+        link-test.ixs1.net: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
