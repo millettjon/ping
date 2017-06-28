@@ -42,7 +42,6 @@ profiles:
     frontends:
       link:
         link-lb2.ixs1.net: [http]
-        link.us.rado.com: [http]
         link.us.hamiltonwatch.com: [http]
         link.e.lifetimesterling.com: [http, https]
         link.us.omegawatches.com: [http]
@@ -283,7 +282,6 @@ profiles:
         link.proactiv.ixap1.com: [http, https]
         link.proactiv.ixap1.net: [http, https]
         link.shopsmarter.ixlat.net: [http, https]
-        link-test.ixs1.net: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
@@ -315,6 +313,8 @@ profiles:
         link.e.ice.com: [http, https]
         link.amora.ixsfr.net: [http, https]
         link.amoracoffee.ixs1.net: [http, https]
+        link-test.ixs1.net: [http, https]
+        link.us.rado.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
