@@ -42,16 +42,6 @@ profiles:
     frontends:
       link:
         link-lb2.ixs1.net: [http]
-        link.e.joinfleet.org: [http]
-        link.e.maxbroockhomewarranty.com: [http]
-        link.e.nationalonehomeprotection.com: [http]
-        link.e.reallivinghomegard.com: [http]
-        link.e.rmidirect.com: [http]
-        link.e.vcpaydayfunds.com: [http]
-        link.em.realestateonehomewarranty.com: [http]
-        link.email.dealsformommy.com: [http]
-        link.es-mail-test.avon.com: [http]
-        link.es-mail.avon.com: [http]
         link.mikeconaway.ixs1.net: [http]
         link.querorevender.avon.com: [http]
         link.rogerwilliams.ixs1.net: [http]
@@ -308,6 +298,16 @@ profiles:
         link.e.edollarsinadash.com: [http]
         link.e.homecentricblog.com: [http]
         link.e.homegardwarranty.com: [http]
+        link.e.joinfleet.org: [http]
+        link.e.maxbroockhomewarranty.com: [http]
+        link.e.nationalonehomeprotection.com: [http]
+        link.e.reallivinghomegard.com: [http]
+        link.e.rmidirect.com: [http]
+        link.e.vcpaydayfunds.com: [http]
+        link.em.realestateonehomewarranty.com: [http]
+        link.email.dealsformommy.com: [http]
+        link.es-mail-test.avon.com: [http]
+        link.es-mail.avon.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
