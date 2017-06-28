@@ -282,8 +282,8 @@ profiles:
         link.proactiv.ixap1.com: [http, https]
         link.proactiv.ixap1.net: [http, https]
         link.shopsmarter.ixlat.net: [http, https]
-        link.eml.arrwcnt2.com: [http]
-        link.eml.arrwcnt1.com: [http]
+        link.eml.arrwcnt2.com: [http, https]
+        link.eml.arrwcnt1.com: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
