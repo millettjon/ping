@@ -42,16 +42,6 @@ profiles:
     frontends:
       link:
         link-lb2.ixs1.net: [http]
-        link.mikeconaway.ixs1.net: [http]
-        link.querorevender.avon.com: [http]
-        link.rogerwilliams.ixs1.net: [http]
-        link.securemailworx.com: [http]
-        link.sheknows.ixs1.net: [http]
-        link.suggestedorders.avon.com: [http]
-        link.susan.lillyandcompany.com: [http]
-        link.us.breguet.com: [http]
-        link.e.lifetimebrandswholesale.com: [http]
-        link.e.reallivinghomeprotection.com: [http]
         link.sandbox.ixsmail.com: [http]
         link.us.tissotshop.com: [http]
         link.e.bellacoastaldecor.net: [http, https]
@@ -308,6 +298,16 @@ profiles:
         link.email.dealsformommy.com: [http]
         link.es-mail-test.avon.com: [http]
         link.es-mail.avon.com: [http]
+        link.mikeconaway.ixs1.net: [http]
+        link.querorevender.avon.com: [http]
+        link.rogerwilliams.ixs1.net: [http]
+        link.securemailworx.com: [http]
+        link.sheknows.ixs1.net: [http]
+        link.suggestedorders.avon.com: [http]
+        link.susan.lillyandcompany.com: [http]
+        link.us.breguet.com: [http]
+        link.e.lifetimebrandswholesale.com: [http]
+        link.e.reallivinghomeprotection.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
