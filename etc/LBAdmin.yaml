@@ -42,8 +42,6 @@ profiles:
     frontends:
       link:
         link-lb2.ixs1.net: [http]
-        link.e.parentsociety.com: [http]
-        link.ixsto.net: [http, https]
         link.e.swimsuitsforall.com: [http, https]
         link.harlequin.ewaymail.com: [http]
         link.e.pchgiveaway.com: [http, https]
@@ -308,6 +306,8 @@ profiles:
         link.e3.ixs1.net: [http, https]
         link.lancome.ixs1.net: [http, https]
         link.e.palmbeachjewelrydeals.com: [http, https]
+        link.e.parentsociety.com: [http]
+        link.ixsto.net: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
