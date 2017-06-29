@@ -42,19 +42,9 @@ profiles:
     frontends:
       link:
         link-lb2.ixs1.net: [http]
-        link.e.swimsuitsforall.com: [http, https]
-        link.harlequin.ewaymail.com: [http]
-        link.e.pchgiveaway.com: [http, https]
-        link.ixs1.net: [http, https]
         link.emailping.onlinedialog.com:
           protocols: [http, https]
           backend: emailping
-        link.email.leadershipmattersforamerica.org: [http]
-        link.skinceuticals.ewaymail30.com: [http, https]
-        link.myscore.ixs2.net: [http]
-        link.e.thecutekid.com: [http]
-        link.e.canvaspeople.com: [http]
-        link.md.ewaymail.com: [http]
         link.marzsprays.csemacq.com: [http]
         link.mrzsprys.ewaymail.com: [http]
         link.marzsprys.ewaymail.com: [http]
@@ -308,6 +298,16 @@ profiles:
         link.e.palmbeachjewelrydeals.com: [http, https]
         link.e.parentsociety.com: [http]
         link.ixsto.net: [http, https]
+        link.e.swimsuitsforall.com: [http, https]
+        link.harlequin.ewaymail.com: [http]
+        link.e.pchgiveaway.com: [http, https]
+        link.ixs1.net: [http, https]
+        link.email.leadershipmattersforamerica.org: [http]
+        link.skinceuticals.ewaymail30.com: [http, https]
+        link.myscore.ixs2.net: [http]
+        link.e.thecutekid.com: [http]
+        link.e.canvaspeople.com: [http]
+        link.md.ewaymail.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
