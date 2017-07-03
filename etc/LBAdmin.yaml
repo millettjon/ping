@@ -185,7 +185,7 @@ profiles:
         link.eml.arrwcnt2.com: [http, https]
         link.eml.arrwcnt1.com: [http, https]
         link.e.ixsans.net: [http, https]
-        link.proactiv.ixdnd.net: [http]
+        link.proactiv.ixdnd.net: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
