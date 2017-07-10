@@ -42,9 +42,6 @@ profiles:
     frontends:
       link:
         link-lb2.ixs1.net: [http]
-        link.emailping.onlinedialog.com:
-          protocols: [http, https]
-          backend: emailping
         link-qa.ixs1.net:
           protocols: [http, https]
           backend: link-qa
@@ -311,7 +308,12 @@ profiles:
         link.e.ixsans.net: [http, https]
         link.proactiv.ixdnd.net: [http, https]
         link.eml.jusbyjulie.com: [http, https]
+        link.emailping.onlinedialog.com:
+          protocols: [http, https]
+          backend: emailping
     backends:
       link:
         servers: [link1, link2, link3, link4]
+      emailping:
+        servers: [link7, link8]
     virtual_router_id: 4
