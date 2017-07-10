@@ -186,7 +186,7 @@ profiles:
         link.eml.arrwcnt1.com: [http, https]
         link.e.ixsans.net: [http, https]
         link.proactiv.ixdnd.net: [http, https]
-        link.eml.jusbyjulie.com: [http]
+        link.eml.jusbyjulie.com: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
