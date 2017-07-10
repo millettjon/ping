@@ -45,16 +45,6 @@ profiles:
         link.emailping.onlinedialog.com:
           protocols: [http, https]
           backend: emailping
-        link.marzsprays.csemacq.com: [http]
-        link.mrzsprys.ewaymail.com: [http]
-        link.marzsprys.ewaymail.com: [http]
-        link.email.parentsociety.com: [http]
-        link.e.dealsformommy.com: [http]
-        link.mzines.csesp1.com: [http]
-        link.mz.ewaymail.com: [http]
-        link.everydayhappy.csacq1.com: [http]
-        link.edayhappy.ixs1.net: [http]
-        link.edh.ixs1.net: [http]
         link.eaglemoss.csengage2.com: [http, https]
         link.em.e3.ixs1.net: [http, https]
         link.email.swimsuitsforall.com: [http, https]
@@ -311,6 +301,16 @@ profiles:
         link.e.thecutekid.com: [http]
         link.e.canvaspeople.com: [http]
         link.md.ewaymail.com: [http]
+        link.marzsprays.csemacq.com: [http]
+        link.mrzsprys.ewaymail.com: [http]
+        link.marzsprys.ewaymail.com: [http]
+        link.email.parentsociety.com: [http]
+        link.e.dealsformommy.com: [http]
+        link.mzines.csesp1.com: [http]
+        link.mz.ewaymail.com: [http]
+        link.everydayhappy.csacq1.com: [http]
+        link.edayhappy.ixs1.net: [http]
+        link.edh.ixs1.net: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
