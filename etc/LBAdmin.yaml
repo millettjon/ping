@@ -45,6 +45,7 @@ profiles:
         link-qa.ixs1.net:
           protocols: [http, https]
           backend: link-qa
+        link.fastline-email.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
@@ -63,7 +64,6 @@ profiles:
   lb3:
     frontends:
       link:
-        link.fastline-email.com: [http]
         link.modway.ixs1.net: [http]
         link.amora.ixsfr.net: [http, https]
         link.amoracoffee.ixs1.net: [http, https]
