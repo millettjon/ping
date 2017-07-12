@@ -312,6 +312,8 @@ profiles:
           protocols: [http, https]
           backend: emailping
         link.choicelending.ixlmb.net: [http, https]
+        link.eml.creditvan.com: [http]
+        link.eml.rockstarloans.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
