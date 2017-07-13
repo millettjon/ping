@@ -59,24 +59,6 @@ profiles:
         link.e.jusbyjulie.com: [http, https]
         link-remkt.ixs1.net: [http]
         link.mail.shespeaks.com: [http]
-    backends:
-      link:
-        servers: [link1, link2, link3, link4]
-      emailping:
-        servers: [link7, link8]
-      link-qa:
-        servers: [link-qa]
-    virtual_router_id: 2
-  lb-dev1:
-    frontends:
-      link: {}
-    backends:
-      link:
-        servers: [link-dev1]
-    virtual_router_id: 3
-  lb3:
-    frontends:
-      link:
         link.email.totalprotect.com: [http]
         link.avoncommunity.com: [http]
         link.e.alvinailey.org: [http, https]
@@ -117,6 +99,24 @@ profiles:
         link.mail.healthcaredatasolutions.com: [http]
         link.onlinedialog.com: [http, https]
         link.e.hmshomewarranty.com: [http]
+    backends:
+      link:
+        servers: [link1, link2, link3, link4]
+      emailping:
+        servers: [link7, link8]
+      link-qa:
+        servers: [link-qa]
+    virtual_router_id: 2
+  lb-dev1:
+    frontends:
+      link: {}
+    backends:
+      link:
+        servers: [link-dev1]
+    virtual_router_id: 3
+  lb3:
+    frontends:
+      link:
         link.customer-consent.avon.com: [http]
         link.email.healthcaredatasolutions.com: [http]
         link.email.canvaspeople.com: [http]
