@@ -47,6 +47,18 @@ profiles:
           backend: link-qa
         link.fastline-email.com: [http]
         link.modway.ixs1.net: [http]
+        link.amora.ixsfr.net: [http, https]
+        link.amoracoffee.ixs1.net: [http, https]
+        link-test.ixs1.net: [http, https]
+        link.us.rado.com: [http]
+        link.us.hamiltonwatch.com: [http]
+        link.e.lifetimesterling.com: [http, https]
+        link.us.omegawatches.com: [http]
+        link.e.housewaresdeals.com: [http, https]
+        link.e.us.tissotshop.com: [http, https]
+        link.e.jusbyjulie.com: [http, https]
+        link-remkt.ixs1.net: [http]
+        link.mail.shespeaks.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
@@ -65,18 +77,6 @@ profiles:
   lb3:
     frontends:
       link:
-        link.amora.ixsfr.net: [http, https]
-        link.amoracoffee.ixs1.net: [http, https]
-        link-test.ixs1.net: [http, https]
-        link.us.rado.com: [http]
-        link.us.hamiltonwatch.com: [http]
-        link.e.lifetimesterling.com: [http, https]
-        link.us.omegawatches.com: [http]
-        link.e.housewaresdeals.com: [http, https]
-        link.e.us.tissotshop.com: [http, https]
-        link.e.jusbyjulie.com: [http, https]
-        link-remkt.ixs1.net: [http]
-        link.mail.shespeaks.com: [http]
         link.email.totalprotect.com: [http]
         link.avoncommunity.com: [http]
         link.e.alvinailey.org: [http, https]
@@ -314,6 +314,7 @@ profiles:
         link.choicelending.ixlmb.net: [http, https]
         link.eml.creditvan.com: [http]
         link.eml.rockstarloans.com: [http, https]
+        link.eml.ixemf.net: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
