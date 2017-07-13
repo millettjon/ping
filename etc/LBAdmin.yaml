@@ -219,24 +219,6 @@ profiles:
         link.vichyusa.ixstp.net: [http, https]
         link.homeserveusa.ixdcc.net: [http, https]
         link.freeshipping.csacq.com: [http, https]
-    backends:
-      link:
-        servers: [link1, link2, link3, link4]
-      emailping:
-        servers: [link7, link8]
-      link-qa:
-        servers: [link-qa]
-    virtual_router_id: 2
-  lb-dev1:
-    frontends:
-      link: {}
-    backends:
-      link:
-        servers: [link-dev1]
-    virtual_router_id: 3
-  lb3:
-    frontends:
-      link:
         link.e.procompression.com: [http, https]
         link.email.procompression.com: [http, https]
         link.eml.us.tissotshop.com: [http, https]
@@ -308,13 +290,31 @@ profiles:
         link.e.ixsans.net: [http, https]
         link.proactiv.ixdnd.net: [http, https]
         link.eml.jusbyjulie.com: [http, https]
-        link.emailping.onlinedialog.com:
-          protocols: [http, https]
-          backend: emailping
         link.choicelending.ixlmb.net: [http, https]
         link.eml.creditvan.com: [http]
         link.eml.rockstarloans.com: [http, https]
         link.eml.ixemf.net: [http]
+        link.emailping.onlinedialog.com:
+          protocols: [http, https]
+          backend: emailping
+    backends:
+      link:
+        servers: [link1, link2, link3, link4]
+      emailping:
+        servers: [link7, link8]
+      link-qa:
+        servers: [link-qa]
+    virtual_router_id: 2
+  lb-dev1:
+    frontends:
+      link: {}
+    backends:
+      link:
+        servers: [link-dev1]
+    virtual_router_id: 3
+  lb3:
+    frontends:
+      link: {}
     backends:
       link:
         servers: [link1, link2, link3, link4]
