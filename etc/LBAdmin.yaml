@@ -291,7 +291,7 @@ profiles:
         link.proactiv.ixdnd.net: [http, https]
         link.eml.jusbyjulie.com: [http, https]
         link.choicelending.ixlmb.net: [http, https]
-        link.eml.creditvan.com: [http]
+        link.eml.creditvan.com: [http, https]
         link.eml.rockstarloans.com: [http, https]
         link.eml.ixemf.net: [http]
         link.emailping.onlinedialog.com:
