@@ -118,7 +118,6 @@ profiles:
         link.email.freshology.com: [http, https]
         link.ebrochures.avon.com: [http]
         link.ewaymail.com: [http, https]
-        link.eml.hartstrings.com: [http]
         link.email.homeprotectwarranty.com: [http]
         link.eml.canvaspeople.com: [http, https]
         link.e.lexmod.com: [http]
