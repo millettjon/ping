@@ -294,6 +294,7 @@ profiles:
         link.emailping.onlinedialog.com:
           protocols: [http, https]
           backend: emailping
+        link.owletcare.csax1.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
