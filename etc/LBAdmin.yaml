@@ -294,8 +294,8 @@ profiles:
           protocols: [http, https]
           backend: emailping
         link.owletcare.csax1.com: [http, https]
-        link.e.arrwcnt2.com: [http, https]
-        link.e.arrwcnt1.com: [http, https]
+        link.e.arrwcnt2.com: [http]
+        link.e.arrwcnt1.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
