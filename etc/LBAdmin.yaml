@@ -296,7 +296,7 @@ profiles:
         link.owletcare.csax1.com: [http, https]
         link.e.arrwcnt2.com: [http, https]
         link.e.arrwcnt1.com: [http, https]
-        link.e.rockstarloans.com: [http]
+        link.e.rockstarloans.com: [http, https]
         link.e.creditvan.com: [http]
     backends:
       link:
