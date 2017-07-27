@@ -297,6 +297,8 @@ profiles:
         link.e.arrwcnt1.com: [http, https]
         link.e.rockstarloans.com: [http, https]
         link.e.creditvan.com: [http, https]
+        link.eml.ixifi.net: [http]
+        link.retailmenot.ixlmb.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
