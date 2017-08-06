@@ -20,7 +20,7 @@ profiles:
           api1: {weight: 100}
           api2: {weight: 100}
           api3: {weight: 100}
-          api4: {weight: 1}
+          api4: {weight: 2}
       soap-test:
         servers: [api-dev1]
       ecards:
