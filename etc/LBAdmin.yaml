@@ -17,10 +17,14 @@ profiles:
     backends:
       soap:
         servers:
-          api1: {weight: 100}
-          api2: {weight: 100}
-          api3: {weight: 100}
-          api4: {weight: 2}
+          api1:
+            weight: 100
+          api2:
+            weight: 100
+          api3:
+            weight: 100
+          api4:
+            weight: 2
       soap-test:
         servers: [api-dev1]
       ecards:
@@ -291,6 +295,7 @@ profiles:
         link.e.creditvan.com: [http, https]
         link.eml.ixifi.net: [http, https]
         link.retailmenot.ixlmb.com: [http, https]
+        link.shutterstock.ixifi.net: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
