@@ -295,7 +295,7 @@ profiles:
         link.e.creditvan.com: [http, https]
         link.eml.ixifi.net: [http, https]
         link.retailmenot.ixlmb.com: [http, https]
-        link.shutterstock.ixifi.net: [http]
+        link.shutterstock.ixifi.net: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
