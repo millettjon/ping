@@ -164,7 +164,7 @@ profiles:
         link.securedmi.com: [http, https]
         link.email.pchsweeps.com: [http, https]
         link.email.pchgiveaway.com: [https, http]
-        link.e4.ixs1.net: [http, https]
+        link.e4.ixs1.net: [http]
         link.pch.e4.ixs1.net: [http]
         link.proactiv.cs-acq.com: [http, https]
         link.proactiv.csacq.net: [http, https]
