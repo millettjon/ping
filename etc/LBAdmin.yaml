@@ -296,6 +296,8 @@ profiles:
         link.eml.ixifi.net: [http, https]
         link.retailmenot.ixlmb.com: [http, https]
         link.shutterstock.ixifi.net: [http, https]
+        link.eml.csesp1.net: [http]
+        link.e.csesp1.net: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
