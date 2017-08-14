@@ -24,7 +24,7 @@ profiles:
           api3:
             weight: 100
           api4:
-            weight: 4
+            weight: 8
       soap-test:
         servers: [api-dev1]
       ecards:
