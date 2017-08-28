@@ -299,7 +299,7 @@ profiles:
         link.eml.csesp1.net: [http, https]
         link.e.csesp1.net: [http, https]
         link.e.dlpbb.net: [http]
-        link.eml.ixdcc.net: [http]
+        link.eml.ixdcc.net: [http, https]
     backends:
       link:
         servers: [link1, link2, link3, link4]
