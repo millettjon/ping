@@ -226,7 +226,7 @@ profiles:
         link.eml.consumerfbox.com: [http]
         link.consumerfbox.com: [http, https]
         link.freshlypicked.ixdlp.net: [http]
-        link.harryanddavid.ixsff.net: [http, https]
+        link.harryanddavid.ixsff.net: [http]
         link.maybelline.csdlp.net: [http, https]
         link.enb.ixgak.net: [http]
         link.eml.ixsdw.net: [http, https]
