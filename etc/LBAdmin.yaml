@@ -19,8 +19,6 @@ profiles:
         servers:
           api1:
             weight: 100
-          api2:
-            weight: 100
           api3:
             weight: 100
           api4:
