@@ -19,7 +19,7 @@ profiles:
         servers:
           api1:
             weight: 100
-          api3:
+          api2:
             weight: 100
           api4:
             weight: 100
