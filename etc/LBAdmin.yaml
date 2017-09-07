@@ -21,7 +21,7 @@ profiles:
             weight: 100
           api2:
             weight: 100
-          api4:
+          api3:
             weight: 100
       soap-test:
         servers: [api-dev1]
