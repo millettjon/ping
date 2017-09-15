@@ -311,6 +311,7 @@ profiles:
         link.selectoptions7.com: [http]
         link.selectoptions8.com: [http]
         link.selectoptions9.com: [http]
+        link.selectoptions10.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
