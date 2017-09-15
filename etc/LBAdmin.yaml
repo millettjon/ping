@@ -302,6 +302,14 @@ profiles:
         link.e.ixdnd.com: [http]
         link.eml.ewaymail20.com: [http]
         link.pch.ixsff.net: [http, https]
+        link.selectoptions1.com: [http]
+        link.selectoptions2.com: [http]
+        link.selectoptions3.com: [http]
+        link.selectoptions4.com: [http]
+        link.selectoptions5.com: [http]
+        link.selectoptions6.com: [http]
+        link.selectoptions7.com: [http]
+        link.selectoptions8.com: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
