@@ -119,7 +119,7 @@ profiles:
         link.e.heart.avon.com: [http]
         link.customer.avon.com: [http]
         link.ixsfr.com: [http, https]
-        link.email.freshology.com: [http, https]
+        link.email.freshology.com: [http]
         link.ebrochures.avon.com: [http]
         link.ewaymail.com: [http, https]
         link.email.homeprotectwarranty.com: [http]
