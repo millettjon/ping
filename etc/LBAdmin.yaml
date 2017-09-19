@@ -313,6 +313,7 @@ profiles:
         link.selectoptions10.com: [http]
         link.bananarepublic.csax1.net: [http]
         link.gap.csemleng.net: [http]
+        link.gapcanada.csemleng.net: [http]
     backends:
       link:
         servers: [link1, link2, link3, link4]
