@@ -316,7 +316,17 @@ profiles:
         link.gapcanada.csemleng.net: [http]
     backends:
       link:
-        servers: [link1, link2, link3, link4]
+        servers:
+          link1:
+            weight: 100
+          link2:
+            weight: 100
+          link3:
+            weight: 100
+          link4:
+            weight: 100
+          link5:
+            weight: 1
       emailping:
         servers: [link7, link8]
       link-qa:
