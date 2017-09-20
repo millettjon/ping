@@ -318,7 +318,7 @@ profiles:
       link:
         servers:
           link1:
-            weight: 100
+            weight: 0
           link2:
             weight: 100
           link3:
@@ -326,7 +326,7 @@ profiles:
           link4:
             weight: 100
           link5:
-            weight: 1
+            weight: 100
       emailping:
         servers: [link7, link8]
       link-qa:
