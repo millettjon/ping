@@ -318,9 +318,9 @@ profiles:
       link:
         servers:
           link1:
-            weight: 1
-          link2:
             weight: 100
+          link2:
+            weight: 0
           link3:
             weight: 100
           link4:
