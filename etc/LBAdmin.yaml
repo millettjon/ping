@@ -320,9 +320,9 @@ profiles:
           link1:
             weight: 100
           link2:
-            weight: 0
-          link3:
             weight: 100
+          link3:
+            weight: 0
           link4:
             weight: 100
           link5:
