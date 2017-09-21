@@ -322,9 +322,9 @@ profiles:
           link2:
             weight: 100
           link3:
-            weight: 0
-          link4:
             weight: 100
+          link4:
+            weight: 0
           link5:
             weight: 100
       emailping:
