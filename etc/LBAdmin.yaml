@@ -326,7 +326,7 @@ profiles:
           link4:
             weight: 100
       emailping:
-        servers: [link5, link7, link8]
+        servers: [link7, link8]
       link-qa:
         servers: [link-qa]
     virtual_router_id: 2
