@@ -314,6 +314,7 @@ profiles:
         link.bananarepublic.csax1.net: [http, https]
         link.gap.csemleng.net: [http, https]
         link.gapcanada.csemleng.net: [http, https]
+        link.e.csdlp.net: [http]
     backends:
       link:
         servers:
