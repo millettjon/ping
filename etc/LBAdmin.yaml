@@ -315,6 +315,7 @@ profiles:
         link.gap.csemleng.net: [http, https]
         link.gapcanada.csemleng.net: [http, https]
         link.e.csdlp.net: [http]
+        link.e.calibrdirect.com: [http]
     backends:
       link:
         servers:
