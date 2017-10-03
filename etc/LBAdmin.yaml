@@ -316,7 +316,7 @@ profiles:
         link.gapcanada.csemleng.net: [http, https]
         link.e.csdlp.net: [http]
         link.e.calibrdirect.com: [http]
-        link.shutterstock.securedmi.com: [http]
+        link.shutterstock.securedmi.com: [http, https]
     backends:
       link:
         servers:
