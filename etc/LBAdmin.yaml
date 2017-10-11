@@ -317,6 +317,7 @@ profiles:
         link.e.csdlp.net: [http]
         link.e.calibrdirect.com: [http]
         link.shutterstock.securedmi.com: [http, https]
+        link.link2loan.co: [http]
     backends:
       link:
         servers:
