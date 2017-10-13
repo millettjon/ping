@@ -226,7 +226,7 @@ profiles:
         link.harryanddavid.ixsff.net: [http]
         link.maybelline.csdlp.net: [http]
         link.enb.ixgak.net: [http]
-        link.eml.ixsdw.net: [http, https]
+        link.eml.ixsdw.net: [http]
         link.eml.ixsfm.net: [http]
         link.eml.csengage1.net: [http, https]
         link.eml.calibrmail3.com: [http]
