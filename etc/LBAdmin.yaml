@@ -319,7 +319,7 @@ profiles:
         link.shutterstock.securedmi.com: [http, https]
         link.link2loan.co: [http]
         link.pinktractor-email.com: [http]
-        link.bananarepublic.csax1.com: [http]
+        link.bananarepublic.csax1.com: [http, https]
     backends:
       link:
         servers:
