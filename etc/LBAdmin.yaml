@@ -319,6 +319,7 @@ profiles:
         link.link2loan.co: [http]
         link.pinktractor-email.com: [http]
         link.bananarepublic.csax1.com: [http, https]
+        link.eml.canvaspeople.com: [http]
     backends:
       link:
         servers:
