@@ -320,6 +320,7 @@ profiles:
         link.pinktractor-email.com: [http]
         link.bananarepublic.csax1.com: [http, https]
         link.eml.canvaspeople.com: [http]
+        link.orders.customer.avon.com: [http]
     backends:
       link:
         servers:
