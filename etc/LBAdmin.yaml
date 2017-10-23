@@ -321,7 +321,7 @@ profiles:
         link.bananarepublic.csax1.com: [http, https]
         link.eml.canvaspeople.com: [http]
         link.orders.customer.avon.com: [http]
-        link.eml.thecutekid.com: [http]
+        link.eml.thecutekid.com: [http, https]
         link.email.ewaymail10.com: [http]
     backends:
       link:
