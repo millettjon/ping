@@ -322,7 +322,7 @@ profiles:
         link.eml.canvaspeople.com: [http]
         link.orders.customer.avon.com: [http]
         link.eml.thecutekid.com: [http, https]
-        link.email.ewaymail10.com: [http]
+        link.email.ewaymail10.com: [http, https]
     backends:
       link:
         servers:
