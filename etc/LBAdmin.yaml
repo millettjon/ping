@@ -320,7 +320,7 @@ profiles:
         link.pinktractor-email.com: [http]
         link.bananarepublic.csax1.com: [http, https]
         link.eml.canvaspeople.com: [http]
-        link.orders.customer.avon.com: [http]
+        link.orders.customer.avon.com: [http, https]
         link.eml.thecutekid.com: [http, https]
         link.email.ewaymail10.com: [http, https]
     backends:
