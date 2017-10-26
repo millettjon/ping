@@ -319,7 +319,7 @@ profiles:
         link.link2loan.co: [http]
         link.pinktractor-email.com: [http]
         link.bananarepublic.csax1.com: [http, https]
-        link.eml.canvaspeople.com: [http]
+        link.eml.canvaspeople.com: [http, https]
         link.orders.customer.avon.com: [http, https]
         link.eml.thecutekid.com: [http, https]
         link.email.ewaymail10.com: [http, https]
