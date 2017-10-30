@@ -227,7 +227,7 @@ profiles:
         link.enb.ixgak.net: [http]
         link.eml.ixsdw.net: [http]
         link.eml.ixsfm.net: [http]
-        link.eml.csengage1.net: [http, https]
+        link.eml.csengage1.net: [http]
         link.eml.calibrmail3.com: [http]
         link.eml.csacq1.net: [http]
         link.choicehomewarranty.csacq1.com: [http, https]
