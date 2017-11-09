@@ -230,7 +230,7 @@ profiles:
         link.eml.csengage1.net: [http]
         link.eml.calibrmail3.com: [http]
         link.eml.csacq1.net: [http]
-        link.choicehomewarranty.csacq1.com: [http, https]
+        link.choicehomewarranty.csacq1.com: [http]
         link.proactiv.csewd.net: [http, https]
         link.eml.acqixs.com: [http, https]
         link.eml.csax1.net: [http, https]
