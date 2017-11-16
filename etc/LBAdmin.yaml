@@ -323,6 +323,7 @@ profiles:
         link.orders.customer.avon.com: [http, https]
         link.eml.thecutekid.com: [http, https]
         link.email.ewaymail10.com: [http, https]
+        link.eml.alvinailey.org: [http]
     backends:
       link:
         servers:
