@@ -113,7 +113,7 @@ profiles:
         link.email.ewaydirect.com: [http, https]
         link.sas.calibrmsg.com: [http]
         link.amora.calibrmail3.com: [http, https]
-        link.e.draftmag.ewaymail10.com: [http, https]
+        link.e.draftmag.ewaymail10.com: [http]
         link.e.heart.avon.com: [http]
         link.customer.avon.com: [http]
         link.ixsfr.com: [http, https]
