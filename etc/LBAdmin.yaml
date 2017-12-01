@@ -324,7 +324,7 @@ profiles:
         link.eml.alvinailey.org: [http, https]
         link.sellup.calibr1.com: [http]
         link.capuchin.csewd.com: [http]
-        link.athleta.csax1.com: [http]
+        link.athleta.csax1.com: [http, https]
     backends:
       link:
         servers:
