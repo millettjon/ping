@@ -325,6 +325,8 @@ profiles:
         link.capuchin.csewd.com: [http]
         link.athleta.csax1.com: [http, https]
         link.countryliving.ixstp.net: [http]
+        link.em.thecutekid.com: [http]
+        link.em.canvaspeople.com: [http]
     backends:
       link:
         servers:
