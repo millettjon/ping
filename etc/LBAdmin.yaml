@@ -324,7 +324,7 @@ profiles:
         link.sellup.calibr1.com: [http]
         link.capuchin.csewd.com: [http]
         link.athleta.csax1.com: [http, https]
-        link.countryliving.ixstp.net: [http]
+        link.countryliving.ixstp.net: [http, https]
         link.em.thecutekid.com: [http]
         link.em.canvaspeople.com: [http]
     backends:
