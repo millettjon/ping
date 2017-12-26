@@ -326,7 +326,7 @@ profiles:
         link.athleta.csax1.com: [http, https]
         link.countryliving.ixstp.net: [http, https]
         link.em.thecutekid.com: [http]
-        link.em.canvaspeople.com: [http]
+        link.em.canvaspeople.com: [http, https]
     backends:
       link:
         servers:
