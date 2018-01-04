@@ -171,7 +171,7 @@ profiles:
         link.ewdcse.com: [http]
         link.soma.ewdcsa.net: [http]
         link.whitehouseblackmarket.ewdcse.net: [http]
-        link.xout.csesp1.net: [http]
+        link.xout.csesp1.net: [http, https]
         link.sms.ewaymail40.com: [http]
         link.sms.e3.ixs1.net: [http]
         link.alvinailey.secureixs.com: [http, https]
