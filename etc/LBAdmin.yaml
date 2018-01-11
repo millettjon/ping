@@ -179,7 +179,7 @@ profiles:
         link.lancome.securedmi.com: [http, https]
         link.magazines.csewd.net: [http]
         link.sparkpost.ixs1.net: [http]
-        link.xout.securedmi.com: [http, https]
+        link.xout.securedmi.com: [http]
         link.publishersclearinghouse.ixs2.net: [http, https]
         link.savethechildren.calibremail.com: [http]
         link.shopsmarter.acqixs.net: [http, https]
