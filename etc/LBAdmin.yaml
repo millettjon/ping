@@ -324,6 +324,7 @@ profiles:
         link.countryliving.ixstp.net: [http, https]
         link.em.thecutekid.com: [http, https]
         link.em.canvaspeople.com: [http, https]
+        link.eml.ewaymail60.com: [http]
     backends:
       link:
         servers:
