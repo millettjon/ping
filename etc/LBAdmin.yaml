@@ -112,7 +112,6 @@ profiles:
         link.e.searshomewarranty.com: [http]
         link.email.ewaydirect.com: [http, https]
         link.sas.calibrmsg.com: [http]
-        link.amora.calibrmail3.com: [http]
         link.e.heart.avon.com: [http]
         link.customer.avon.com: [http]
         link.ixsfr.com: [http, https]
