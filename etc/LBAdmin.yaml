@@ -325,6 +325,7 @@ profiles:
         link.em.thecutekid.com: [http, https]
         link.em.canvaspeople.com: [http, https]
         link.eml.ewaymail60.com: [http]
+        link.lenditudemail.ewaymail60.com: [http]
     backends:
       link:
         servers:
