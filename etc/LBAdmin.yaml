@@ -53,8 +53,6 @@ profiles:
           backend: link-qa
         link.fastline-email.com: [http]
         link.modway.ixs1.net: [http]
-        link.amora.ixsfr.net: [http, https]
-        link.amoracoffee.ixs1.net: [http, https]
         link-test.ixs1.net: [http, https]
         link.us.rado.com: [http]
         link.us.hamiltonwatch.com: [http]
