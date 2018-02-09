@@ -3,17 +3,17 @@ profiles:
   lb1:
     frontends:
       soap-test:
-        soap-test.ixs1.net: 
+        soap-test.ixs1.net:
       soap-staging:
-        soap-staging.ixs1.net: 
+        soap-staging.ixs1.net:
       soap:
-        soap.ixs1.net: 
+        soap.ixs1.net:
       ecards:
-        smtp.avonecards.com: 
+        smtp.avonecards.com:
       sftp:
-        sftp.ewaydirect.com: 
+        sftp.ewaydirect.com:
       ftp:
-        ftp.ewaydirect.com: 
+        ftp.ewaydirect.com:
     backends:
       soap:
         servers:
@@ -332,6 +332,9 @@ profiles:
     backends:
       link:
         servers: [link-dev1]
+      mx:
+        snat: mx3.ixs1.net
+        servers: [mx3]
     virtual_router_id: 3
   lb3:
     frontends:
