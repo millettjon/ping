@@ -3,17 +3,17 @@ profiles:
   lb1:
     frontends:
       soap-test:
-        soap-test.ixs1.net:
+        soap-test.ixs1.net: 
       soap-staging:
-        soap-staging.ixs1.net:
+        soap-staging.ixs1.net: 
       soap:
-        soap.ixs1.net:
+        soap.ixs1.net: 
       ecards:
-        smtp.avonecards.com:
+        smtp.avonecards.com: 
       sftp:
-        sftp.ewaydirect.com:
+        sftp.ewaydirect.com: 
       ftp:
-        ftp.ewaydirect.com:
+        ftp.ewaydirect.com: 
     backends:
       soap:
         servers:
@@ -227,7 +227,7 @@ profiles:
         link.popularmechanics.calibrmail1.com: [http]
         link.housebeautiful.ewdcse.net: [http]
         link.caranddriver.ewcsacq.net: [http]
-        link.email.palmbeachjewelrydeals.com: [http, https]
+        link.email.palmbeachjewelrydeals.com: [http]
         link.bhmail.creditloan.com: [http]
         link.eml.csesp2.com: [http, https]
         link.mycupre.csemeng.net: [http, https]
