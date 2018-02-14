@@ -310,6 +310,7 @@ profiles:
         link.em.canvaspeople.com: [http, https]
         link.eml.ewaymail60.com: [http]
         link.lenditudemail.ewaymail60.com: [http]
+        link.eml.csacq.com: [http]
     backends:
       link:
         servers:
