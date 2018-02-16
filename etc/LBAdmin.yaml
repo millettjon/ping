@@ -311,7 +311,7 @@ profiles:
         link.eml.ewaymail60.com: [http]
         link.lenditudemail.ewaymail60.com: [http]
         link.eml.csacq.com: [http]
-        link.eml.csengage2.com: [http]
+        link.eml.csengage2.com: [http, https]
     backends:
       link:
         servers:
