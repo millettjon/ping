@@ -52,7 +52,6 @@ profiles:
           protocols: [http, https]
           backend: link-qa
         link.fastline-email.com: [http]
-        link.modway.ixs1.net: [http]
         link-test.ixs1.net: [http, https]
         link.us.rado.com: [http]
         link.us.hamiltonwatch.com: [http]
@@ -126,8 +125,6 @@ profiles:
         link.ixs1.net: [http, https]
         link.email.leadershipmattersforamerica.org: [http]
         link.skinceuticals.ewaymail30.com: [http, https]
-        link.myscore.ixs2.net: [http]
-        link.mrzsprys.ewaymail.com: [http]
         link.marzsprys.ewaymail.com: [http]
         link.mzines.csesp1.com: [http]
         link.mz.ewaymail.com: [http]
