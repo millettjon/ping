@@ -138,7 +138,6 @@ profiles:
         link.sms.ewaymail40.com: [http]
         link.sms.e3.ixs1.net: [http]
         link.alvinailey.secureixs.com: [http, https]
-        link.email.freshsquared.secureixs.com: [http]
         link.lancome.securedmi.com: [http, https]
         link.magazines.csewd.net: [http]
         link.sparkpost.ixs1.net: [http]
