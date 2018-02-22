@@ -295,6 +295,7 @@ profiles:
         link.eml.csengage2.com: [http, https]
         link.e.ewaymail50.com: [http]
         link.e.ixemf.com: [http]
+        link.savethechildren.csengage2.net: [http]
     backends:
       link:
         servers:
