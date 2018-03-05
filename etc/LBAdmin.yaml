@@ -287,6 +287,7 @@ profiles:
         link.e.ixemf.com: [http]
         link.savethechildren.csengage2.net: [http, https]
         link.lenditudemail.com: [http]
+        link.e.csmail1.com: [http]
     backends:
       link:
         servers:
