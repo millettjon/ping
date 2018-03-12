@@ -288,7 +288,7 @@ profiles:
         link.savethechildren.csengage2.net: [http, https]
         link.lenditudemail.com: [http]
         link.e.csmail1.com: [http]
-        link.penguinrandomhouse.cseml.com: [http]
+        link.penguinrandomhouse.cseml.com: [http, https]
     backends:
       link:
         servers:
