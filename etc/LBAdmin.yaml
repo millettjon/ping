@@ -284,6 +284,7 @@ profiles:
         link.penguinrandomhouse.cseml.com: [http, https]
         link.prh.cse3.net: [http, https]
         link.eml.csewd.com: [http]
+        link.eml.csacq1.com: [http]
     backends:
       link:
         servers:
