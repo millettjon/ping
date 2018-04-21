@@ -1,6 +1,6 @@
 {
- :request-uri      "/"
- :response-string  "You have reached our link server."
+ :request-uri      "/.ping.txt"
+ :response-string  "n16OIJvfXMLM"
  :timeout          20000    ; request timeout (ms)
  :interval         300000   ; interval between requests (ms)
 }
