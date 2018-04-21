@@ -1,0 +1,619 @@
+---
+cdn-data:
+  sites:
+    static.onlinedialog.com:
+      provider: keycdn
+      zone: z1
+    static.ewaymail.com:
+      provider: keycdn
+      zone: z1
+    static.consumerfbox.com:
+      provider: keycdn
+      zone: z1
+    static.ewdcse.net:
+      provider: keycdn
+      zone: z1
+    static.e.ixemf.com:
+      provider: keycdn
+      zone: z1
+    static.eml.csengage2.com:
+      provider: keycdn
+      zone: z1
+    static.securedmi.com:
+      provider: keycdn
+      zone: z1
+    static.email1.jobsonline.com:
+      provider: keycdn
+      zone: z1
+    static.calibrmsg.com:
+      provider: keycdn
+      zone: z1
+    static.susan-lilly.ixs1.net:
+      provider: keycdn
+      zone: z1
+    static.lenditudemail.com:
+      provider: keycdn
+      zone: z1
+    static.heart-test.avon.com:
+      provider: keycdn
+      zone: z1
+    static.pch.ixsss.net:
+      provider: keycdn
+      zone: z1
+    static.cosmopolitan.ewaymail60.com:
+      provider: keycdn
+      zone: z1
+    static.em.ewdcse.net:
+      provider: keycdn
+      zone: z1
+    static.goodhousekeeping.calibr2.com:
+      provider: keycdn
+      zone: z1
+    static.sn.calibr2.com:
+      provider: keycdn
+      zone: z1
+    static.housebeautiful.ewdcse.net:
+      provider: keycdn
+      zone: z1
+    static.freeshipping.ixsfv.net:
+      provider: keycdn
+      zone: z1
+    static.eml.ewcsacq.net:
+      provider: keycdn
+      zone: z1
+    static.roadandtrack.ewaymail50.com:
+      provider: keycdn
+      zone: z1
+    static.baxterofcalifornia.calibrmsg.com:
+      provider: keycdn
+      zone: z1
+    static.eml.ixsfm.net:
+      provider: keycdn
+      zone: z1
+    static.e.ewaymail50.com:
+      provider: keycdn
+      zone: z1
+    static.e.arrwcnt1.com:
+      provider: keycdn
+      zone: z1
+    static.caranddriver.ewcsacq.net:
+      provider: keycdn
+      zone: z1
+    static.urbandecay.ixifi.net:
+      provider: keycdn
+      zone: z1
+    static.womansday.csemacq.com:
+      provider: keycdn
+      zone: z1
+    static.popularmechanics.calibrmail1.com:
+      provider: keycdn
+      zone: z1
+    static.email.palmbeachjewelrydeals.com:
+      provider: keycdn
+      zone: z1
+    static.eml.csacq1.com:
+      provider: keycdn
+      zone: z1
+    static.marieclaire.ewaymail20.com:
+      provider: keycdn
+      zone: z1
+    static.laroche-posay.ewdcsa.com:
+      provider: keycdn
+      zone: z1
+    static.mycupre.csemeng.net:
+      provider: keycdn
+      zone: z1
+    static.email.ewaymail10.com:
+      provider: keycdn
+      zone: z1
+    static.maybelline.csdlp.net:
+      provider: keycdn
+      zone: z1
+    static.esquire.ewaymail80.com:
+      provider: keycdn
+      zone: z1
+    static.us.omegawatches.com:
+      provider: edgecast
+    static.e.tourbillon.com:
+      provider: edgecast
+    static.e.rockstarloans.com:
+      provider: keycdn
+      zone: z1
+    static.owletcare.csax1.com:
+      provider: keycdn
+      zone: z1
+    static.biotherm.calibrdirect.com:
+      provider: keycdn
+      zone: z1
+    static.e.ethis-emails.com:
+      provider: keycdn
+      zone: z1
+    static.eml.acqixs.com:
+      provider: keycdn
+      zone: z1
+    static.lancomecrm.ixs1.net:
+      provider: keycdn
+      zone: z1
+    static.avonecards.com:
+      provider: keycdn
+      zone: z1
+    static.e.arrwcnt2.com:
+      provider: keycdn
+      zone: z1
+    static.eml.ixemf.net:
+      provider: keycdn
+      zone: z1
+    static.cledepeaubeaute.csengage2.net:
+      provider: keycdn
+      zone: z1
+    static.pbj.ixs1.net:
+      provider: keycdn
+      zone: z1
+    static.sms.ewaymail40.com:
+      provider: keycdn
+      zone: z2
+    static.gr.calibr1.com:
+      provider: keycdn
+      zone: z2
+    static.acturus.secureixs.com:
+      provider: keycdn
+      zone: z2
+    static.e.palmbeachjewelrydeals.com:
+      provider: keycdn
+      zone: z2
+    static.skinceuticals.ewaymail30.com:
+      provider: keycdn
+      zone: z2
+    static.eml.calibrmail3.com:
+      provider: keycdn
+      zone: z3
+    static.eml.rockstarloans.com:
+      provider: keycdn
+      zone: z3
+    static.csacq.net:
+      provider: keycdn
+      zone: z3
+    static.eml.arrwcnt1.com:
+      provider: keycdn
+      zone: z3
+    static.e.lbdcs.net:
+      provider: keycdn
+      zone: z3
+    static.vichyusa.ixstp.net:
+      provider: keycdn
+      zone: z4
+    static.eml.calibrmail.com:
+      provider: keycdn
+      zone: z4
+    static.email.healthcaredatasolutions.com:
+      provider: edgecast
+    static.emart10.com:
+      provider: keycdn
+      zone: z4
+    static.lancome.ixs1.net:
+      provider: keycdn
+      zone: z2
+    static.lancome.csemacq.net:
+      provider: keycdn
+      zone: z2
+    static.capuchin.csewd.com:
+      provider: keycdn
+      zone: z2
+    static.lancomeca.calibr3.com:
+      provider: keycdn
+      zone: z2
+    static.e.miracleofaloe.com:
+      provider: edgecast
+    static.lancome.calibrmsg.net:
+      provider: keycdn
+      zone: z2
+    static.publishersclearinghouse.ixs2.net:
+      provider: keycdn
+      zone: z2
+    static.e.lllbd.net:
+      provider: keycdn
+      zone: z2
+    static.lfg.ixsmail.com:
+      provider: keycdn
+      zone: z2
+    static.eml.swatch.com:
+      provider: edgecast
+    static.skinceuticals.csengage1.com:
+      provider: keycdn
+      zone: z2
+    static.eml.arrwcnt2.com:
+      provider: keycdn
+      zone: z2
+    static.e.espacioavon.com:
+      provider: edgecast
+    static.email.pchgiveaway.com:
+      provider: keycdn
+      zone: z2
+    static.email.ewaydirect.com:
+      provider: keycdn
+      zone: z2
+    static.eml.creditvan.com:
+      provider: keycdn
+      zone: z2
+    static.e.atlanticlist.com:
+      provider: keycdn
+      zone: z2
+    static.e.creditvan.com:
+      provider: keycdn
+      zone: z2
+    static.retailmenot.ixlmb.com:
+      provider: keycdn
+      zone: z2
+    static.eml.csesp2.com:
+      provider: keycdn
+      zone: z2
+    static.shutterstock.securedmi.com:
+      provider: keycdn
+      zone: z2
+    static.ixsto.net:
+      provider: keycdn
+      zone: z2
+    static.snowandgraham.secureixs.com:
+      provider: keycdn
+      zone: z2
+    static.retailmenot.ixsff.com:
+      provider: keycdn
+      zone: z2
+    static.pch.ixsff.net:
+      provider: keycdn
+      zone: z2
+    static.eml.csacq.com:
+      provider: keycdn
+      zone: z2
+    static.pinktractor-email.com:
+      provider: keycdn
+      zone: z2
+    static.customer-consent.avon.com:
+      provider: keycdn
+      zone: z2
+    static.fs.calibremail.com:
+      provider: keycdn
+      zone: z2
+    static.eml.healthcaredatasolutions.com:
+      provider: edgecast
+    static.e.calibrdirect.com:
+      provider: keycdn
+      zone: z2
+    static.e.fredandfriends.com:
+      provider: edgecast
+    static.proactiv.csewd.net:
+      provider: keycdn
+      zone: z2
+    static.e.lexmod.com:
+      provider: keycdn
+      zone: z2
+    static.bhmail.creditloan.com:
+      provider: keycdn
+      zone: z2
+    static.countryliving.ixstp.net:
+      provider: keycdn
+      zone: z2
+    static.bananarepublic.csax1.com:
+      provider: keycdn
+      zone: z2
+    static.email.procompression.com:
+      provider: edgecast
+    static.travelplus.csacq2.com:
+      provider: keycdn
+      zone: z2
+    static.e.pchgiveaway.com:
+      provider: keycdn
+      zone: z2
+    static.eml.bbfcs.net:
+      provider: keycdn
+      zone: z2
+    static.email.swimsuitsforall.com:
+      provider: keycdn
+      zone: z2
+    static.gap.csemleng.net:
+      provider: keycdn
+      zone: z2
+    static.shopsmarter.ixlat.net:
+      provider: keycdn
+      zone: z3
+    static.ixsfr.com:
+      provider: keycdn
+      zone: z3
+    static.eway10.com:
+      provider: keycdn
+      zone: z3
+    static.ebrochures.avon.com:
+      provider: keycdn
+      zone: z3
+    static.athleta.csax1.com:
+      provider: keycdn
+      zone: z3
+    static.eml.optonfinance.com:
+      provider: keycdn
+      zone: z3
+    static.us.rado.com:
+      provider: edgecast
+    static.laroche-posay.csemeng.com:
+      provider: keycdn
+      zone: z3
+    static.e.avon.ro:
+      provider: keycdn
+      zone: z3
+    static.email.horizonfastcapital.com:
+      provider: keycdn
+      zone: z3
+    static.freeshipping.ewaymail70.com:
+      provider: keycdn
+      zone: z3
+    static.em.thecutekid.com:
+      provider: keycdn
+      zone: z3
+    static.shopsmarter.acqixs.net:
+      provider: keycdn
+      zone: z3
+    static.alvinailey.secureixs.com:
+      provider: keycdn
+      zone: z3
+    static.proactiv.cs-acq.com:
+      provider: keycdn
+      zone: z3
+    static.proactiv.csesp1.com:
+      provider: keycdn
+      zone: z3
+    static.e.housewaresdeals.com:
+      provider: edgecast
+    static.e.builtny.com:
+      provider: edgecast
+    static.e.us.tissotshop.com:
+      provider: edgecast
+    static.e3.ixs1.net:
+      provider: keycdn
+      zone: z3
+    static.e.heart.avon.com:
+      provider: keycdn
+      zone: z3
+    static.e.jusbyjulie.com:
+      provider: keycdn
+      zone: z3
+    static.mail.shespeaks.com:
+      provider: keycdn
+      zone: z3
+    static.eml.bbacq.net:
+      provider: keycdn
+      zone: z3
+    static.eml.thecutekid.com:
+      provider: keycdn
+      zone: z3
+    static.freeshipping.ewdcse.com:
+      provider: keycdn
+      zone: z3
+    static.customer.avon.com:
+      provider: keycdn
+      zone: z3
+    static.lancome.securedmi.com:
+      provider: keycdn
+      zone: z3
+    static.email.pchsweeps.com:
+      provider: keycdn
+      zone: z3
+    static.eml.alvinailey.org:
+      provider: keycdn
+      zone: z3
+    static.ixsmail.com:
+      provider: keycdn
+      zone: z3
+    static.freeshipping.ecsaq.com:
+      provider: keycdn
+      zone: z3
+    static.e.edollarsinadash.com:
+      provider: keycdn
+      zone: z3
+    static.e.bellacoastaldecor.net:
+      provider: keycdn
+      zone: z3
+    static.em.canvaspeople.com:
+      provider: keycdn
+      zone: z3
+    static.e.procompression.com:
+      provider: edgecast
+    static.proactiv.csacq.net:
+      provider: keycdn
+      zone: z3
+    static.fastline-email.com:
+      provider: keycdn
+      zone: z3
+    static.eml.us.tissotshop.com:
+      provider: edgecast
+    static.e.pfaltzgraff.com:
+      provider: keycdn
+      zone: z3
+    static.ixs1.net:
+      provider: keycdn
+      zone: z3
+    static.e.mikasa.com:
+      provider: keycdn
+      zone: z3
+    static.eml.canvaspeople.com:
+      provider: keycdn
+      zone: z3
+    static.eml.jusbyjulie.com:
+      provider: keycdn
+      zone: z3
+    static.e.swimsuitsforall.com:
+      provider: keycdn
+      zone: z4
+    static.mail.healthcaredatasolutions.com:
+      provider: edgecast
+    static.e.emtdirect.com:
+      provider: edgecast
+    static.querorevender.avon.com:
+      provider: edgecast
+    static.enquetevirtual2.avon.com:
+      provider: edgecast
+    static.enquetevirtual.avon.com:
+      provider: edgecast
+    static.querorevender2.avon.com:
+      provider: edgecast
+    static.e.savorastyle.com:
+      provider: edgecast
+    static.securemailworx.com:
+      provider: edgecast
+    static.email.heart.avon.com:
+      provider: edgecast
+    static.us.hamiltonwatch.com:
+      provider: edgecast
+    static.suggestedorders.avon.com:
+      provider: edgecast
+    static.l.worldpatentmarketing.com:
+      provider: edgecast
+    static.e.certainsource.com:
+      provider: edgecast
+    static.sheknows.ixs1.net:
+      provider: edgecast
+    static.sandbox.ixsmail.com:
+      provider: edgecast
+    static.susan.lillyandcompany.com:
+      provider: edgecast
+    static.mikeconaway.ixs1.net:
+      provider: edgecast
+    static.rogerwilliams.ixs1.net:
+      provider: edgecast
+    static.e4.ixs1.net:
+      provider: edgecast
+    static.pch.e4.ixs1.net:
+      provider: edgecast
+    static.xout.csesp1.net:
+      provider: edgecast
+    static.sms.e3.ixs1.net:
+      provider: edgecast
+    static.xout.securedmi.com:
+      provider: edgecast
+    static.gerber.calibrplatform.com:
+      provider: edgecast
+    static.eml.tourbillon.com:
+      provider: edgecast
+    static.swimsuitsforall.csacq2.net:
+      provider: edgecast
+    static.palmbeachjewelry.ecsaq.net:
+      provider: edgecast
+    static.pfaltzgraff.ixscs.net:
+      provider: edgecast
+    static.freeshipping.csacq.com:
+      provider: edgecast
+    static.pch.ixsbb.net:
+      provider: edgecast
+    static.eml.consumerfbox.com:
+      provider: edgecast
+    static.freshlypicked.ixdlp.net:
+      provider: edgecast
+    static.enb.ixgak.net:
+      provider: edgecast
+    static.eml.ixsdw.net:
+      provider: edgecast
+    static.eml.csengage1.net:
+      provider: edgecast
+    static.eml.csacq1.net:
+      provider: edgecast
+    static.eml.csax1.net:
+      provider: edgecast
+    static.dermablend.csax1.com:
+      provider: edgecast
+    static.xout.cs-acq.net:
+      provider: edgecast
+    static.eml.ewaymail90.com:
+      provider: edgecast
+    static.countryliving.calibrplatform.com:
+      provider: edgecast
+    static.eml.pickjobsnow.com:
+      provider: edgecast
+    static.cledepeaubeaute.csengage2.com:
+      provider: edgecast
+    static.helpwithpain.co:
+      provider: edgecast
+    static.e.horizonfastcapital.com:
+      provider: edgecast
+    static.e.ixsans.net:
+      provider: edgecast
+    static.choicelending.ixlmb.net:
+      provider: edgecast
+    static.ixsans.net:
+      provider: edgecast
+    static.heart.avon.com:
+      provider: edgecast
+    static.eml.ixifi.net:
+      provider: edgecast
+    static.shutterstock.ixifi.net:
+      provider: edgecast
+    static.eml.csesp1.net:
+      provider: edgecast
+    static.e.csesp1.net:
+      provider: edgecast
+    static.e.dlpbb.net:
+      provider: edgecast
+    static.eml.ixdcc.net:
+      provider: edgecast
+    static.eml.ewaymail20.com:
+      provider: edgecast
+    static.e.ixdnd.com:
+      provider: edgecast
+    static.selectoptions1.com:
+      provider: edgecast
+    static.selectoptions3.com:
+      provider: edgecast
+    static.selectoptions2.com:
+      provider: edgecast
+    static.selectoptions4.com:
+      provider: edgecast
+    static.selectoptions5.com:
+      provider: edgecast
+    static.selectoptions6.com:
+      provider: edgecast
+    static.selectoptions7.com:
+      provider: edgecast
+    static.selectoptions8.com:
+      provider: edgecast
+    static.selectoptions9.com:
+      provider: edgecast
+    static.selectoptions10.com:
+      provider: edgecast
+    static.bananarepublic.csax1.net:
+      provider: edgecast
+    static.gapcanada.csemleng.net:
+      provider: edgecast
+    static.e.csdlp.net:
+      provider: edgecast
+    static.link2loan.co:
+      provider: edgecast
+    static.orders.customer.avon.com:
+      provider: edgecast
+    static.e.alvinailey.org:
+      provider: edgecast
+    static.sellup.calibr1.com:
+      provider: edgecast
+    static.calibrmsg.net:
+      provider: edgecast
+    static.eml.ewaymail60.com:
+      provider: edgecast
+    static.lenditudemail.ewaymail60.com:
+      provider: edgecast
+    static.savethechildren.csengage2.net:
+      provider: edgecast
+    static.e.csmail1.com:
+      provider: edgecast
+    static.penguinrandomhouse.cseml.com:
+      provider: edgecast
+    static.prh.cse3.net:
+      provider: edgecast
+    static.csmail1.com:
+      provider: edgecast
+    static.eml.csewd.com:
+      provider: edgecast
+  providers:
+    default: keycdn
+    edgecast:
+      account: 0F66
+    keycdn:
+      zone_suffix: "-b45c.kxcdn.com"
+      zone_alias_limit: 50
+      zones: [z1, z2, z3, z4]
+  cname_prefix: static
