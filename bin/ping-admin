@@ -4,29 +4,49 @@ require '/opt/eway/lib/bootstrap'
 require 'LogFile'
 require 'thor'
 
-class PingAdmin < Thor
-  DOMAIN_ADMIN_FILE = "etc/DomainAdmin.yaml"
+module Ping; end
 
-  desc "update", "Updates the list of ping targets based on the latest commit."
-  def update
-    $log.info "Checking for updates to the load balancer configuration."
+class Ping::Admin
+  include Log::Self
+
+  def update_item(url, file, description)
+    info "Checking for updates to the #{description}."
     Dir.chdir("etc") do
-      system "git archive --remote=git@git:lb-config master: LBAdmin.yaml | tar -x"
+      system "git archive --remote=#{url}: #{file} | tar -x"
     end
 
     # If there is an update, process it.
-    out = sh "git status --porcelain etc/LBAdmin.yaml"
+    out = sh "git status --porcelain etc/#{file}"
     if out.empty?
-      $log.info "No changes."
-      return
+      info "No changes."
+      return false
     end
 
-    $log.info "Saving and reloading new configuration."
-    sys ["git", "commit", "-m", "LBAdmin.yaml - Saving updated configuration from lb repo (ping-admin).", "etc/LBAdmin.yaml"]
-    sys "sudo systemctl reload ping"
+    info "Saving new configuration."
+    sys ["git", "commit", "-m", message("Updated #{description}."), "etc/#{file}"]
+    true
+  end
+
+  def update
+    reload = false
+    reload = update_item "git@git:lb-config master", "LBAdmin.yaml", 'load balancer configuration' || reload
+    reload = update_item "git@git:cdn-data master", "cdn-data.yaml", 'cdn configuration' || reload
+    if reload
+      info "Reloading ping service."
+      sys "sudo systemctl reload ping"
+    end
+  end
+end
+
+class Ping::CLI < Thor
+  Admin = Ping::Admin.new
+
+  desc "update", "Updates the list of ping targets based on the latest commit."
+  def update
+    Admin.update
   end
 end
 
 $log.info "Started with arguments: #{ARGV.inspect}."
 Dir.chdir PROJECT_DIR
-PingAdmin.start
+Ping::CLI.start
