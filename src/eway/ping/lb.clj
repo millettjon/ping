@@ -1,7 +1,7 @@
 (ns eway.ping.lb
   (:require
    [yaml.core :as yaml]
-   [clojure.spec :as s]
+   [clojure.spec.alpha :as s]
    [taoensso.timbre :as timbre]
    [mount.core :as mount :refer [defstate]]))
 

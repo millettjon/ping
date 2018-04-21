@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>boot-deps</groupId>
+  <artifactId>boot-deps</artifactId>
+  <version>0.1.9</version>
+  <name>boot-deps</name>
+  <description>Boot task to find outdated dependencies.</description>
+  <url>https://github.com/martinklepsch/boot-deps</url>
+  <licenses>
+    <license>
+      <url>http://www.eclipse.org/legal/epl-v10.html</url>
+      <name>EPL</name>
+      <comments/>
+    </license>
+  </licenses>
+  <packaging>jar</packaging>
+  <scm>
+    <url>https://github.com/martinklepsch/boot-deps</url>
+    <tag>ab33f5ae62b716c69d18ccd8de8f37b6281810a6</tag>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>adzerk</groupId>
+      <artifactId>bootlaces</artifactId>
+      <version>0.1.13</version>
+      <scope>test</scope>
+      <exclusions/>
+    </dependency>
+  </dependencies>
+</project>

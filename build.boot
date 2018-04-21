@@ -2,17 +2,18 @@
 
 (set-env!
  :resource-paths #{"src"}
- :dependencies '[;; [org.clojure/clojure "1.8.0"]
-                 [org.clojure/clojure "1.9.0-alpha14"]
-                 [io.forward/yaml "1.0.5"]
-                 [riemann-clojure-client "0.4.2"]
-                 [http-kit "2.2.0"]
-                 [com.taoensso/timbre "4.7.4"]
-                 [com.fzakaria/slf4j-timbre "0.3.2"]
-                 [org.clojure/core.async "0.2.395"]
-                 [mount "0.1.10"]
-                 [jarohen/chime "0.1.9"]
-                 [spootnik/signal "0.2.0"]])
+ :dependencies '[[org.clojure/clojure "1.9.0"]
+                 ;; [org.clojure/core.specs.alpha "0.1.24"]
+                 [org.clojure/spec.alpha "0.1.143"]
+                 [io.forward/yaml "1.0.7"]
+                 [riemann-clojure-client "0.4.5"]
+                 [http-kit "2.3.0"]
+                 [com.taoensso/timbre "4.10.0"]
+                 [com.fzakaria/slf4j-timbre "0.3.8"]
+                 [org.clojure/core.async "0.4.474"]
+                 [mount "0.1.12"]
+                 [jarohen/chime "0.2.2"]
+                 [spootnik/signal "0.2.2"]])
 
 (require 'boot.repl)
 
