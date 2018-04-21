@@ -47,7 +47,7 @@
   "Checks the status of a frontend."
   (doseq [proto (:protocols frontend)]
     (let [host (:name frontend)
-          path "/"
+          path (:request-uri config)
           url (str proto "://" host path)
           options {:timeout (:timeout config)
                    :user-agent "eway.ping"
