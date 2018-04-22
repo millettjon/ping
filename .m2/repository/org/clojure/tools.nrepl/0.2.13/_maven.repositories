@@ -1,4 +1,4 @@
 #NOTE: This is an internal implementation file, its format can be changed without prior notice.
 #Sat Apr 21 17:34:00 EDT 2018
-cider-nrepl-0.15.0-SNAPSHOT.jar>clojars=
-cider-nrepl-0.15.0-SNAPSHOT.pom>clojars=
+tools.nrepl-0.2.13.jar>maven-central=
+tools.nrepl-0.2.13.pom>maven-central=
