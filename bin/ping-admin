@@ -28,10 +28,9 @@ class Ping::Admin
   end
 
   def update
-    reload = false
-    reload = update_item "git@git:lb-config master", "LBAdmin.yaml", 'load balancer configuration' || reload
-    reload = update_item "git@git:cdn-data master", "cdn-data.yaml", 'cdn configuration' || reload
-    if reload
+    r1 = update_item "git@git:lb-config master", "LBAdmin.yaml", 'load balancer configuration'
+    r2 = update_item "git@git:cdn-data master", "cdn-data.yaml", 'cdn configuration'
+    if r1 || r2
       info "Reloading ping service."
       sys "sudo systemctl reload ping"
     end
