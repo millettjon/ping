@@ -4,6 +4,7 @@
    [eway.app.log]
    [eway.app.config :refer [config]]
    [eway.ping.lb :as lb]
+   [eway.ping.cdn :as cdn]
    [eway.app.riemann :as rm]
 
    [taoensso.timbre :as l]
@@ -66,6 +67,12 @@
                         (check-error error)
                         (check-body body)
                         log-event)))))))
+#_ (check-status {:protocols ["http"] :name "bogus.ixs1.net"})
+#_ (->> lb/config
+        (take 10)
+        (map normalize-frontend)
+        (map check-status)
+        dorun)
 
 ;; ----- SCHEDULER -----
 (defn normalize-frontend [[_name [type data]]]
@@ -108,10 +115,24 @@
   (l/info "Exiting.")
   (mount/stop))
 
+(defn check-cdn [& _]
+  (mount/start-without #'eway.ping.core/scheduled-jobs)
+  (prn "Checking " (count cdn/config) "sites.")
+  (->> cdn/config
+       (map check-status)
+       dorun)
+
+  (prn "Sleeping a bit so riemann can flush events.")
+  (Thread/sleep 5000)
+  (mount/stop))
+
+#_ (check-cdn)
+
 (defn reset []
   (mount/stop)
   (mount/start))
 #_ (reset)
+#_ (mount/start-without #'eway.ping.core/scheduled-jobs)
 #_ (mount/stop #'eway.ping.core/scheduled-jobs)
 
 ;; ----- SIGNALS -----

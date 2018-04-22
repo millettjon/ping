@@ -1,0 +1,23 @@
+
+* Development
+p-emacs
+M-x cider-jack-in
+If there an error, delete .emacs.d/elpa (emacs package cache) and retry.
+
+* How to update dependencies
+bin/boot -u
+p-outdated
+
+Update submodules .emacs.d and opt/bootstrap.
+
+* How the service starts
+  - etc/systemd/ping.service.mustache
+    - bin/daemon
+      - bin/boot run
+        - build.boot
+          - eway.ping.core/-main
+            - mount/start ; starts components
+              - eway.app.log
+              - eway.app.config
+              - eway.ping.lb
+              - eway.app.riemann

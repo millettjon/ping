@@ -18,6 +18,11 @@
 (require 'boot.repl)
 
 (require 'eway.ping.core)
+
 (deftask run
   []
   (#'eway.ping.core/-main))
+
+(deftask check-cdn
+  []
+  (#'eway.ping.core/check-cdn))
