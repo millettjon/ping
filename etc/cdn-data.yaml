@@ -599,7 +599,8 @@ cdn-data:
     static.savethechildren.csengage2.net:
       provider: edgecast
     static.e.csmail1.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z3
     static.penguinrandomhouse.cseml.com:
       provider: keycdn
       zone: z3
