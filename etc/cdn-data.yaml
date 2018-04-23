@@ -605,7 +605,8 @@ cdn-data:
     static.prh.cse3.net:
       provider: edgecast
     static.csmail1.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z1
     static.eml.csewd.com:
       provider: keycdn
       zone: z1
