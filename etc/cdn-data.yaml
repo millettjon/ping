@@ -601,9 +601,11 @@ cdn-data:
     static.e.csmail1.com:
       provider: edgecast
     static.penguinrandomhouse.cseml.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z3
     static.prh.cse3.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z3
     static.csmail1.com:
       provider: keycdn
       zone: z1
