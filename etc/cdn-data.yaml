@@ -607,7 +607,8 @@ cdn-data:
     static.csmail1.com:
       provider: edgecast
     static.eml.csewd.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     edgecast:
