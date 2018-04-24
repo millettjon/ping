@@ -502,23 +502,13 @@ cdn-data:
       provider: edgecast
     static.pch.ixsbb.net:
       provider: edgecast
-    static.eml.consumerfbox.com:
-      provider: edgecast
     static.freshlypicked.ixdlp.net:
       provider: edgecast
     static.enb.ixgak.net:
       provider: edgecast
     static.eml.ixsdw.net:
       provider: edgecast
-    static.eml.csengage1.net:
-      provider: edgecast
-    static.eml.csacq1.net:
-      provider: edgecast
-    static.eml.csax1.net:
-      provider: edgecast
     static.dermablend.csax1.com:
-      provider: edgecast
-    static.xout.cs-acq.net:
       provider: edgecast
     static.eml.ewaymail90.com:
       provider: edgecast
