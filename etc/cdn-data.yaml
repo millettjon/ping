@@ -10,9 +10,6 @@ cdn-data:
     static.consumerfbox.com:
       provider: keycdn
       zone: z1
-    static.ewdcse.net:
-      provider: keycdn
-      zone: z1
     static.e.ixemf.com:
       provider: keycdn
       zone: z1
@@ -25,9 +22,6 @@ cdn-data:
     static.email1.jobsonline.com:
       provider: keycdn
       zone: z1
-    static.calibrmsg.com:
-      provider: keycdn
-      zone: z1
     static.susan-lilly.ixs1.net:
       provider: keycdn
       zone: z1
@@ -35,9 +29,6 @@ cdn-data:
       provider: keycdn
       zone: z1
     static.heart-test.avon.com:
-      provider: keycdn
-      zone: z1
-    static.pch.ixsss.net:
       provider: keycdn
       zone: z1
     static.cosmopolitan.ewaymail60.com:
@@ -53,9 +44,6 @@ cdn-data:
       provider: keycdn
       zone: z1
     static.housebeautiful.ewdcse.net:
-      provider: keycdn
-      zone: z1
-    static.freeshipping.ixsfv.net:
       provider: keycdn
       zone: z1
     static.eml.ewcsacq.net:
@@ -79,16 +67,10 @@ cdn-data:
     static.caranddriver.ewcsacq.net:
       provider: keycdn
       zone: z1
-    static.urbandecay.ixifi.net:
-      provider: keycdn
-      zone: z1
     static.womansday.csemacq.com:
       provider: keycdn
       zone: z1
     static.popularmechanics.calibrmail1.com:
-      provider: keycdn
-      zone: z1
-    static.email.palmbeachjewelrydeals.com:
       provider: keycdn
       zone: z1
     static.eml.csacq1.com:
@@ -112,8 +94,6 @@ cdn-data:
     static.esquire.ewaymail80.com:
       provider: keycdn
       zone: z1
-    static.us.omegawatches.com:
-      provider: edgecast
     static.e.tourbillon.com:
       provider: edgecast
     static.e.rockstarloans.com:
@@ -129,9 +109,6 @@ cdn-data:
       provider: keycdn
       zone: z1
     static.eml.acqixs.com:
-      provider: keycdn
-      zone: z1
-    static.lancomecrm.ixs1.net:
       provider: keycdn
       zone: z1
     static.avonecards.com:
@@ -152,9 +129,6 @@ cdn-data:
     static.sms.ewaymail40.com:
       provider: keycdn
       zone: z2
-    static.gr.calibr1.com:
-      provider: keycdn
-      zone: z2
     static.acturus.secureixs.com:
       provider: keycdn
       zone: z2
@@ -164,9 +138,6 @@ cdn-data:
     static.skinceuticals.ewaymail30.com:
       provider: keycdn
       zone: z2
-    static.eml.calibrmail3.com:
-      provider: keycdn
-      zone: z3
     static.eml.rockstarloans.com:
       provider: keycdn
       zone: z3
@@ -174,9 +145,6 @@ cdn-data:
       provider: keycdn
       zone: z3
     static.eml.arrwcnt1.com:
-      provider: keycdn
-      zone: z3
-    static.e.lbdcs.net:
       provider: keycdn
       zone: z3
     static.vichyusa.ixstp.net:
@@ -193,9 +161,6 @@ cdn-data:
     static.lancome.ixs1.net:
       provider: keycdn
       zone: z2
-    static.lancome.csemacq.net:
-      provider: keycdn
-      zone: z2
     static.capuchin.csewd.com:
       provider: keycdn
       zone: z2
@@ -207,13 +172,7 @@ cdn-data:
     static.lancome.calibrmsg.net:
       provider: keycdn
       zone: z2
-    static.publishersclearinghouse.ixs2.net:
-      provider: keycdn
-      zone: z2
     static.e.lllbd.net:
-      provider: keycdn
-      zone: z2
-    static.lfg.ixsmail.com:
       provider: keycdn
       zone: z2
     static.eml.swatch.com:
@@ -460,11 +419,7 @@ cdn-data:
       provider: edgecast
     static.email.heart.avon.com:
       provider: edgecast
-    static.us.hamiltonwatch.com:
-      provider: edgecast
     static.suggestedorders.avon.com:
-      provider: edgecast
-    static.l.worldpatentmarketing.com:
       provider: edgecast
     static.e.certainsource.com:
       provider: edgecast
@@ -479,8 +434,6 @@ cdn-data:
     static.rogerwilliams.ixs1.net:
       provider: edgecast
     static.e4.ixs1.net:
-      provider: edgecast
-    static.pch.e4.ixs1.net:
       provider: edgecast
     static.xout.csesp1.net:
       provider: edgecast
@@ -510,23 +463,11 @@ cdn-data:
       provider: edgecast
     static.dermablend.csax1.com:
       provider: edgecast
-    static.eml.ewaymail90.com:
-      provider: edgecast
-    static.countryliving.calibrplatform.com:
-      provider: edgecast
     static.eml.pickjobsnow.com:
-      provider: edgecast
-    static.cledepeaubeaute.csengage2.com:
-      provider: edgecast
-    static.helpwithpain.co:
       provider: edgecast
     static.e.horizonfastcapital.com:
       provider: edgecast
-    static.e.ixsans.net:
-      provider: edgecast
     static.choicelending.ixlmb.net:
-      provider: edgecast
-    static.ixsans.net:
       provider: edgecast
     static.heart.avon.com:
       provider: edgecast
@@ -576,13 +517,7 @@ cdn-data:
       provider: edgecast
     static.orders.customer.avon.com:
       provider: edgecast
-    static.e.alvinailey.org:
-      provider: edgecast
     static.sellup.calibr1.com:
-      provider: edgecast
-    static.calibrmsg.net:
-      provider: edgecast
-    static.eml.ewaymail60.com:
       provider: edgecast
     static.lenditudemail.ewaymail60.com:
       provider: edgecast
@@ -594,12 +529,6 @@ cdn-data:
     static.penguinrandomhouse.cseml.com:
       provider: keycdn
       zone: z3
-    static.prh.cse3.net:
-      provider: keycdn
-      zone: z3
-    static.csmail1.com:
-      provider: keycdn
-      zone: z1
     static.eml.csewd.com:
       provider: keycdn
       zone: z1
