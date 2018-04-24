@@ -437,23 +437,13 @@ cdn-data:
       provider: edgecast
     static.xout.csesp1.net:
       provider: edgecast
-    static.sms.e3.ixs1.net:
-      provider: edgecast
-    static.xout.securedmi.com:
-      provider: edgecast
     static.gerber.calibrplatform.com:
       provider: edgecast
     static.eml.tourbillon.com:
       provider: edgecast
-    static.swimsuitsforall.csacq2.net:
-      provider: edgecast
     static.palmbeachjewelry.ecsaq.net:
       provider: edgecast
     static.pfaltzgraff.ixscs.net:
-      provider: edgecast
-    static.freeshipping.csacq.com:
-      provider: edgecast
-    static.pch.ixsbb.net:
       provider: edgecast
     static.freshlypicked.ixdlp.net:
       provider: edgecast
