@@ -4,6 +4,7 @@ cdn-data:
     static.onlinedialog.com:
       provider: keycdn
       zone: z1
+      pin: true
     static.ewaymail.com:
       provider: keycdn
       zone: z1
@@ -43,6 +44,7 @@ cdn-data:
     static.sn.calibr2.com:
       provider: keycdn
       zone: z1
+      pin: true
     static.housebeautiful.ewdcse.net:
       provider: keycdn
       zone: z1
@@ -108,6 +110,7 @@ cdn-data:
     static.e.ethis-emails.com:
       provider: keycdn
       zone: z1
+      pin: true
     static.eml.acqixs.com:
       provider: keycdn
       zone: z1
@@ -129,6 +132,7 @@ cdn-data:
     static.sms.ewaymail40.com:
       provider: keycdn
       zone: z2
+      pin: true
     static.acturus.secureixs.com:
       provider: keycdn
       zone: z2
@@ -144,6 +148,7 @@ cdn-data:
     static.csacq.net:
       provider: keycdn
       zone: z3
+      pin: true
     static.eml.arrwcnt1.com:
       provider: keycdn
       zone: z3
@@ -246,6 +251,7 @@ cdn-data:
     static.e.lexmod.com:
       provider: keycdn
       zone: z2
+      pin: true
     static.bhmail.creditloan.com:
       provider: keycdn
       zone: z2
@@ -404,37 +410,52 @@ cdn-data:
     static.mail.healthcaredatasolutions.com:
       provider: edgecast
     static.e.emtdirect.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z3
+      pin: true
     static.querorevender.avon.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z3
     static.enquetevirtual2.avon.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z3
     static.enquetevirtual.avon.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z3
     static.querorevender2.avon.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z3
     static.e.savorastyle.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z3
     static.securemailworx.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z3
     static.email.heart.avon.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z1
     static.suggestedorders.avon.com:
       provider: edgecast
     static.e.certainsource.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z1
     static.sheknows.ixs1.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z1
     static.sandbox.ixsmail.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z1
     static.susan.lillyandcompany.com:
       provider: edgecast
+      pin: true
     static.mikeconaway.ixs1.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z1
     static.rogerwilliams.ixs1.net:
       provider: edgecast
     static.e4.ixs1.net:
       provider: edgecast
+      pin: true
     static.xout.csesp1.net:
       provider: edgecast
     static.gerber.calibrplatform.com:
@@ -461,6 +482,7 @@ cdn-data:
       provider: edgecast
     static.heart.avon.com:
       provider: edgecast
+      pin: true
     static.eml.ixifi.net:
       provider: edgecast
     static.shutterstock.ixifi.net:
