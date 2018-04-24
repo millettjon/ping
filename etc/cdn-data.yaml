@@ -452,89 +452,127 @@ cdn-data:
       provider: keycdn
       zone: z1
     static.rogerwilliams.ixs1.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z1
     static.e4.ixs1.net:
-      provider: edgecast
-      pin: true
+      provider: keycdn
+      zone: z1
     static.xout.csesp1.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z1
     static.gerber.calibrplatform.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z2
     static.eml.tourbillon.com:
       provider: edgecast
     static.palmbeachjewelry.ecsaq.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z2
     static.pfaltzgraff.ixscs.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z2
     static.freshlypicked.ixdlp.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z2
     static.enb.ixgak.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z2
     static.eml.ixsdw.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z2
     static.dermablend.csax1.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z2
     static.eml.pickjobsnow.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z2
     static.e.horizonfastcapital.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z2
     static.choicelending.ixlmb.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z2
     static.heart.avon.com:
-      provider: edgecast
-      pin: true
+      provider: keycdn
+      zone: z2
     static.eml.ixifi.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z2
     static.shutterstock.ixifi.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.eml.csesp1.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.e.csesp1.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.e.dlpbb.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.eml.ixdcc.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.eml.ewaymail20.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.e.ixdnd.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.selectoptions1.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.selectoptions3.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.selectoptions2.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.selectoptions4.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.selectoptions5.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.selectoptions6.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.selectoptions7.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.selectoptions8.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.selectoptions9.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.selectoptions10.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.bananarepublic.csax1.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.gapcanada.csemleng.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.e.csdlp.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.link2loan.co:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.orders.customer.avon.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.sellup.calibr1.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.lenditudemail.ewaymail60.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.savethechildren.csengage2.net:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.e.csmail1.com:
       provider: keycdn
       zone: z3
