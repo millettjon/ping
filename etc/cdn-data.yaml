@@ -434,6 +434,7 @@ cdn-data:
     static.email.heart.avon.com:
       provider: keycdn
       zone: z1
+      pin: true
     static.suggestedorders.avon.com:
       provider: edgecast
     static.e.certainsource.com:
@@ -442,9 +443,11 @@ cdn-data:
     static.sheknows.ixs1.net:
       provider: keycdn
       zone: z1
+      pin: true
     static.sandbox.ixsmail.com:
       provider: keycdn
       zone: z1
+      pin: true
     static.susan.lillyandcompany.com:
       provider: edgecast
       pin: true
@@ -457,6 +460,7 @@ cdn-data:
     static.e4.ixs1.net:
       provider: keycdn
       zone: z1
+      pin: true
     static.xout.csesp1.net:
       provider: keycdn
       zone: z1
@@ -495,6 +499,7 @@ cdn-data:
     static.heart.avon.com:
       provider: keycdn
       zone: z2
+      pin: true
     static.eml.ixifi.net:
       provider: keycdn
       zone: z2
