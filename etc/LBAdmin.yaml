@@ -161,7 +161,6 @@ profiles:
         link.e.lbdcs.net: [http]
         link.pch.ixsbb.net: [http]
         link.pch.ixsss.net: [http]
-        link.eml.swatch.com: [http]
         link.eml.ewcsacq.net: [http]
         link.eml.bbfcs.net: [http, https]
         link.eml.bbacq.net: [http, https]
