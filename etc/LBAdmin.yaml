@@ -273,6 +273,7 @@ profiles:
         link.prh.cse3.net: [http, https]
         link.eml.csewd.com: [http]
         link.eml.csacq1.com: [http, https]
+        link.ewaymail40.com: [http]
     backends:
       link:
         servers:
