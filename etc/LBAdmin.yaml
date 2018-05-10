@@ -150,7 +150,6 @@ profiles:
         link.biotherm.calibrdirect.com: [http]
         link.palmbeachjewelry.ecsaq.net: [http]
         link.skinceuticals.csengage1.com: [http, https]
-        link.pfaltzgraff.ixscs.net: [http]
         link.urbandecay.ixifi.net: [http]
         link.laroche-posay.csemeng.com: [http, https]
         link.vichyusa.ixstp.net: [http, https]
