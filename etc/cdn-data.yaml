@@ -588,6 +588,9 @@ cdn-data:
     static.eml.csewd.com:
       provider: keycdn
       zone: z1
+    static.ewaymail40.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     edgecast:
