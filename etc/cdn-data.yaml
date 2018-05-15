@@ -96,8 +96,6 @@ cdn-data:
     static.esquire.ewaymail80.com:
       provider: keycdn
       zone: z1
-    static.e.tourbillon.com:
-      provider: edgecast
     static.e.rockstarloans.com:
       provider: keycdn
       zone: z1
@@ -182,8 +180,6 @@ cdn-data:
     static.e.lllbd.net:
       provider: keycdn
       zone: z2
-    static.eml.swatch.com:
-      provider: edgecast
     static.skinceuticals.csengage1.com:
       provider: keycdn
       zone: z2
@@ -418,8 +414,6 @@ cdn-data:
     static.e.swimsuitsforall.com:
       provider: keycdn
       zone: z4
-    static.mail.healthcaredatasolutions.com:
-      provider: edgecast
     static.e.emtdirect.com:
       provider: keycdn
       zone: z3
@@ -460,9 +454,6 @@ cdn-data:
       provider: keycdn
       zone: z1
       pin: true
-    static.susan.lillyandcompany.com:
-      provider: edgecast
-      pin: true
     static.mikeconaway.ixs1.net:
       provider: keycdn
       zone: z1
@@ -479,8 +470,6 @@ cdn-data:
     static.gerber.calibrplatform.com:
       provider: keycdn
       zone: z2
-    static.eml.tourbillon.com:
-      provider: edgecast
     static.palmbeachjewelry.ecsaq.net:
       provider: keycdn
       zone: z2
