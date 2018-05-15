@@ -159,7 +159,8 @@ cdn-data:
       provider: keycdn
       zone: z4
     static.email.healthcaredatasolutions.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.emart10.com:
       provider: keycdn
       zone: z4
@@ -173,7 +174,8 @@ cdn-data:
       provider: keycdn
       zone: z2
     static.e.miracleofaloe.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.lancome.calibrmsg.net:
       provider: keycdn
       zone: z2
@@ -189,7 +191,8 @@ cdn-data:
       provider: keycdn
       zone: z2
     static.e.espacioavon.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.email.pchgiveaway.com:
       provider: keycdn
       zone: z2
@@ -262,7 +265,8 @@ cdn-data:
       provider: keycdn
       zone: z2
     static.email.procompression.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.travelplus.csacq2.com:
       provider: keycdn
       zone: z2
@@ -326,9 +330,11 @@ cdn-data:
       provider: keycdn
       zone: z3
     static.e.housewaresdeals.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.e.builtny.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.e.us.tissotshop.com:
       provider: edgecast
     static.e3.ixs1.net:
@@ -380,7 +386,8 @@ cdn-data:
       provider: keycdn
       zone: z3
     static.e.procompression.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.proactiv.csacq.net:
       provider: keycdn
       zone: z3
