@@ -591,6 +591,9 @@ cdn-data:
     static.ewaymail40.com:
       provider: keycdn
       zone: z4
+    static.message.clearstonelending.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     edgecast:
