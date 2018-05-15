@@ -242,7 +242,8 @@ cdn-data:
       provider: keycdn
       zone: z2
     static.eml.healthcaredatasolutions.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.e.calibrdirect.com:
       provider: keycdn
       zone: z2
@@ -301,7 +302,8 @@ cdn-data:
       provider: keycdn
       zone: z3
     static.us.rado.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.laroche-posay.csemeng.com:
       provider: keycdn
       zone: z3
@@ -336,7 +338,8 @@ cdn-data:
       provider: keycdn
       zone: z4
     static.e.us.tissotshop.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.e3.ixs1.net:
       provider: keycdn
       zone: z3
@@ -395,7 +398,8 @@ cdn-data:
       provider: keycdn
       zone: z3
     static.eml.us.tissotshop.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.e.pfaltzgraff.com:
       provider: keycdn
       zone: z3
@@ -443,7 +447,8 @@ cdn-data:
       zone: z1
       pin: true
     static.suggestedorders.avon.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.e.certainsource.com:
       provider: keycdn
       zone: z1
