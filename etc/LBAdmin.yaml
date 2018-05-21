@@ -270,7 +270,7 @@ profiles:
         link.ewaymail40.com: [http]
         link.message.clearstonelending.com: [http]
         link.goodhousekeeping.ixstp.net: [http, https]
-        link.housebeautiful.ixstp.net: [http]
+        link.housebeautiful.ixstp.net: [http, https]
     backends:
       link:
         servers:
