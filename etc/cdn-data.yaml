@@ -244,7 +244,8 @@ cdn-data:
       provider: keycdn
       zone: z2
     static.e.fredandfriends.com:
-      provider: edgecast
+      provider: keycdn
+      zone: z4
     static.proactiv.csewd.net:
       provider: keycdn
       zone: z2
