@@ -156,9 +156,6 @@ cdn-data:
     static.eml.calibrmail.com:
       provider: keycdn
       zone: z4
-    static.email.healthcaredatasolutions.com:
-      provider: keycdn
-      zone: z4
     static.emart10.com:
       provider: keycdn
       zone: z4
@@ -237,9 +234,6 @@ cdn-data:
     static.fs.calibremail.com:
       provider: keycdn
       zone: z2
-    static.eml.healthcaredatasolutions.com:
-      provider: keycdn
-      zone: z4
     static.e.calibrdirect.com:
       provider: keycdn
       zone: z2
