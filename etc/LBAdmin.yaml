@@ -271,6 +271,7 @@ profiles:
         link.message.clearstonelending.com: [http]
         link.goodhousekeeping.ixstp.net: [http, https]
         link.housebeautiful.ixstp.net: [http, https]
+        link.hdm.ixstp.net: [http]
     backends:
       link:
         servers:
