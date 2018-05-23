@@ -269,9 +269,9 @@ profiles:
         link.eml.csacq1.com: [http, https]
         link.ewaymail40.com: [http]
         link.message.clearstonelending.com: [http]
-        link.goodhousekeeping.ixstp.net: [http, https]
-        link.housebeautiful.ixstp.net: [http, https]
-        link.hdm.ixstp.net: [http]
+        link.goodhousekeeping.ixstp.net: [http]
+        link.housebeautiful.ixstp.net: [http]
+        link.hdm.ixstp.net: [http, https]
     backends:
       link:
         servers:
