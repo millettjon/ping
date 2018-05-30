@@ -589,6 +589,9 @@ cdn-data:
     static.message.clearstonelending.com:
       provider: keycdn
       zone: z4
+    static.hdm.ixstp.net:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     edgecast:
