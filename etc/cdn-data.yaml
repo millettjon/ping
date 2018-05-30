@@ -168,9 +168,6 @@ cdn-data:
     static.lancomeca.calibr3.com:
       provider: keycdn
       zone: z2
-    static.e.miracleofaloe.com:
-      provider: keycdn
-      zone: z4
     static.lancome.calibrmsg.net:
       provider: keycdn
       zone: z2
