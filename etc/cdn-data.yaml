@@ -234,10 +234,6 @@ cdn-data:
     static.proactiv.csewd.net:
       provider: keycdn
       zone: z2
-    static.e.lexmod.com:
-      provider: keycdn
-      zone: z2
-      pin: true
     static.bhmail.creditloan.com:
       provider: keycdn
       zone: z2
