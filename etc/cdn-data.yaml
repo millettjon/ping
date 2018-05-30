@@ -38,16 +38,10 @@ cdn-data:
     static.em.ewdcse.net:
       provider: keycdn
       zone: z1
-    static.goodhousekeeping.calibr2.com:
-      provider: keycdn
-      zone: z1
     static.sn.calibr2.com:
       provider: keycdn
       zone: z1
       pin: true
-    static.housebeautiful.ewdcse.net:
-      provider: keycdn
-      zone: z1
     static.eml.ewcsacq.net:
       provider: keycdn
       zone: z1
