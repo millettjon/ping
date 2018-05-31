@@ -94,7 +94,7 @@ profiles:
         link.ebrochures.avon.com: [http]
         link.ewaymail.com: [http, https]
         link.e.lexmod.com: [http]
-        link.eway10.com: [http, https]
+        link.eway10.com: [http]
         link.avonecards.com: [http]
         link.llifi.net: [http, https]
         link.e.fredandfriends.com: [http, https]
