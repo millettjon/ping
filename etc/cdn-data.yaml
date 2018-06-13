@@ -579,6 +579,12 @@ cdn-data:
     static.hdm.ixstp.net:
       provider: keycdn
       zone: z4
+    static.goodhousekeeping.ixstp.net:
+      provider: keycdn
+      zone: z2
+    static.housebeautiful.ixstp.net:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     edgecast:
