@@ -272,6 +272,7 @@ profiles:
         link.goodhousekeeping.ixstp.net: [http]
         link.housebeautiful.ixstp.net: [http]
         link.hdm.ixstp.net: [http, https]
+        link.email.canvaspeople.co.uk: [http]
     backends:
       link:
         servers:
