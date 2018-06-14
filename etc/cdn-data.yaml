@@ -585,6 +585,12 @@ cdn-data:
     static.housebeautiful.ixstp.net:
       provider: keycdn
       zone: z1
+    static.prevention.ixstp.net:
+      provider: keycdn
+      zone: z1
+    static.menshealth.ixstp.net:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     edgecast:
