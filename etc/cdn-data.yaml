@@ -231,9 +231,6 @@ cdn-data:
     static.eml.bbfcs.net:
       provider: keycdn
       zone: z2
-    static.email.swimsuitsforall.com:
-      provider: keycdn
-      zone: z2
     static.gap.csemleng.net:
       provider: keycdn
       zone: z2
@@ -398,9 +395,6 @@ cdn-data:
       provider: keycdn
       zone: z1
       pin: true
-    static.suggestedorders.avon.com:
-      provider: keycdn
-      zone: z4
     static.e.certainsource.com:
       provider: keycdn
       zone: z1
@@ -429,9 +423,6 @@ cdn-data:
       provider: keycdn
       zone: z2
     static.palmbeachjewelry.ecsaq.net:
-      provider: keycdn
-      zone: z2
-    static.pfaltzgraff.ixscs.net:
       provider: keycdn
       zone: z2
     static.enb.ixgak.net:
