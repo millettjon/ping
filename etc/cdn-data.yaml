@@ -32,9 +32,6 @@ cdn-data:
     static.heart-test.avon.com:
       provider: keycdn
       zone: z1
-    static.cosmopolitan.ewaymail60.com:
-      provider: keycdn
-      zone: z1
     static.em.ewdcse.net:
       provider: keycdn
       zone: z1
@@ -43,9 +40,6 @@ cdn-data:
       zone: z1
       pin: true
     static.eml.ewcsacq.net:
-      provider: keycdn
-      zone: z1
-    static.roadandtrack.ewaymail50.com:
       provider: keycdn
       zone: z1
     static.baxterofcalifornia.calibrmsg.com:
@@ -60,19 +54,7 @@ cdn-data:
     static.e.arrwcnt1.com:
       provider: keycdn
       zone: z1
-    static.caranddriver.ewcsacq.net:
-      provider: keycdn
-      zone: z1
-    static.womansday.csemacq.com:
-      provider: keycdn
-      zone: z1
-    static.popularmechanics.calibrmail1.com:
-      provider: keycdn
-      zone: z1
     static.eml.csacq1.com:
-      provider: keycdn
-      zone: z1
-    static.marieclaire.ewaymail20.com:
       provider: keycdn
       zone: z1
     static.laroche-posay.ewdcsa.com:
@@ -85,9 +67,6 @@ cdn-data:
       provider: keycdn
       zone: z1
     static.maybelline.csdlp.net:
-      provider: keycdn
-      zone: z1
-    static.esquire.ewaymail80.com:
       provider: keycdn
       zone: z1
     static.e.rockstarloans.com:
@@ -177,9 +156,6 @@ cdn-data:
     static.e.espacioavon.com:
       provider: keycdn
       zone: z4
-    static.email.pchgiveaway.com:
-      provider: keycdn
-      zone: z2
     static.email.ewaydirect.com:
       provider: keycdn
       zone: z2
@@ -456,9 +432,6 @@ cdn-data:
       provider: keycdn
       zone: z2
     static.pfaltzgraff.ixscs.net:
-      provider: keycdn
-      zone: z2
-    static.freshlypicked.ixdlp.net:
       provider: keycdn
       zone: z2
     static.enb.ixgak.net:
