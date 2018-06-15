@@ -555,6 +555,9 @@ cdn-data:
     static.menshealth.ixstp.net:
       provider: keycdn
       zone: z4
+    static.email.canvaspeople.co.uk:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     edgecast:
