@@ -266,7 +266,7 @@ profiles:
         link.housebeautiful.ixstp.net: [http]
         link.hdm.ixstp.net: [http, https]
         link.email.canvaspeople.co.uk: [http, https]
-        link.mobilehelp.csem1.com: [http]
+        link.mobilehelp.csem1.com: [http, https]
     backends:
       link:
         servers:
