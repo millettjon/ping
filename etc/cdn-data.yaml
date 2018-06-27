@@ -561,6 +561,9 @@ cdn-data:
     static.mobilehelp.csem1.com:
       provider: keycdn
       zone: z2
+    static.eml.acqixs.net:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     edgecast:
