@@ -200,7 +200,7 @@ profiles:
         link.emailping.onlinedialog.com:
           protocols: [http, https]
           backend: emailping
-        link.owletcare.csax1.com: [http, https]
+        link.owletcare.csax1.com: [http]
         link.e.arrwcnt2.com: [http, https]
         link.e.arrwcnt1.com: [http, https]
         link.e.rockstarloans.com: [http, https]
