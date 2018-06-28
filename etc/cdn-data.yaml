@@ -564,6 +564,12 @@ cdn-data:
     static.eml.acqixs.net:
       provider: keycdn
       zone: z2
+    static.countryliving.cseml.com:
+      provider: keycdn
+      zone: z2
+    static.goodhousekeeping.cseml.com:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     edgecast:
