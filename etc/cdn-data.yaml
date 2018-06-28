@@ -570,6 +570,15 @@ cdn-data:
     static.goodhousekeeping.cseml.com:
       provider: keycdn
       zone: z1
+    static.housebeautiful.cseml.com:
+      provider: keycdn
+      zone: z1
+    static.prevention.cseml.com:
+      provider: keycdn
+      zone: z1
+    static.menshealth.cseml.com:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     edgecast:
