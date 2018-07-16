@@ -268,6 +268,7 @@ profiles:
         link.mobilehelp.csem1.com: [http, https]
         link.mobilehelp.csem2.com: [http]
         link.eml.acqixs.net: [http]
+        link.link2financenow.com: [http]
     backends:
       link:
         servers:
