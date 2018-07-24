@@ -342,6 +342,7 @@ cdn-data:
     static.e.procompression.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.proactiv.csacq.net:
       provider: keycdn
       zone: z3
