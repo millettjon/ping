@@ -583,6 +583,9 @@ cdn-data:
     static.link2financenow.com:
       provider: keycdn
       zone: z1
+    static.newegg.csem2.com:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     edgecast:
