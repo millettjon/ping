@@ -269,6 +269,7 @@ profiles:
         link.mobilehelp.csem2.com: [http]
         link.eml.acqixs.net: [http]
         link.link2financenow.com: [http]
+        link.newegg.csem2.com: [http]
     backends:
       link:
         servers:
