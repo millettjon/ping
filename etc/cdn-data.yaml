@@ -5,6 +5,7 @@ cdn-data:
       provider: keycdn
       zone: z1
       pin: true
+      ssl: true
     static.ewaymail.com:
       provider: keycdn
       zone: z1
