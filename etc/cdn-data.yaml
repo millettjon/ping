@@ -222,6 +222,7 @@ cdn-data:
     static.email.procompression.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.travelplus.csacq2.com:
       provider: keycdn
       zone: z2
