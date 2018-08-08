@@ -588,6 +588,9 @@ cdn-data:
     static.newegg.csem2.com:
       provider: keycdn
       zone: z1
+    static.email.certainsource.com:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     edgecast:
