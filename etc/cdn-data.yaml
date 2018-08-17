@@ -591,6 +591,9 @@ cdn-data:
     static.email.certainsource.com:
       provider: keycdn
       zone: z1
+    static.ewem1.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     edgecast:
