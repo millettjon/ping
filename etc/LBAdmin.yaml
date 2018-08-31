@@ -272,6 +272,7 @@ profiles:
         link.newegg.csem2.com: [http, https]
         link.email.certainsource.com: [http, https]
         link.ewem1.com: [http]
+        link.email.maydayloanz.com: [http]
     backends:
       link:
         servers:
