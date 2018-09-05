@@ -118,7 +118,6 @@ profiles:
         link.pch.e4.ixs1.net: [http]
         link.proactiv.cs-acq.com: [http, https]
         link.proactiv.csacq.net: [http, https]
-        link.freeshipping.ecsaq.com: [http, https]
         link.lfg.ixsmail.com: [http]
         link.secureixs.com: [http, https]
         link.laroche-posay.ewdcsa.com: [http, https]
@@ -137,7 +136,6 @@ profiles:
         link.shopsmarter.ixs1.net: [http]
         link.gerber.calibrplatform.com: [http]
         link.travelplus.csacq2.com: [http, https]
-        link.freeshipping.ewaymail70.com: [http, https]
         link.freeshipping.ewdcse.com: [http, https]
         link.baxterofcalifornia.calibrmsg.com: [http]
         link.lancomeca.calibr3.com: [http, https]
@@ -273,6 +271,7 @@ profiles:
         link.email.certainsource.com: [http, https]
         link.ewem1.com: [http]
         link.email.maydayloanz.com: [http]
+        link.freeshipping.ecsaq.com: [http, https]
     backends:
       link:
         servers:
