@@ -597,6 +597,9 @@ cdn-data:
     static.email.maydayloanz.com:
       provider: keycdn
       zone: z4
+    static.info1.ieee.org:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     edgecast:
