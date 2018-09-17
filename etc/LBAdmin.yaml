@@ -272,7 +272,7 @@ profiles:
         link.ewem1.com: [http]
         link.email.maydayloanz.com: [http]
         link.freeshipping.ecsaq.com: [http, https]
-        link.info1.ieee.org: [http]
+        link.info1.ieee.org: [http, https]
     backends:
       link:
         servers:
