@@ -275,6 +275,7 @@ profiles:
         link.info1.ieee.org: [http, https]
         link.cseml.com: [http, https]
         link.cse3.net: [http, https]
+        cseveryday.com: [https]
     backends:
       link:
         servers:
