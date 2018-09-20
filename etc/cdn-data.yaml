@@ -600,6 +600,12 @@ cdn-data:
     static.info1.ieee.org:
       provider: keycdn
       zone: z4
+    static.cseml.com:
+      provider: keycdn
+      zone: z4
+    static.cse3.net:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     edgecast:
