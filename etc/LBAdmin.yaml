@@ -273,6 +273,8 @@ profiles:
         link.email.maydayloanz.com: [http]
         link.freeshipping.ecsaq.com: [http, https]
         link.info1.ieee.org: [http, https]
+        link.cseml.com: [http, https]
+        link.cse3.net: [http, https]
     backends:
       link:
         servers:
