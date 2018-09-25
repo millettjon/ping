@@ -276,6 +276,7 @@ profiles:
         link.cseml.com: [http, https]
         link.cse3.net: [http, https]
         cseveryday.com: [https]
+        link.e.ewdcse.com: [http]
     backends:
       link:
         servers:
