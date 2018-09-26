@@ -609,6 +609,9 @@ cdn-data:
     static.e.ewdcse.com:
       provider: keycdn
       zone: z4
+    static.oculus.csax1.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     edgecast:
