@@ -277,7 +277,7 @@ profiles:
         link.cse3.net: [http, https]
         cseveryday.com: [https]
         link.e.ewdcse.com: [http]
-        link.oculus.csax1.com: [http]
+        link.oculus.csax1.com: [http, https]
     backends:
       link:
         servers:
