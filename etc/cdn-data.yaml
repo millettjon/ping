@@ -612,6 +612,9 @@ cdn-data:
     static.oculus.csax1.com:
       provider: keycdn
       zone: z4
+    static.hilltreefinancial.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     edgecast:
