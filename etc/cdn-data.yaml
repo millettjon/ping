@@ -617,10 +617,8 @@ cdn-data:
       zone: z4
   providers:
     default: keycdn
-    edgecast:
-      account: 0F66
     keycdn:
       zone_suffix: "-b45c.kxcdn.com"
       zone_alias_limit: 50
-      zones: [z1, z2, z3, z4]
+      zones: [z1, z2, z3, z4, z5]
   cname_prefix: static
