@@ -329,9 +329,6 @@ cdn-data:
     static.ixsmail.com:
       provider: keycdn
       zone: z3
-    static.freeshipping.ecsaq.com:
-      provider: keycdn
-      zone: z3
     static.e.edollarsinadash.com:
       provider: keycdn
       zone: z3
@@ -615,6 +612,9 @@ cdn-data:
     static.hilltreefinancial.com:
       provider: keycdn
       zone: z4
+    static.portal.csax1.com:
+      provider: keycdn
+      zone: z5
   providers:
     default: keycdn
     keycdn:
