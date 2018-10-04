@@ -275,7 +275,6 @@ profiles:
         link.info1.ieee.org: [http, https]
         link.cseml.com: [http, https]
         link.cse3.net: [http, https]
-        cseveryday.com: [https]
         link.e.ewdcse.com: [http]
         link.oculus.csax1.com: [http, https]
         link.hilltreefinancial.com: [http, https]
