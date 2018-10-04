@@ -280,6 +280,7 @@ profiles:
         link.oculus.csax1.com: [http, https]
         link.hilltreefinancial.com: [http, https]
         link.ixap1.com: [http, https]
+        link.portal.csax1.com: [http, https]
     backends:
       link:
         servers:
