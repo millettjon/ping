@@ -266,9 +266,6 @@ cdn-data:
     static.email.horizonfastcapital.com:
       provider: keycdn
       zone: z3
-    static.freeshipping.ewaymail70.com:
-      provider: keycdn
-      zone: z3
     static.em.thecutekid.com:
       provider: keycdn
       zone: z3
@@ -309,9 +306,6 @@ cdn-data:
       provider: keycdn
       zone: z3
     static.eml.thecutekid.com:
-      provider: keycdn
-      zone: z3
-    static.freeshipping.ewdcse.com:
       provider: keycdn
       zone: z3
     static.customer.avon.com:
@@ -615,6 +609,9 @@ cdn-data:
     static.portal.csax1.com:
       provider: keycdn
       zone: z5
+    static.freeshipping.ewdcse.com:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
