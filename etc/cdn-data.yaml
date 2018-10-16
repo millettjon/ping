@@ -609,9 +609,6 @@ cdn-data:
     static.portal.csax1.com:
       provider: keycdn
       zone: z5
-    static.freeshipping.ewdcse.com:
-      provider: keycdn
-      zone: z3
   providers:
     default: keycdn
     keycdn:
