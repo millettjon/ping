@@ -89,7 +89,7 @@ profiles:
         link.email.ewaydirect.com: [http, https]
         link.sas.calibrmsg.com: [http]
         link.e.heart.avon.com: [http]
-        link.customer.avon.com: [http]
+        link.customer.avon.com: [http, https]
         link.ixsfr.com: [http, https]
         link.ebrochures.avon.com: [http]
         link.ewaymail.com: [http, https]
