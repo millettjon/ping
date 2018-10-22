@@ -311,6 +311,7 @@ cdn-data:
     static.customer.avon.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.lancome.securedmi.com:
       provider: keycdn
       zone: z3
