@@ -279,7 +279,7 @@ profiles:
         link.hilltreefinancial.com: [http, https]
         link.ixap1.com: [http, https]
         link.portal.csax1.com: [http, https]
-        link.oaksidefinancial.com: [http]
+        link.oaksidefinancial.com: [http, https]
     backends:
       link:
         servers:
