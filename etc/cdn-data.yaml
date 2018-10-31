@@ -613,6 +613,9 @@ cdn-data:
     static.oaksidefinancial.com:
       provider: keycdn
       zone: z3
+    static.winc.csem2.com:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
