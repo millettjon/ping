@@ -269,9 +269,6 @@ cdn-data:
     static.em.thecutekid.com:
       provider: keycdn
       zone: z3
-    static.shopsmarter.acqixs.net:
-      provider: keycdn
-      zone: z3
     static.alvinailey.secureixs.com:
       provider: keycdn
       zone: z3
