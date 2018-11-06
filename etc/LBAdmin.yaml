@@ -250,7 +250,6 @@ profiles:
         link.lenditudemail.com: [http]
         link.e.csmail1.com: [http]
         link.penguinrandomhouse.cseml.com: [http, https]
-        link.prh.cse3.net: [http, https]
         link.eml.csewd.com: [http]
         link.eml.csacq1.com: [http, https]
         link.ewaymail40.com: [http]
