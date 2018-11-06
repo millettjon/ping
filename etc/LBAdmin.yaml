@@ -84,7 +84,6 @@ profiles:
         link.customer-consent.avon.com: [http]
         link.email.contact-lookup.com: [http, https]
         link.susan-lilly.ixs1.net: [http]
-        link.e.miracleofaloe.com: [http, https]
         link.enquetevirtual.avon.com: [http]
         link.email.ewaydirect.com: [http, https]
         link.sas.calibrmsg.com: [http]
