@@ -133,9 +133,6 @@ cdn-data:
     static.emart10.com:
       provider: keycdn
       zone: z4
-    static.lancome.ixs1.net:
-      provider: keycdn
-      zone: z2
     static.capuchin.csewd.com:
       provider: keycdn
       zone: z2
