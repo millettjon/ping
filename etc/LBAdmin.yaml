@@ -132,7 +132,6 @@ profiles:
         link.magazines.csewd.net: [http]
         link.sparkpost.ixs1.net: [http]
         link.xout.securedmi.com: [http]
-        link.shopsmarter.acqixs.net: [http, https]
         link.shopsmarter.ixs1.net: [http]
         link.gerber.calibrplatform.com: [http]
         link.travelplus.csacq2.com: [http, https]
