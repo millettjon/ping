@@ -58,9 +58,6 @@ cdn-data:
     static.eml.csacq1.com:
       provider: keycdn
       zone: z1
-    static.laroche-posay.ewdcsa.com:
-      provider: keycdn
-      zone: z1
     static.mycupre.csemeng.net:
       provider: keycdn
       zone: z1
@@ -248,9 +245,6 @@ cdn-data:
     static.us.rado.com:
       provider: keycdn
       zone: z4
-    static.laroche-posay.csemeng.com:
-      provider: keycdn
-      zone: z3
     static.e.avon.ro:
       provider: keycdn
       zone: z3
