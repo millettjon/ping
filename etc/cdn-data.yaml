@@ -112,9 +112,6 @@ cdn-data:
     static.eml.arrwcnt1.com:
       provider: keycdn
       zone: z3
-    static.vichyusa.ixstp.net:
-      provider: keycdn
-      zone: z4
     static.eml.calibrmail.com:
       provider: keycdn
       zone: z4
