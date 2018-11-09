@@ -139,7 +139,6 @@ profiles:
         link.biotherm.calibrdirect.com: [http]
         link.palmbeachjewelry.ecsaq.net: [http]
         link.urbandecay.ixifi.net: [http]
-        link.vichyusa.ixstp.net: [http, https]
         link.e.procompression.com: [http, https]
         link.email.procompression.com: [http, https]
         link.eml.us.tissotshop.com: [http, https]
