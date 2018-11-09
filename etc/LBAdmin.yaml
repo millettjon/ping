@@ -138,7 +138,6 @@ profiles:
         link.e.avon.ro: [http]
         link.biotherm.calibrdirect.com: [http]
         link.palmbeachjewelry.ecsaq.net: [http]
-        link.skinceuticals.csengage1.com: [http, https]
         link.urbandecay.ixifi.net: [http]
         link.vichyusa.ixstp.net: [http, https]
         link.e.procompression.com: [http, https]
