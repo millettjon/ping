@@ -58,13 +58,7 @@ cdn-data:
     static.eml.csacq1.com:
       provider: keycdn
       zone: z1
-    static.mycupre.csemeng.net:
-      provider: keycdn
-      zone: z1
     static.email.ewaymail10.com:
-      provider: keycdn
-      zone: z1
-    static.maybelline.csdlp.net:
       provider: keycdn
       zone: z1
     static.e.rockstarloans.com:
@@ -388,9 +382,6 @@ cdn-data:
       provider: keycdn
       zone: z2
     static.eml.ixsdw.net:
-      provider: keycdn
-      zone: z2
-    static.dermablend.csax1.com:
       provider: keycdn
       zone: z2
     static.eml.pickjobsnow.com:
