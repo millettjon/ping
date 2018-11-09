@@ -400,9 +400,6 @@ cdn-data:
     static.eml.ixifi.net:
       provider: keycdn
       zone: z2
-    static.shutterstock.ixifi.net:
-      provider: keycdn
-      zone: z4
     static.eml.csesp1.net:
       provider: keycdn
       zone: z4
