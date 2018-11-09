@@ -70,9 +70,6 @@ cdn-data:
     static.e.rockstarloans.com:
       provider: keycdn
       zone: z1
-    static.owletcare.csax1.com:
-      provider: keycdn
-      zone: z1
     static.biotherm.calibrdirect.com:
       provider: keycdn
       zone: z1
@@ -90,9 +87,6 @@ cdn-data:
       provider: keycdn
       zone: z1
     static.eml.ixemf.net:
-      provider: keycdn
-      zone: z1
-    static.cledepeaubeaute.csengage2.net:
       provider: keycdn
       zone: z1
     static.pbj.ixs1.net:
@@ -224,9 +218,6 @@ cdn-data:
     static.gap.csemleng.net:
       provider: keycdn
       zone: z2
-    static.shopsmarter.ixlat.net:
-      provider: keycdn
-      zone: z3
     static.ixsfr.com:
       provider: keycdn
       zone: z3
