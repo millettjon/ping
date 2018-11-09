@@ -472,9 +472,6 @@ cdn-data:
     static.e.csmail1.com:
       provider: keycdn
       zone: z3
-    static.penguinrandomhouse.cseml.com:
-      provider: keycdn
-      zone: z3
     static.eml.csewd.com:
       provider: keycdn
       zone: z1
