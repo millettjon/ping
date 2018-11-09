@@ -102,9 +102,6 @@ cdn-data:
     static.e.palmbeachjewelrydeals.com:
       provider: keycdn
       zone: z2
-    static.skinceuticals.ewaymail30.com:
-      provider: keycdn
-      zone: z2
     static.eml.rockstarloans.com:
       provider: keycdn
       zone: z3
