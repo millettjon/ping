@@ -133,9 +133,6 @@ cdn-data:
     static.e.lllbd.net:
       provider: keycdn
       zone: z2
-    static.skinceuticals.csengage1.com:
-      provider: keycdn
-      zone: z2
     static.eml.arrwcnt2.com:
       provider: keycdn
       zone: z2
