@@ -148,9 +148,6 @@ cdn-data:
     static.eml.csesp2.com:
       provider: keycdn
       zone: z2
-    static.shutterstock.securedmi.com:
-      provider: keycdn
-      zone: z2
     static.ixsto.net:
       provider: keycdn
       zone: z2
