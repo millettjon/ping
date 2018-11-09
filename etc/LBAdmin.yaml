@@ -174,7 +174,6 @@ profiles:
         link.email1.jobsonline.com: [http]
         link.eml.optonfinance.com: [http]
         link.email.horizonfastcapital.com: [http, https]
-        link.cledepeaubeaute.csengage2.net: [http]
         link.cledepeaubeaute.csengage2.com: [http]
         link.eml.pickjobsnow.com: [http]
         link.helpwithpain.co: [http]
@@ -182,7 +181,6 @@ profiles:
         link.csacq.net: [http]
         link.e.horizonfastcapital.com: [http, https]
         link.retailmenot.ixsff.com: [http, https]
-        link.shopsmarter.ixlat.net: [http, https]
         link.eml.arrwcnt2.com: [http, https]
         link.eml.arrwcnt1.com: [http, https]
         link.eml.jusbyjulie.com: [http, https]
@@ -193,7 +191,6 @@ profiles:
         link.emailping.onlinedialog.com:
           protocols: [http, https]
           backend: emailping
-        link.owletcare.csax1.com: [http, https]
         link.e.arrwcnt2.com: [http, https]
         link.e.arrwcnt1.com: [http, https]
         link.e.rockstarloans.com: [http, https]
