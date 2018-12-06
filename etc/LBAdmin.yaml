@@ -56,7 +56,6 @@ profiles:
         link.us.rado.com: [http]
         link.e.lifetimesterling.com: [http, https]
         link.us.omegawatches.com: [http]
-        link.e.housewaresdeals.com: [http, https]
         link.e.us.tissotshop.com: [http, https]
         link.e.jusbyjulie.com: [http, https]
         link-remkt.ixs1.net: [http]
@@ -224,7 +223,6 @@ profiles:
         link.sellup.calibr1.com: [http]
         link.capuchin.csewd.com: [http]
         link.athleta.csax1.com: [http, https]
-        link.countryliving.ixstp.net: [http, https]
         link.em.thecutekid.com: [http, https]
         link.em.canvaspeople.com: [http, https]
         link.eml.ewaymail60.com: [http]
@@ -240,9 +238,7 @@ profiles:
         link.eml.csacq1.com: [http, https]
         link.ewaymail40.com: [http]
         link.message.clearstonelending.com: [http]
-        link.goodhousekeeping.ixstp.net: [http]
         link.housebeautiful.ixstp.net: [http]
-        link.hdm.ixstp.net: [http, https]
         link.email.canvaspeople.co.uk: [http, https]
         link.mobilehelp.csem1.com: [http, https]
         link.mobilehelp.csem2.com: [http]
@@ -262,6 +258,7 @@ profiles:
         link.portal.csax1.com: [http, https]
         link.oaksidefinancial.com: [http, https]
         link.winc.csem2.com: [http, https]
+        link.postmarkdstudio.cse3.net: [http, https]
     backends:
       link:
         servers:
@@ -290,10 +287,11 @@ profiles:
     virtual_router_id: 3
   lb3:
     frontends:
-      link: {}
+      sftp:
+        sftp-test.ixs1.net: 
     backends:
-      link:
-        servers: [link1, link2, link3, link4]
-      emailping:
-        servers: [link7, link8]
+      sftp:
+        servers:
+          sftp-dev1:
+            weight: 100
     virtual_router_id: 4
