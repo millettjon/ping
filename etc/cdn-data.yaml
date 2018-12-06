@@ -181,9 +181,6 @@ cdn-data:
     static.bhmail.creditloan.com:
       provider: keycdn
       zone: z2
-    static.countryliving.ixstp.net:
-      provider: keycdn
-      zone: z2
     static.bananarepublic.csax1.com:
       provider: keycdn
       zone: z2
@@ -227,6 +224,7 @@ cdn-data:
     static.em.thecutekid.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.alvinailey.secureixs.com:
       provider: keycdn
       zone: z3
@@ -263,6 +261,7 @@ cdn-data:
     static.eml.thecutekid.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.customer.avon.com:
       provider: keycdn
       zone: z3
@@ -288,6 +287,7 @@ cdn-data:
     static.em.canvaspeople.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.e.procompression.com:
       provider: keycdn
       zone: z4
@@ -313,6 +313,7 @@ cdn-data:
     static.eml.canvaspeople.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.eml.jusbyjulie.com:
       provider: keycdn
       zone: z3
@@ -481,21 +482,6 @@ cdn-data:
     static.message.clearstonelending.com:
       provider: keycdn
       zone: z4
-    static.hdm.ixstp.net:
-      provider: keycdn
-      zone: z4
-    static.goodhousekeeping.ixstp.net:
-      provider: keycdn
-      zone: z2
-    static.housebeautiful.ixstp.net:
-      provider: keycdn
-      zone: z1
-    static.prevention.ixstp.net:
-      provider: keycdn
-      zone: z1
-    static.menshealth.ixstp.net:
-      provider: keycdn
-      zone: z4
     static.email.canvaspeople.co.uk:
       provider: keycdn
       zone: z2
@@ -505,21 +491,6 @@ cdn-data:
     static.eml.acqixs.net:
       provider: keycdn
       zone: z2
-    static.countryliving.cseml.com:
-      provider: keycdn
-      zone: z2
-    static.goodhousekeeping.cseml.com:
-      provider: keycdn
-      zone: z1
-    static.housebeautiful.cseml.com:
-      provider: keycdn
-      zone: z1
-    static.prevention.cseml.com:
-      provider: keycdn
-      zone: z1
-    static.menshealth.cseml.com:
-      provider: keycdn
-      zone: z1
     static.link2financenow.com:
       provider: keycdn
       zone: z1
@@ -562,6 +533,9 @@ cdn-data:
     static.winc.csem2.com:
       provider: keycdn
       zone: z3
+    static.postmarkdstudio.cse3.net:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     keycdn:
