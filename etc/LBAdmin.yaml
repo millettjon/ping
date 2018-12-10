@@ -94,7 +94,6 @@ profiles:
         link.eway10.com: [http]
         link.avonecards.com: [http]
         link.llifi.net: [http, https]
-        link.e.fredandfriends.com: [http]
         link.lancome.calibrmsg.net: [http, https]
         link.e.mikasa.com: [http, https]
         link.emart10.com: [http, https]
