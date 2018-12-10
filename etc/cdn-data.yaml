@@ -234,12 +234,6 @@ cdn-data:
     static.proactiv.csesp1.com:
       provider: keycdn
       zone: z3
-    static.e.housewaresdeals.com:
-      provider: keycdn
-      zone: z4
-    static.e.builtny.com:
-      provider: keycdn
-      zone: z4
     static.e.us.tissotshop.com:
       provider: keycdn
       zone: z4
@@ -301,9 +295,6 @@ cdn-data:
     static.eml.us.tissotshop.com:
       provider: keycdn
       zone: z4
-    static.e.pfaltzgraff.com:
-      provider: keycdn
-      zone: z3
     static.ixs1.net:
       provider: keycdn
       zone: z3
