@@ -172,9 +172,6 @@ cdn-data:
     static.e.calibrdirect.com:
       provider: keycdn
       zone: z2
-    static.e.fredandfriends.com:
-      provider: keycdn
-      zone: z4
     static.proactiv.csewd.net:
       provider: keycdn
       zone: z2
