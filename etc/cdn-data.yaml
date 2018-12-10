@@ -43,9 +43,6 @@ cdn-data:
     static.eml.ewcsacq.net:
       provider: keycdn
       zone: z1
-    static.baxterofcalifornia.calibrmsg.com:
-      provider: keycdn
-      zone: z1
     static.eml.ixsfm.net:
       provider: keycdn
       zone: z1
@@ -516,9 +513,6 @@ cdn-data:
       provider: keycdn
       zone: z5
     static.oaksidefinancial.com:
-      provider: keycdn
-      zone: z3
-    static.winc.csem2.com:
       provider: keycdn
       zone: z3
     static.postmarkdstudio.cse3.net:
