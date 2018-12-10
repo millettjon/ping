@@ -127,7 +127,6 @@ profiles:
         link.xout.securedmi.com: [http]
         link.shopsmarter.ixs1.net: [http]
         link.gerber.calibrplatform.com: [http]
-        link.baxterofcalifornia.calibrmsg.com: [http]
         link.lancomeca.calibr3.com: [http, https]
         link.ixs2.net: [http]
         link.e.avon.ro: [http]
@@ -254,7 +253,6 @@ profiles:
         link.ixap1.com: [http, https]
         link.portal.csax1.com: [http, https]
         link.oaksidefinancial.com: [http, https]
-        link.winc.csem2.com: [http, https]
         link.postmarkdstudio.cse3.net: [http, https]
     backends:
       link:
