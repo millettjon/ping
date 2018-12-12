@@ -518,6 +518,9 @@ cdn-data:
     static.postmarkdstudio.cse3.net:
       provider: keycdn
       zone: z4
+    static.quickloangurus.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     keycdn:
