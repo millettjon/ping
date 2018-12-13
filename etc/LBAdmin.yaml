@@ -255,6 +255,7 @@ profiles:
         link.oaksidefinancial.com: [http, https]
         link.postmarkdstudio.cse3.net: [http, https]
         link.quickloangurus.com: [http]
+        link.gerber.ewcsacq.com: [http]
     backends:
       link:
         servers:
