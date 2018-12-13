@@ -521,6 +521,9 @@ cdn-data:
     static.quickloangurus.com:
       provider: keycdn
       zone: z4
+    static.gerber.ewcsacq.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     keycdn:
