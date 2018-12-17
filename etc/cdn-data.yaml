@@ -524,6 +524,12 @@ cdn-data:
     static.gerber.ewcsacq.com:
       provider: keycdn
       zone: z4
+    static.fastflexifund.com:
+      provider: keycdn
+      zone: z4
+    static.getmaydayloan.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     keycdn:
