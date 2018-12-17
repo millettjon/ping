@@ -256,8 +256,8 @@ profiles:
         link.postmarkdstudio.cse3.net: [http, https]
         link.quickloangurus.com: [http, https]
         link.gerber.ewcsacq.com: [http, https]
-        link.fastflexifund.com: [http]
-        link.getmaydayloan.com: [http]
+        link.fastflexifund.com: [http, https]
+        link.getmaydayloan.com: [http, https]
     backends:
       link:
         servers:
