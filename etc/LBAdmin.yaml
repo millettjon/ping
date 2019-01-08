@@ -155,7 +155,6 @@ profiles:
         link.eml.acqixs.com: [http]
         link.eml.csax1.net: [http]
         link.proactiv.csesp1.com: [http, https]
-        link.fs.calibremail.com: [http, https]
         link.eml.ewaymail90.com: [http]
         link.email.palmbeachjewelrydeals.com: [http]
         link.bhmail.creditloan.com: [http]
@@ -258,6 +257,7 @@ profiles:
         link.gerber.ewcsacq.com: [http, https]
         link.fastflexifund.com: [http, https]
         link.getmaydayloan.com: [http, https]
+        link.southernscholar.cse3.net: [http]
     backends:
       link:
         servers:
