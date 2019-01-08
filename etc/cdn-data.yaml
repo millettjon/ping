@@ -530,6 +530,9 @@ cdn-data:
     static.getmaydayloan.com:
       provider: keycdn
       zone: z4
+    static.southernscholar.csemleng.net:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     keycdn:
