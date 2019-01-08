@@ -257,7 +257,7 @@ profiles:
         link.gerber.ewcsacq.com: [http, https]
         link.fastflexifund.com: [http, https]
         link.getmaydayloan.com: [http, https]
-        link.southernscholar.cse3.net: [http]
+        link.southernscholar.cse3.net: [http, https]
     backends:
       link:
         servers:
