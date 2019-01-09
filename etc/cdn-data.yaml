@@ -533,6 +533,9 @@ cdn-data:
     static.southernscholar.cse3.net:
       provider: keycdn
       zone: z4
+    static.representativemessages.avon.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     keycdn:
