@@ -536,6 +536,9 @@ cdn-data:
     static.representativemessages.avon.com:
       provider: keycdn
       zone: z4
+    static.lendingpros.co:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
