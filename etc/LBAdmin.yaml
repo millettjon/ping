@@ -258,6 +258,7 @@ profiles:
         link.fastflexifund.com: [http, https]
         link.getmaydayloan.com: [http, https]
         link.southernscholar.cse3.net: [http, https]
+        link.lendingpros.co: [http]
     backends:
       link:
         servers:
