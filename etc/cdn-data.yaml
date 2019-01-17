@@ -545,6 +545,9 @@ cdn-data:
     static.postmarkdstudio.csemeng.com:
       provider: keycdn
       zone: z3
+    static.southernscholar.csemeng.com:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
