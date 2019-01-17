@@ -539,6 +539,9 @@ cdn-data:
     static.lendingpros.co:
       provider: keycdn
       zone: z3
+    static.creationcrate.csemeng.com:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
