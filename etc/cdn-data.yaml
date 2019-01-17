@@ -542,6 +542,9 @@ cdn-data:
     static.creationcrate.csemeng.com:
       provider: keycdn
       zone: z3
+    static.postmarkdstudio.csemeng.com:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
