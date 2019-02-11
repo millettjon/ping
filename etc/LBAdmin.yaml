@@ -265,6 +265,7 @@ profiles:
         link.postmarkdstudio.csemeng.com: [http, https]
         link.southernscholar.csemeng.com: [http, https]
         link.neat-nutrition.ixap1.com: [http, https]
+        link.revelwineclub.ixlmb.com: [http]
     backends:
       link:
         servers:
