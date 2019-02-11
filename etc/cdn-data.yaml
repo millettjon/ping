@@ -557,6 +557,9 @@ cdn-data:
     static.revelwine.ixlmb.com:
       provider: keycdn
       zone: z3
+    static.eml.ixstp.net:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     keycdn:
