@@ -267,6 +267,7 @@ profiles:
         link.neat-nutrition.ixap1.com: [http, https]
         link.revelwineclub.ixlmb.com: [http, https]
         link.revelwine.ixlmb.com: [http, https]
+        link.eml.ixstp.net: [http, https]
     backends:
       link:
         servers:
