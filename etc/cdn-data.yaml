@@ -551,6 +551,12 @@ cdn-data:
     static.neat-nutrition.ixap1.com:
       provider: keycdn
       zone: z3
+    static.revelwineclub.ixlmb.com:
+      provider: keycdn
+      zone: z3
+    static.revelwine.ixlmb.com:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
