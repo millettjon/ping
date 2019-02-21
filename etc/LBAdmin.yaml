@@ -229,7 +229,6 @@ profiles:
         link.e.ewaymail50.com: [http]
         link.e.ixemf.com: [http]
         link.savethechildren.csengage2.net: [http, https]
-        link.lenditudemail.com: [http]
         link.e.csmail1.com: [http]
         link.eml.csewd.com: [http]
         link.eml.csacq1.com: [http, https]
