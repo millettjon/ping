@@ -27,9 +27,6 @@ cdn-data:
     static.susan-lilly.ixs1.net:
       provider: keycdn
       zone: z1
-    static.lenditudemail.com:
-      provider: keycdn
-      zone: z1
     static.heart-test.avon.com:
       provider: keycdn
       zone: z1
