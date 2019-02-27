@@ -557,6 +557,9 @@ cdn-data:
     static.eml.ixstp.net:
       provider: keycdn
       zone: z2
+    static.harrisonblakeapparel.csem2.com:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     keycdn:
