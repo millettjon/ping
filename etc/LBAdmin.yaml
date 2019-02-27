@@ -267,6 +267,7 @@ profiles:
         link.revelwineclub.ixlmb.com: [http, https]
         link.revelwine.ixlmb.com: [http, https]
         link.eml.ixstp.net: [http, https]
+        link.harrisonblakeapparel.csem2.com: [http, https]
     backends:
       link:
         servers:
