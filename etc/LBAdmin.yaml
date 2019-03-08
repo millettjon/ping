@@ -216,7 +216,7 @@ profiles:
         link.eml.thecutekid.com: [http, https]
         link.email.ewaymail10.com: [http, https]
         link.eml.alvinailey.org: [http, https]
-        link.sellup.calibr1.com: [http]
+        link.sellup.calibr1.com: [http, https]
         link.capuchin.csewd.com: [http]
         link.athleta.csax1.com: [http, https]
         link.em.thecutekid.com: [http, https]
@@ -267,6 +267,7 @@ profiles:
         link.revelwine.ixlmb.com: [http, https]
         link.eml.ixstp.net: [http, https]
         link.harrisonblakeapparel.csem2.com: [http, https]
+        link.baxterofcalifornia.calibrmsg.com: [http, https]
     backends:
       link:
         servers:
