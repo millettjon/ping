@@ -235,7 +235,7 @@ profiles:
         link.housebeautiful.ixstp.net: [http]
         link.email.canvaspeople.co.uk: [http, https]
         link.mobilehelp.csem1.com: [http, https]
-        link.mobilehelp.csem2.com: [http]
+        link.mobilehelp.csem2.com: [http, https]
         link.eml.acqixs.net: [http]
         link.link2financenow.com: [http]
         link.newegg.csem2.com: [http, https]
