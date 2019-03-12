@@ -560,6 +560,9 @@ cdn-data:
     static.harrisonblakeapparel.csem2.com:
       provider: keycdn
       zone: z2
+    static.mobilehelp.csem2.com:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     keycdn:
