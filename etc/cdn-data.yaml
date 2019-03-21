@@ -299,9 +299,6 @@ cdn-data:
     static.eml.jusbyjulie.com:
       provider: keycdn
       zone: z3
-    static.e.swimsuitsforall.com:
-      provider: keycdn
-      zone: z4
     static.e.emtdirect.com:
       provider: keycdn
       zone: z3
