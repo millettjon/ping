@@ -560,6 +560,9 @@ cdn-data:
     static.mobilehelp.csem2.com:
       provider: keycdn
       zone: z2
+    static.clicknlend.co:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     keycdn:
