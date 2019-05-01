@@ -271,6 +271,7 @@ profiles:
         link.harrisonblakeapparel.csem2.com: [http, https]
         link.baxterofcalifornia.calibrmsg.com: [http, https]
         link.clicknlend.co: [http, https]
+        link.yslbeauty.calibr3.com: [http]
     backends:
       link:
         servers:
