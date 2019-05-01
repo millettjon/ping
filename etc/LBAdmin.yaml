@@ -160,7 +160,6 @@ profiles:
         link.eml.acqixs.com: [http]
         link.eml.csax1.net: [http]
         link.proactiv.csesp1.com: [http, https]
-        link.eml.ewaymail90.com: [http]
         link.email.palmbeachjewelrydeals.com: [http]
         link.bhmail.creditloan.com: [http]
         link.eml.csesp2.com: [http, https]
@@ -271,7 +270,7 @@ profiles:
         link.harrisonblakeapparel.csem2.com: [http, https]
         link.baxterofcalifornia.calibrmsg.com: [http, https]
         link.clicknlend.co: [http, https]
-        link.yslbeauty.calibr3.com: [http]
+        link.yslbeauty.calibr3.com: [http, https]
     backends:
       link:
         servers:
