@@ -160,9 +160,6 @@ cdn-data:
     static.customer-consent.avon.com:
       provider: keycdn
       zone: z2
-    static.fs.calibremail.com:
-      provider: keycdn
-      zone: z2
     static.e.calibrdirect.com:
       provider: keycdn
       zone: z2
@@ -350,9 +347,6 @@ cdn-data:
       provider: keycdn
       zone: z1
     static.gerber.calibrplatform.com:
-      provider: keycdn
-      zone: z2
-    static.palmbeachjewelry.ecsaq.net:
       provider: keycdn
       zone: z2
     static.enb.ixgak.net:
