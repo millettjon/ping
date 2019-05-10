@@ -270,8 +270,8 @@ profiles:
         link.baxterofcalifornia.calibrmsg.com: [http, https]
         link.clicknlend.co: [http, https]
         link.yslbeauty.calibr3.com: [http, https]
-        link.eml.jus-beauty.com: [http]
         link.e.jus-beauty.com: [http]
+        link.eml.jus-beauty.com: [http]
     backends:
       link:
         servers:
