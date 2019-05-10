@@ -560,6 +560,9 @@ cdn-data:
     static.yslbeauty.calibr3.com:
       provider: keycdn
       zone: z2
+    static.eml.jus-beauty.com:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     keycdn:
