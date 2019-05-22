@@ -8,8 +8,6 @@ profiles:
         soap-staging.ixs1.net: 
       soap:
         soap.ixs1.net: 
-      member3:
-        member3-lb.ixs1.net: 
       ecards:
         smtp.avonecards.com: 
       sftp:
@@ -27,8 +25,6 @@ profiles:
             weight: 100
       soap-test:
         servers: [api-dev1]
-      member3:
-        servers: [member3]
       ecards:
         servers: [ecards1, ecards2]
       sftp:
