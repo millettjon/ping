@@ -566,6 +566,12 @@ cdn-data:
     static.e.jus-beauty.com:
       provider: keycdn
       zone: z2
+    static.shellyandrenee.ewaymail30.com:
+      provider: keycdn
+      zone: z2
+    static.exceednetwork.csewd.net:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     keycdn:
