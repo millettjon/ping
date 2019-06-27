@@ -280,9 +280,6 @@ cdn-data:
     static.fastline-email.com:
       provider: keycdn
       zone: z3
-    static.eml.us.tissotshop.com:
-      provider: keycdn
-      zone: z4
     static.ixs1.net:
       provider: keycdn
       zone: z3
