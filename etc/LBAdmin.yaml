@@ -269,7 +269,7 @@ profiles:
         link.eml.jus-beauty.com: [http, https]
         link.shellyandrenee.ewaymail30.com: [http, https]
         link.exceednetwork.csewd.net: [http, https]
-        link.kiehls.calibr3.com: [http]
+        link.kiehls.calibr3.com: [http, https]
     backends:
       link:
         servers:
