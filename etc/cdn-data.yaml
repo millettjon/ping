@@ -569,6 +569,9 @@ cdn-data:
     static.exceednetwork.csewd.net:
       provider: keycdn
       zone: z2
+    static.kiehls.calibr3.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     keycdn:
