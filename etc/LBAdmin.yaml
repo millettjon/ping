@@ -270,7 +270,7 @@ profiles:
         link.shellyandrenee.ewaymail30.com: [http, https]
         link.exceednetwork.csewd.net: [http, https]
         link.kiehls.calibr3.com: [http, https]
-        link.csesp2.net: [http]
+        link.csesp2.net: [http, https]
     backends:
       link:
         servers:
