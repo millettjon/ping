@@ -273,6 +273,7 @@ profiles:
         link.kiehls.calibr3.com: [http, https]
         link.csesp2.net: [http, https]
         link.calibr2.com: [http, https]
+        link.e.paddlepalace.com: [http, https]
     backends:
       link:
         servers:
