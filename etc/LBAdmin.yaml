@@ -53,6 +53,9 @@ profiles:
           extra_backends:
             link-dev.ixs1.net: link-dev
           backend: link-qa
+        link-dev2.ixs1.net:
+          protocols: [http, https]
+          backend: link-dev2
         link.fastline-email.com: [http]
         link-test.ixs1.net: [http, https]
         link.us.rado.com: [http]
@@ -286,6 +289,8 @@ profiles:
         servers: [link-qa]
       link-dev:
         servers: [link-dev1]
+      link-dev2:
+        servers: [link-dev2]
     virtual_router_id: 2
   lb-dev1:
     frontends:
