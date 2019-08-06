@@ -575,6 +575,9 @@ cdn-data:
     static.csesp2.net:
       provider: keycdn
       zone: z2
+    static.calibr2.com:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     keycdn:
