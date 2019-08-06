@@ -578,6 +578,9 @@ cdn-data:
     static.calibr2.com:
       provider: keycdn
       zone: z2
+    static.e.paddlepalace.com:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     keycdn:
