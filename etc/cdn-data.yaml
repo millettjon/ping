@@ -263,9 +263,6 @@ cdn-data:
     static.e.edollarsinadash.com:
       provider: keycdn
       zone: z3
-    static.e.bellacoastaldecor.net:
-      provider: keycdn
-      zone: z3
     static.em.canvaspeople.com:
       provider: keycdn
       zone: z3
