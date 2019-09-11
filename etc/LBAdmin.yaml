@@ -58,7 +58,7 @@ profiles:
           backend: link-dev2
         link.fastline-email.com: [http]
         link-test.ixs1.net: [http, https]
-        link.us.rado.com: [http]
+        link.us.rado.com: [http, https]
         link.us.omegawatches.com: [http]
         link.e.us.tissotshop.com: [http, https]
         link.e.jusbyjulie.com: [http, https]
