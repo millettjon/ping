@@ -581,6 +581,9 @@ cdn-data:
     static.mail.fujiloans.com:
       provider: keycdn
       zone: z2
+    static.eml.ixs1.net:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
