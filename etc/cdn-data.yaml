@@ -578,6 +578,9 @@ cdn-data:
     static.e.paddlepalace.com:
       provider: keycdn
       zone: z2
+    static.mail.fujiloans.com:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     keycdn:
