@@ -274,6 +274,7 @@ profiles:
         link.calibr2.com: [http, https]
         link.e.paddlepalace.com: [http, https]
         link.mail.fujiloans.com: [http, https]
+        link.eml.ixs1.net: [http, https]
     backends:
       link:
         servers:
