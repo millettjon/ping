@@ -584,6 +584,9 @@ cdn-data:
     static.eml.ixs1.net:
       provider: keycdn
       zone: z3
+    static.ewcsacq.net:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     keycdn:
