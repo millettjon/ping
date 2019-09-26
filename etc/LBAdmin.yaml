@@ -275,6 +275,7 @@ profiles:
         link.e.paddlepalace.com: [http, https]
         link.mail.fujiloans.com: [http, https]
         link.eml.ixs1.net: [http, https]
+        link.ewcsacq.net: [http]
     backends:
       link:
         servers:
