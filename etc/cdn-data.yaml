@@ -587,6 +587,9 @@ cdn-data:
     static.ewcsacq.net:
       provider: keycdn
       zone: z1
+    static.nabor.avon.ru:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     keycdn:
