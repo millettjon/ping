@@ -261,7 +261,6 @@ profiles:
         link.revelwineclub.ixlmb.com: [http, https]
         link.revelwine.ixlmb.com: [http, https]
         link.eml.ixstp.net: [http, https]
-        link.harrisonblakeapparel.csem2.com: [http, https]
         link.baxterofcalifornia.calibrmsg.com: [http, https]
         link.clicknlend.co: [http, https]
         link.yslbeauty.calibr3.com: [http, https]
@@ -276,6 +275,7 @@ profiles:
         link.mail.fujiloans.com: [http, https]
         link.eml.ixs1.net: [http, https]
         link.ewcsacq.net: [http, https]
+        link.nabor.avon.ru: [http]
     backends:
       link:
         servers:
