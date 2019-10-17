@@ -590,6 +590,9 @@ cdn-data:
     static.nabor.avon.ru:
       provider: keycdn
       zone: z1
+    static.sas.calibrmsg.com:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     keycdn:
