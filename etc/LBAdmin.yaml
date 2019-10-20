@@ -299,7 +299,9 @@ profiles:
         link-dev2.ixs1.net: [http, https]
     backends:
       link:
-        servers: [link-dev2]
+        servers:
+          link-dev2:
+            weight: 100
       mx:
         snat: mx3.ixs1.net
         servers: [mx3]
