@@ -299,7 +299,7 @@ profiles:
         link-dev2.ixs1.net: [http]
     backends:
       link:
-        servers: [link-dev1]
+        servers: [link-dev2]
       mx:
         snat: mx3.ixs1.net
         servers: [mx3]
