@@ -296,7 +296,7 @@ profiles:
   lb-dev1:
     frontends:
       link:
-        link-dev2.ixs1.net: [http]
+        link-dev2.ixs1.net: [http, https]
     backends:
       link:
         servers: [link-dev2]
