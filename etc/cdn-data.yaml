@@ -593,6 +593,9 @@ cdn-data:
     static.sas.calibrmsg.com:
       provider: keycdn
       zone: z1
+    static.savethechildren.cse3.net:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     keycdn:
