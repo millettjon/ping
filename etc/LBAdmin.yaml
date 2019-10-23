@@ -273,7 +273,7 @@ profiles:
         link.eml.ixs1.net: [http, https]
         link.ewcsacq.net: [http, https]
         link.nabor.avon.ru: [http]
-        link.savethechildren.cse3.net: [http]
+        link.savethechildren.cse3.net: [http, https]
     backends:
       link:
         servers:
