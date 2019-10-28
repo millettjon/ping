@@ -274,6 +274,7 @@ profiles:
         link.ewcsacq.net: [http, https]
         link.nabor.avon.ru: [http]
         link.savethechildren.cse3.net: [http, https]
+        link.skinceuticals.calibr3.com: [http, https]
     backends:
       link:
         servers:
