@@ -275,6 +275,7 @@ profiles:
         link.nabor.avon.ru: [http]
         link.savethechildren.cse3.net: [http, https]
         link.skinceuticals.calibr3.com: [http, https]
+        link1.ixs1.net: [http, https]
     backends:
       link:
         servers:
