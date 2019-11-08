@@ -602,6 +602,9 @@ cdn-data:
     static.proactiv.csemeng.com:
       provider: keycdn
       zone: z1
+    static.portal.calibrmsg.com:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     keycdn:
