@@ -281,7 +281,7 @@ profiles:
         link.proactiv.csemeng.com: [http, https]
         link.portal.calibrmsg.com: [http, https]
         link.oculus.calibrmsg.com: [http, https]
-        link.savethechildren.csacq1.net: [http]
+        link.savethechildren.csacq1.net: [http, https]
     backends:
       link:
         servers:
