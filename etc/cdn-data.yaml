@@ -605,6 +605,9 @@ cdn-data:
     static.portal.calibrmsg.com:
       provider: keycdn
       zone: z1
+    static.oculus.calibrmsg.com:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     keycdn:
