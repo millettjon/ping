@@ -608,6 +608,9 @@ cdn-data:
     static.oculus.calibrmsg.com:
       provider: keycdn
       zone: z1
+    static.savethechildren.csacq1.net:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     keycdn:
