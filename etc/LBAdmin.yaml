@@ -280,6 +280,8 @@ profiles:
           backend: link1
         link.proactiv.csemeng.com: [http, https]
         link.portal.calibrmsg.com: [http, https]
+        link.oculus.calibrmsg.com: [http]
+        link.savethechildren.csacq1.net: [http]
     backends:
       link:
         servers:
