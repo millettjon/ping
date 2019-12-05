@@ -93,7 +93,7 @@ profiles:
         link.ewaymail.com: [http, https]
         link.e.lexmod.com: [http]
         link.eway10.com: [http]
-        link.avonecards.com: [http]
+        link.avonecards.com: [http, https]
         link.llifi.net: [http, https]
         link.lancome.calibrmsg.net: [http, https]
         link.emart10.com: [http, https]
