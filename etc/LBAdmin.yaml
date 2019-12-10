@@ -141,7 +141,6 @@ profiles:
         link.eml.bbacq.net: [http, https]
         link.eml.consumerfbox.com: [http]
         link.consumerfbox.com: [http, https]
-        link.enb.ixgak.net: [http]
         link.eml.ixsdw.net: [http]
         link.eml.ixsfm.net: [http]
         link.eml.csengage1.net: [http]
