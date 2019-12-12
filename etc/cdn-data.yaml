@@ -467,6 +467,7 @@ cdn-data:
     static.email.certainsource.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.ewem1.com:
       provider: keycdn
       zone: z4
