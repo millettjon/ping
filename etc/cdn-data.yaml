@@ -127,6 +127,7 @@ cdn-data:
     static.email.ewaydirect.com:
       provider: keycdn
       zone: z2
+      ssl: true
     static.eml.creditvan.com:
       provider: keycdn
       zone: z2
