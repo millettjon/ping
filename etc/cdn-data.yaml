@@ -616,6 +616,12 @@ cdn-data:
     static.amora.ixscs.net:
       provider: keycdn
       zone: z1
+    static.amora.csemeng.com:
+      provider: keycdn
+      zone: z1
+    static.amora.csengage1.net:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     keycdn:
