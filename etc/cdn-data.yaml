@@ -613,6 +613,9 @@ cdn-data:
     static.savethechildren.csacq1.net:
       provider: keycdn
       zone: z1
+    static.amora.ixscs.net:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     keycdn:
