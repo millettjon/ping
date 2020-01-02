@@ -280,6 +280,9 @@ profiles:
         link.portal.calibrmsg.com: [http, https]
         link.oculus.calibrmsg.com: [http, https]
         link.savethechildren.csacq1.net: [http, https]
+        link.amora.csengage1.net: [http]
+        link.amora.csemeng.com: [http]
+        link.amora.ixscs.net: [http]
     backends:
       link:
         servers:
