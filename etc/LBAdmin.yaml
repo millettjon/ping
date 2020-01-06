@@ -283,6 +283,7 @@ profiles:
         link.amora.csengage1.net: [http, https]
         link.amora.csemeng.com: [http, https]
         link.amora.ixscs.net: [http]
+        link.csemeng.net: [http]
     backends:
       link:
         servers:
