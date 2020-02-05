@@ -40,7 +40,7 @@ profiles:
           sftp2:
             weight: 50
       sftp-custom:
-        servers: [sftp2]
+        servers: [sftp1, sftp2]
       ftp-custom:
         servers: [sftp2]
     virtual_router_id: 1
