@@ -74,9 +74,6 @@ cdn-data:
     static.e.arrwcnt2.com:
       provider: keycdn
       zone: z1
-    static.eml.ixemf.net:
-      provider: keycdn
-      zone: z1
     static.pbj.ixs1.net:
       provider: keycdn
       zone: z1
