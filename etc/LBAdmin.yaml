@@ -167,7 +167,6 @@ profiles:
         link.choicelending.ixlmb.net: [http, https]
         link.eml.creditvan.com: [http, https]
         link.eml.rockstarloans.com: [http, https]
-        link.eml.ixemf.net: [http]
         link.emailping.onlinedialog.com:
           protocols: [http, https]
           backend: emailping
