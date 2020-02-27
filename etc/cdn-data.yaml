@@ -92,6 +92,7 @@ cdn-data:
     static.eml.rockstarloans.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.csacq.net:
       provider: keycdn
       zone: z3
