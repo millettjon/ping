@@ -438,6 +438,7 @@ cdn-data:
     static.email.canvaspeople.co.uk:
       provider: keycdn
       zone: z2
+      ssl: true
     static.mobilehelp.csem1.com:
       provider: keycdn
       zone: z2
