@@ -71,6 +71,7 @@ cdn-data:
     static.avonecards.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.e.arrwcnt2.com:
       provider: keycdn
       zone: z1
@@ -158,6 +159,7 @@ cdn-data:
     static.customer-consent.avon.com:
       provider: keycdn
       zone: z2
+      ssl: true
     static.e.calibrdirect.com:
       provider: keycdn
       zone: z2
@@ -165,9 +167,6 @@ cdn-data:
       provider: keycdn
       zone: z2
     static.bhmail.creditloan.com:
-      provider: keycdn
-      zone: z2
-    static.bananarepublic.csax1.com:
       provider: keycdn
       zone: z2
     static.email.procompression.com:
@@ -190,9 +189,6 @@ cdn-data:
       provider: keycdn
       zone: z3
     static.ebrochures.avon.com:
-      provider: keycdn
-      zone: z3
-    static.athleta.csax1.com:
       provider: keycdn
       zone: z3
     static.eml.optonfinance.com:
@@ -469,9 +465,11 @@ cdn-data:
     static.cseml.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.cse3.net:
       provider: keycdn
       zone: z4
+      ssl: true
     static.e.ewdcse.com:
       provider: keycdn
       zone: z4
@@ -509,9 +507,6 @@ cdn-data:
       provider: keycdn
       zone: z4
     static.lendingpros.co:
-      provider: keycdn
-      zone: z3
-    static.creationcrate.csemeng.com:
       provider: keycdn
       zone: z3
     static.postmarkdstudio.csemeng.com:
@@ -610,6 +605,7 @@ cdn-data:
     static.amora.csengage1.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.csemeng.net:
       provider: keycdn
       zone: z1
