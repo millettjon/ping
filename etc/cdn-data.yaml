@@ -115,6 +115,7 @@ cdn-data:
     static.lancome.calibrmsg.net:
       provider: keycdn
       zone: z2
+      ssl: true
     static.e.lllbd.net:
       provider: keycdn
       zone: z2
@@ -153,6 +154,7 @@ cdn-data:
     static.retailmenot.ixsff.com:
       provider: keycdn
       zone: z2
+      ssl: true
     static.pch.ixsff.net:
       provider: keycdn
       zone: z2
@@ -189,6 +191,7 @@ cdn-data:
     static.ixsfr.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.eway10.com:
       provider: keycdn
       zone: z3
@@ -226,6 +229,7 @@ cdn-data:
     static.e3.ixs1.net:
       provider: keycdn
       zone: z3
+      ssl: true
     static.e.heart.avon.com:
       provider: keycdn
       zone: z3
@@ -249,15 +253,18 @@ cdn-data:
     static.lancome.securedmi.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.email.pchsweeps.com:
       provider: keycdn
       zone: z3
     static.eml.alvinailey.org:
       provider: keycdn
       zone: z3
+      ssl: true
     static.ixsmail.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.em.canvaspeople.com:
       provider: keycdn
       zone: z3
@@ -470,6 +477,7 @@ cdn-data:
     static.info1.ieee.org:
       provider: keycdn
       zone: z4
+      ssl: true
     static.cseml.com:
       provider: keycdn
       zone: z4
@@ -490,6 +498,7 @@ cdn-data:
     static.portal.csax1.com:
       provider: keycdn
       zone: z5
+      ssl: true
     static.oaksidefinancial.com:
       provider: keycdn
       zone: z3
@@ -589,12 +598,14 @@ cdn-data:
     static.savethechildren.cse3.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.skinceuticals.calibr3.com:
       provider: keycdn
       zone: z1
     static.proactiv.csemeng.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.portal.calibrmsg.com:
       provider: keycdn
       zone: z1
