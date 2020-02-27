@@ -269,9 +269,6 @@ cdn-data:
     static.proactiv.csacq.net:
       provider: keycdn
       zone: z3
-    static.fastline-email.com:
-      provider: keycdn
-      zone: z3
     static.ixs1.net:
       provider: keycdn
       zone: z3
@@ -415,9 +412,6 @@ cdn-data:
       provider: keycdn
       zone: z4
     static.e.csdlp.net:
-      provider: keycdn
-      zone: z4
-    static.link2loan.co:
       provider: keycdn
       zone: z4
     static.orders.customer.avon.com:
