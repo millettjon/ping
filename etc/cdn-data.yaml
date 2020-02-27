@@ -24,6 +24,7 @@ cdn-data:
     static.email1.jobsonline.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.susan-lilly.ixs1.net:
       provider: keycdn
       zone: z1
@@ -179,6 +180,7 @@ cdn-data:
     static.eml.bbfcs.net:
       provider: keycdn
       zone: z2
+      ssl: true
     static.gap.csemleng.net:
       provider: keycdn
       zone: z2
@@ -429,6 +431,7 @@ cdn-data:
     static.eml.csewd.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.ewaymail40.com:
       provider: keycdn
       zone: z4
