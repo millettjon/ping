@@ -311,6 +311,7 @@ cdn-data:
     static.e.certainsource.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.sheknows.ixs1.net:
       provider: keycdn
       zone: z1
