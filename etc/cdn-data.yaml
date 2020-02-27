@@ -202,6 +202,7 @@ cdn-data:
     static.eml.optonfinance.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.us.rado.com:
       provider: keycdn
       zone: z4
@@ -479,6 +480,7 @@ cdn-data:
     static.email.maydayloanz.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.info1.ieee.org:
       provider: keycdn
       zone: z4
@@ -614,6 +616,7 @@ cdn-data:
     static.portal.calibrmsg.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.oculus.calibrmsg.com:
       provider: keycdn
       zone: z1
