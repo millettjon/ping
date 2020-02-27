@@ -159,7 +159,7 @@ profiles:
         link.eml.csesp1.net: [http, https]
         link.e.csesp1.net: [http, https]
         link.e.dlpbb.net: [http, https]
-        link.eml.ixdcc.net: [http]
+        link.eml.ixdcc.net: [http, https]
         link.em.ewdcse.net: [http]
         link.eml.ewaymail20.com: [http]
         link.pch.ixsff.net: [http, https]
