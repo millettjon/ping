@@ -385,6 +385,7 @@ cdn-data:
     static.eml.ewaymail20.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.e.ixdnd.com:
       provider: keycdn
       zone: z4
@@ -617,9 +618,11 @@ cdn-data:
     static.oculus.calibrmsg.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.savethechildren.csacq1.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.amora.ixscs.net:
       provider: keycdn
       zone: z1
