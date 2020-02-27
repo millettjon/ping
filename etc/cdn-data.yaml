@@ -146,6 +146,7 @@ cdn-data:
     static.ixsto.net:
       provider: keycdn
       zone: z2
+      ssl: true
     static.snowandgraham.secureixs.com:
       provider: keycdn
       zone: z2
