@@ -362,6 +362,7 @@ cdn-data:
     static.e.dlpbb.net:
       provider: keycdn
       zone: z4
+      ssl: true
     static.eml.ixdcc.net:
       provider: keycdn
       zone: z4
