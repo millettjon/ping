@@ -63,7 +63,7 @@ profiles:
         link.avoncommunity.com: [http]
         link.e.certainsource.com: [http]
         link.e.homegardwarranty.com: [http]
-        link.e.vcpaydayfunds.com: [http]
+        link.e.vcpaydayfunds.com: [http, https]
         link.mikeconaway.ixs1.net: [http]
         link.querorevender.avon.com: [http]
         link.rogerwilliams.ixs1.net: [http]
@@ -257,7 +257,7 @@ profiles:
         link.amora.csemeng.com: [http, https]
         link.amora.ixscs.net: [http]
         link.csemeng.net: [http, https]
-        link.eml.vcpaydayfunds.com: [http]
+        link.eml.vcpaydayfunds.com: [http, https]
     backends:
       link:
         servers:
