@@ -179,9 +179,6 @@ cdn-data:
       provider: keycdn
       zone: z4
       ssl: true
-    static.e.pchgiveaway.com:
-      provider: keycdn
-      zone: z2
     static.eml.bbfcs.net:
       provider: keycdn
       zone: z2
