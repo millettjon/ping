@@ -115,6 +115,7 @@ cdn-data:
     static.lancomeca.calibr3.com:
       provider: keycdn
       zone: z2
+      ssl: true
     static.lancome.calibrmsg.net:
       provider: keycdn
       zone: z2
@@ -143,6 +144,7 @@ cdn-data:
     static.e.creditvan.com:
       provider: keycdn
       zone: z2
+      ssl: true
     static.retailmenot.ixlmb.com:
       provider: keycdn
       zone: z2
@@ -558,6 +560,7 @@ cdn-data:
     static.eml.ixstp.net:
       provider: keycdn
       zone: z2
+      ssl: true
     static.mobilehelp.csem2.com:
       provider: keycdn
       zone: z2
