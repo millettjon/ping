@@ -297,6 +297,7 @@ cdn-data:
     static.eml.jusbyjulie.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.e.emtdirect.com:
       provider: keycdn
       zone: z3
@@ -572,6 +573,7 @@ cdn-data:
     static.e.jus-beauty.com:
       provider: keycdn
       zone: z2
+      ssl: true
     static.shellyandrenee.ewaymail30.com:
       provider: keycdn
       zone: z2
@@ -581,6 +583,7 @@ cdn-data:
     static.kiehls.calibr3.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.csesp2.net:
       provider: keycdn
       zone: z2
@@ -613,6 +616,7 @@ cdn-data:
     static.skinceuticals.calibr3.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.proactiv.csemeng.com:
       provider: keycdn
       zone: z1
