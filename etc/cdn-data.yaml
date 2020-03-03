@@ -512,6 +512,7 @@ cdn-data:
     static.oaksidefinancial.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.postmarkdstudio.cse3.net:
       provider: keycdn
       zone: z4
