@@ -101,6 +101,7 @@ cdn-data:
     static.eml.arrwcnt1.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.eml.calibrmail.com:
       provider: keycdn
       zone: z4
@@ -237,6 +238,7 @@ cdn-data:
     static.e.heart.avon.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.e.jusbyjulie.com:
       provider: keycdn
       zone: z3
@@ -582,6 +584,7 @@ cdn-data:
     static.csesp2.net:
       provider: keycdn
       zone: z2
+      ssl: true
     static.calibr2.com:
       provider: keycdn
       zone: z2
