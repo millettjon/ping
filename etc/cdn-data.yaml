@@ -549,9 +549,6 @@ cdn-data:
     static.southernscholar.csemeng.com:
       provider: keycdn
       zone: z3
-    static.neat-nutrition.ixap1.com:
-      provider: keycdn
-      zone: z3
     static.revelwineclub.ixlmb.com:
       provider: keycdn
       zone: z3
