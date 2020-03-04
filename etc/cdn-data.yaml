@@ -647,6 +647,9 @@ cdn-data:
     static.csemeng.net:
       provider: keycdn
       zone: z1
+    static.foxcarwarranty.ixap1.com:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     keycdn:
