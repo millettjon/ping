@@ -21,6 +21,7 @@ cdn-data:
     static.securedmi.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.email1.jobsonline.com:
       provider: keycdn
       zone: z1
