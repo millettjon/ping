@@ -254,6 +254,7 @@ profiles:
         link.amora.csemeng.com: [http, https]
         link.amora.ixscs.net: [http, https]
         link.csemeng.net: [http, https]
+        link.foxcarwarranty.ixap1.com: [http]
     backends:
       link:
         servers:
