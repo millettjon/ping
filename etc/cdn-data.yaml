@@ -543,6 +543,7 @@ cdn-data:
     static.lendingpros.co:
       provider: keycdn
       zone: z3
+      ssl: true
     static.postmarkdstudio.csemeng.com:
       provider: keycdn
       zone: z3
