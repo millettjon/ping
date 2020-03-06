@@ -650,6 +650,9 @@ cdn-data:
     static.foxcarwarranty.ixap1.com:
       provider: keycdn
       zone: z1
+    static.ixap1.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     keycdn:
