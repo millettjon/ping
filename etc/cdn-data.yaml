@@ -231,6 +231,7 @@ cdn-data:
     static.proactiv.csesp1.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.e.us.tissotshop.com:
       provider: keycdn
       zone: z4
@@ -245,6 +246,7 @@ cdn-data:
     static.e.jusbyjulie.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.mail.shespeaks.com:
       provider: keycdn
       zone: z3
@@ -596,6 +598,7 @@ cdn-data:
     static.e.paddlepalace.com:
       provider: keycdn
       zone: z2
+      ssl: true
     static.mail.fujiloans.com:
       provider: keycdn
       zone: z2
