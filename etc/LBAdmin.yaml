@@ -70,7 +70,7 @@ profiles:
         link.sheknows.ixs1.net: [http]
         link.suggestedorders.avon.com: [http, https]
         link.us.breguet.com: [http]
-        link.sandbox.ixsmail.com: [http]
+        link.sandbox.ixsmail.com: [http, https]
         link.us.tissotshop.com: [http]
         link.sn.calibr2.com: [http]
         link.e.ethis-emails.com: [http]
