@@ -657,6 +657,9 @@ cdn-data:
     static.ixap1.com:
       provider: keycdn
       zone: z4
+    static.e.omegaloans.co:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     keycdn:
