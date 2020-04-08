@@ -255,7 +255,7 @@ profiles:
         link.amora.ixscs.net: [http, https]
         link.csemeng.net: [http, https]
         link.foxcarwarranty.ixap1.com: [http, https]
-        link.e.omegaloans.co: [http]
+        link.e.omegaloans.co: [http, https]
         link.e.greenautoshop.com: [http]
         link.e.foodnewspro.com: [http]
     backends:
