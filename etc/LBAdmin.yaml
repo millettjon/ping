@@ -256,8 +256,8 @@ profiles:
         link.csemeng.net: [http, https]
         link.foxcarwarranty.ixap1.com: [http, https]
         link.e.omegaloans.co: [http, https]
-        link.e.greenautoshop.com: [http]
-        link.e.foodnewspro.com: [http]
+        link.e.greenautoshop.com: [http, https]
+        link.e.foodnewspro.com: [http, https]
     backends:
       link:
         servers:
