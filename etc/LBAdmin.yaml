@@ -171,7 +171,6 @@ profiles:
         link.selectoptions10.com: [http, https]
         link.bananarepublic.csax1.net: [http, https]
         link.gap.csemleng.net: [http, https]
-        link.gapcanada.csemleng.net: [http, https]
         link.e.csdlp.net: [http, https]
         link.e.calibrdirect.com: [http]
         link.eml.canvaspeople.com: [http, https]
@@ -256,6 +255,7 @@ profiles:
         link.e.omegaloans.co: [http, https]
         link.e.greenautoshop.com: [http, https]
         link.e.foodnewspro.com: [http, https]
+        link.foxcarwarranty.csengage1.net: [http, https]
     backends:
       link:
         servers:
