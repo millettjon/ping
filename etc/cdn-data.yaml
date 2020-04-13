@@ -432,9 +432,6 @@ cdn-data:
     static.bananarepublic.csax1.net:
       provider: keycdn
       zone: z4
-    static.gapcanada.csemleng.net:
-      provider: keycdn
-      zone: z4
     static.e.csdlp.net:
       provider: keycdn
       zone: z4
@@ -666,6 +663,9 @@ cdn-data:
     static.e.foodnewspro.com:
       provider: keycdn
       zone: z2
+    static.foxcarwarranty.csengage1.net:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
