@@ -256,6 +256,8 @@ profiles:
         link.e.greenautoshop.com: [http, https]
         link.e.foodnewspro.com: [http, https]
         link.foxcarwarranty.csengage1.net: [http, https]
+        link.e.businesswomenconnection.com: [http]
+        link.e.automobileinsurancefinder.com: [http]
     backends:
       link:
         servers:
