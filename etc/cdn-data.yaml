@@ -669,6 +669,9 @@ cdn-data:
     static.e.businesswomenconnection.com:
       provider: keycdn
       zone: z4
+    static.e.automobileinsurancefinder.com:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
