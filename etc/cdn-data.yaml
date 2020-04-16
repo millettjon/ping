@@ -666,6 +666,9 @@ cdn-data:
     static.foxcarwarranty.csengage1.net:
       provider: keycdn
       zone: z3
+    static.e.businesswomenconnection.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     keycdn:
