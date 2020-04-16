@@ -672,6 +672,12 @@ cdn-data:
     static.e.automobileinsurancefinder.com:
       provider: keycdn
       zone: z3
+    static.eml.foodnewspro.com:
+      provider: keycdn
+      zone: z3
+    static.eml.greenautoshop.com:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
