@@ -260,6 +260,7 @@ profiles:
         link.e.automobileinsurancefinder.com: [http, https]
         link.eml.greenautoshop.com: [http]
         link.eml.foodnewspro.com: [http]
+        link.e.consumerbenefitguide.com: [http]
     backends:
       link:
         servers:
