@@ -678,6 +678,9 @@ cdn-data:
     static.eml.greenautoshop.com:
       provider: keycdn
       zone: z3
+    static.e.consumerbenefitguide.com:
+      provider: keycdn
+      zone: z3
   providers:
     default: keycdn
     keycdn:
