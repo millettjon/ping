@@ -258,9 +258,9 @@ profiles:
         link.foxcarwarranty.csengage1.net: [http, https]
         link.e.businesswomenconnection.com: [http, https]
         link.e.automobileinsurancefinder.com: [http, https]
-        link.eml.greenautoshop.com: [http]
-        link.eml.foodnewspro.com: [http]
-        link.e.consumerbenefitguide.com: [http]
+        link.eml.greenautoshop.com: [http, https]
+        link.eml.foodnewspro.com: [http, https]
+        link.e.consumerbenefitguide.com: [http, https]
     backends:
       link:
         servers:
