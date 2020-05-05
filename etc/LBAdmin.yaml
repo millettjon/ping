@@ -113,7 +113,6 @@ profiles:
         link.magazines.csewd.net: [http, https]
         link.sparkpost.ixs1.net: [http, https]
         link.xout.securedmi.com: [http, https]
-        link.gerber.calibrplatform.com: [http]
         link.lancomeca.calibr3.com: [http, https]
         link.ixs2.net: [http, https]
         link.e.avon.ro: [http, https]
