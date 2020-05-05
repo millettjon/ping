@@ -9,15 +9,19 @@ cdn-data:
     static.ewaymail.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.consumerfbox.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.e.ixemf.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.eml.csengage2.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.securedmi.com:
       provider: keycdn
       zone: z1
@@ -29,44 +33,57 @@ cdn-data:
     static.susan-lilly.ixs1.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.heart-test.avon.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.em.ewdcse.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.sn.calibr2.com:
       provider: keycdn
       zone: z1
       pin: true
+      ssl: true
     static.eml.ewcsacq.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.eml.ixsfm.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.e.ewaymail50.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.e.arrwcnt1.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.eml.csacq1.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.email.ewaymail10.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.e.rockstarloans.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.biotherm.calibrdirect.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.e.ethis-emails.com:
       provider: keycdn
       zone: z1
       pin: true
+      ssl: true
     static.eml.acqixs.com:
       provider: keycdn
       zone: z1
@@ -78,9 +95,11 @@ cdn-data:
     static.e.arrwcnt2.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.pbj.ixs1.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.sms.ewaymail40.com:
       provider: keycdn
       zone: z2
@@ -329,6 +348,7 @@ cdn-data:
       provider: keycdn
       zone: z1
       pin: true
+      ssl: true
     static.e.certainsource.com:
       provider: keycdn
       zone: z1
@@ -337,23 +357,29 @@ cdn-data:
       provider: keycdn
       zone: z1
       pin: true
+      ssl: true
     static.sandbox.ixsmail.com:
       provider: keycdn
       zone: z1
       pin: true
+      ssl: true
     static.mikeconaway.ixs1.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.rogerwilliams.ixs1.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.e4.ixs1.net:
       provider: keycdn
       zone: z1
       pin: true
+      ssl: true
     static.xout.csesp1.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.gerber.calibrplatform.com:
       provider: keycdn
       zone: z2
@@ -475,9 +501,11 @@ cdn-data:
     static.link2financenow.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.newegg.csem2.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.email.certainsource.com:
       provider: keycdn
       zone: z1
@@ -605,12 +633,15 @@ cdn-data:
     static.ewcsacq.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.nabor.avon.ru:
       provider: keycdn
       zone: z1
+      ssl: true
     static.sas.calibrmsg.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.savethechildren.cse3.net:
       provider: keycdn
       zone: z1
@@ -638,9 +669,11 @@ cdn-data:
     static.amora.ixscs.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.amora.csemeng.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.amora.csengage1.net:
       provider: keycdn
       zone: z1
@@ -648,9 +681,11 @@ cdn-data:
     static.csemeng.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.foxcarwarranty.ixap1.com:
       provider: keycdn
       zone: z1
+      ssl: true
     static.ixap1.com:
       provider: keycdn
       zone: z4
