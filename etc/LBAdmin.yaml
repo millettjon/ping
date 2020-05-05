@@ -47,7 +47,7 @@ profiles:
   lb2:
     frontends:
       link:
-        link-lb2.ixs1.net: [http]
+        link-lb2.ixs1.net: [http, https]
         link-qa.ixs1.net:
           protocols: [http, https]
           extra_backends:
@@ -55,10 +55,10 @@ profiles:
           backend: link-qa
         link-test.ixs1.net: [http, https]
         link.us.rado.com: [http, https]
-        link.us.omegawatches.com: [http]
+        link.us.omegawatches.com: [http, https]
         link.e.us.tissotshop.com: [http, https]
         link.e.jusbyjulie.com: [http, https]
-        link-remkt.ixs1.net: [http]
+        link-remkt.ixs1.net: [http, https]
         link.mail.shespeaks.com: [http, https]
         link.avoncommunity.com: [http, https]
         link.e.certainsource.com: [http, https]
