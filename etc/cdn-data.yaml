@@ -75,10 +75,6 @@ cdn-data:
       provider: keycdn
       zone: z1
       ssl: true
-    static.biotherm.calibrdirect.com:
-      provider: keycdn
-      zone: z1
-      ssl: true
     static.e.ethis-emails.com:
       provider: keycdn
       zone: z1
@@ -338,9 +334,6 @@ cdn-data:
     static.querorevender2.avon.com:
       provider: keycdn
       zone: z3
-    static.e.savorastyle.com:
-      provider: keycdn
-      zone: z3
     static.securemailworx.com:
       provider: keycdn
       zone: z3
@@ -383,9 +376,6 @@ cdn-data:
     static.gerber.calibrplatform.com:
       provider: keycdn
       zone: z2
-    static.enb.ixgak.net:
-      provider: keycdn
-      zone: z2
     static.eml.ixsdw.net:
       provider: keycdn
       zone: z2
@@ -422,9 +412,6 @@ cdn-data:
       provider: keycdn
       zone: z4
       ssl: true
-    static.e.ixdnd.com:
-      provider: keycdn
-      zone: z4
     static.selectoptions1.com:
       provider: keycdn
       zone: z4
