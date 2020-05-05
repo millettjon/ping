@@ -801,6 +801,9 @@ cdn-data:
     static.e.newratehub.com:
       provider: keycdn
       zone: z2
+    static.e.theratesource.com:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     keycdn:
