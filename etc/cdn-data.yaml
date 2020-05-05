@@ -792,6 +792,9 @@ cdn-data:
       provider: keycdn
       zone: z3
       ssl: true
+    static.getinsurancepricing.csewd.net:
+      provider: keycdn
+      zone: z1
   providers:
     default: keycdn
     keycdn:
