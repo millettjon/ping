@@ -129,6 +129,7 @@ cdn-data:
     static.emart10.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.capuchin.csewd.com:
       provider: keycdn
       zone: z2
@@ -152,6 +153,7 @@ cdn-data:
     static.e.espacioavon.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.email.ewaydirect.com:
       provider: keycdn
       zone: z2
@@ -271,6 +273,7 @@ cdn-data:
     static.e.us.tissotshop.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.e3.ixs1.net:
       provider: keycdn
       zone: z3
@@ -326,6 +329,7 @@ cdn-data:
     static.proactiv.csacq.net:
       provider: keycdn
       zone: z3
+      ssl: true
     static.ixs1.net:
       provider: keycdn
       zone: z3
@@ -333,6 +337,7 @@ cdn-data:
     static.e.mikasa.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.eml.canvaspeople.com:
       provider: keycdn
       zone: z3
@@ -345,21 +350,27 @@ cdn-data:
       provider: keycdn
       zone: z3
       pin: true
+      ssl: true
     static.querorevender.avon.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.enquetevirtual2.avon.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.enquetevirtual.avon.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.querorevender2.avon.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.securemailworx.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.email.heart.avon.com:
       provider: keycdn
       zone: z1
@@ -424,9 +435,11 @@ cdn-data:
     static.eml.csesp1.net:
       provider: keycdn
       zone: z4
+      ssl: true
     static.e.csesp1.net:
       provider: keycdn
       zone: z4
+      ssl: true
     static.e.dlpbb.net:
       provider: keycdn
       zone: z4
@@ -434,6 +447,7 @@ cdn-data:
     static.eml.ixdcc.net:
       provider: keycdn
       zone: z4
+      ssl: true
     static.eml.ewaymail20.com:
       provider: keycdn
       zone: z4
@@ -441,48 +455,63 @@ cdn-data:
     static.selectoptions1.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.selectoptions3.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.selectoptions2.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.selectoptions4.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.selectoptions5.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.selectoptions6.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.selectoptions7.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.selectoptions8.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.selectoptions9.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.selectoptions10.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.bananarepublic.csax1.net:
       provider: keycdn
       zone: z4
+      ssl: true
     static.e.csdlp.net:
       provider: keycdn
       zone: z4
+      ssl: true
     static.orders.customer.avon.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.sellup.calibr1.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.lenditudemail.ewaymail60.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.savethechildren.csengage2.net:
       provider: keycdn
       zone: z4
@@ -490,6 +519,7 @@ cdn-data:
     static.e.csmail1.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.eml.csewd.com:
       provider: keycdn
       zone: z1
@@ -501,6 +531,7 @@ cdn-data:
     static.message.clearstonelending.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.email.canvaspeople.co.uk:
       provider: keycdn
       zone: z2
@@ -528,6 +559,7 @@ cdn-data:
     static.ewem1.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.email.maydayloanz.com:
       provider: keycdn
       zone: z4
@@ -547,12 +579,15 @@ cdn-data:
     static.e.ewdcse.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.oculus.csax1.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.hilltreefinancial.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.portal.csax1.com:
       provider: keycdn
       zone: z5
@@ -564,21 +599,27 @@ cdn-data:
     static.postmarkdstudio.cse3.net:
       provider: keycdn
       zone: z4
+      ssl: true
     static.quickloangurus.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.gerber.ewcsacq.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.fastflexifund.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.getmaydayloan.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.southernscholar.cse3.net:
       provider: keycdn
       zone: z4
+      ssl: true
     static.lendingpros.co:
       provider: keycdn
       zone: z3
@@ -586,15 +627,19 @@ cdn-data:
     static.postmarkdstudio.csemeng.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.southernscholar.csemeng.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.revelwineclub.ixlmb.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.revelwine.ixlmb.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.eml.ixstp.net:
       provider: keycdn
       zone: z2
@@ -606,6 +651,7 @@ cdn-data:
     static.clicknlend.co:
       provider: keycdn
       zone: z4
+      ssl: true
     static.yslbeauty.calibr3.com:
       provider: keycdn
       zone: z2
@@ -649,6 +695,7 @@ cdn-data:
     static.eml.ixs1.net:
       provider: keycdn
       zone: z3
+      ssl: true
     static.ewcsacq.net:
       provider: keycdn
       zone: z1
@@ -708,6 +755,7 @@ cdn-data:
     static.ixap1.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.e.omegaloans.co:
       provider: keycdn
       zone: z2
@@ -723,21 +771,27 @@ cdn-data:
     static.foxcarwarranty.csengage1.net:
       provider: keycdn
       zone: z3
+      ssl: true
     static.e.businesswomenconnection.com:
       provider: keycdn
       zone: z4
+      ssl: true
     static.e.automobileinsurancefinder.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.eml.foodnewspro.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.eml.greenautoshop.com:
       provider: keycdn
       zone: z3
+      ssl: true
     static.e.consumerbenefitguide.com:
       provider: keycdn
       zone: z3
+      ssl: true
   providers:
     default: keycdn
     keycdn:
