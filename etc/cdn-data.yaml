@@ -795,6 +795,12 @@ cdn-data:
     static.getinsurancepricing.csewd.net:
       provider: keycdn
       zone: z1
+    static.e.trustedrateguide.com:
+      provider: keycdn
+      zone: z3
+    static.e.newratehub.com:
+      provider: keycdn
+      zone: z2
   providers:
     default: keycdn
     keycdn:
