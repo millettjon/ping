@@ -795,6 +795,7 @@ cdn-data:
     static.getinsurancepricing.csewd.net:
       provider: keycdn
       zone: z1
+      ssl: true
     static.e.trustedrateguide.com:
       provider: keycdn
       zone: z3
