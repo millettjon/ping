@@ -260,6 +260,7 @@ profiles:
         link.eml.greenautoshop.com: [http, https]
         link.eml.foodnewspro.com: [http, https]
         link.e.consumerbenefitguide.com: [http, https]
+        link.getinsurancepricing.csewd.net: [http]
     backends:
       link:
         servers:
