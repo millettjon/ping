@@ -262,6 +262,8 @@ profiles:
         link.e.consumerbenefitguide.com: [http, https]
         link.getinsurancepricing.csewd.net: [http, https]
         link.e.rewadsadvisor.com: [http, https]
+        link.e.loviedoves.com: [http]
+        link.e.healthcluez.com: [http]
     backends:
       link:
         servers:
