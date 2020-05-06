@@ -805,6 +805,9 @@ cdn-data:
     static.e.theratesource.com:
       provider: keycdn
       zone: z2
+    static.e.rewadsadvisor.com:
+      provider: keycdn
+      zone: z4
   providers:
     default: keycdn
     keycdn:
