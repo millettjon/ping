@@ -261,6 +261,7 @@ profiles:
         link.eml.foodnewspro.com: [http, https]
         link.e.consumerbenefitguide.com: [http, https]
         link.getinsurancepricing.csewd.net: [http, https]
+        link.e.rewadsadvisor.com: [http]
     backends:
       link:
         servers:
