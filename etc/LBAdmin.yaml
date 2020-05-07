@@ -264,6 +264,7 @@ profiles:
         link.e.rewadsadvisor.com: [http, https]
         link.e.loviedoves.com: [http]
         link.e.healthcluez.com: [http]
+        link.eml.rewadsadvisor.com: [http]
     backends:
       link:
         servers:
