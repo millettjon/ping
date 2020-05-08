@@ -3,17 +3,19 @@ profiles:
   lb1:
     frontends:
       soap-test:
-        soap-test.ixs1.net: 
+        soap-test.ixs1.net:
       soap-staging:
-        soap-staging.ixs1.net: 
+        soap-staging.ixs1.net:
       soap:
-        soap.ixs1.net: 
+        soap.ixs1.net:
       ecards:
-        smtp.avonecards.com: 
+        smtp.avonecards.com:
+      smtpi:
+        smtp.ewaydirect.com:
       sftp:
-        sftp.ewaydirect.com: 
+        sftp.ewaydirect.com:
       ftp:
-        ftp.ewaydirect.com: 
+        ftp.ewaydirect.com:
     backends:
       soap:
         servers:
@@ -21,12 +23,12 @@ profiles:
             weight: 100
           api2:
             weight: 100
-          api3:
-            weight: 100
       soap-test:
         servers: [api-dev1]
       ecards:
         servers: [ecards1, ecards2]
+      smtp-api:
+        servers: [smtp-api1, smtp-api2]
       sftp:
         servers:
           sftp1:
@@ -299,7 +301,7 @@ profiles:
   lb3:
     frontends:
       sftp:
-        sftp-test.ixs1.net: 
+        sftp-test.ixs1.net:
     backends:
       sftp:
         servers:
