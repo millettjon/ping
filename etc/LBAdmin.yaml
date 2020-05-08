@@ -266,7 +266,7 @@ profiles:
         link.e.rewadsadvisor.com: [http, https]
         link.e.loviedoves.com: [http]
         link.e.healthcluez.com: [http]
-        link.eml.rewadsadvisor.com: [http]
+        link.eml.rewadsadvisor.com: [http, https]
         link.e.newratehub.com: [http, https]
         link.e.trustedrateguide.com: [http, https]
         link.e.theratesource.com: [http, https]
