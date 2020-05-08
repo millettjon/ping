@@ -3,19 +3,19 @@ profiles:
   lb1:
     frontends:
       soap-test:
-        soap-test.ixs1.net:
+        soap-test.ixs1.net: 
       soap-staging:
-        soap-staging.ixs1.net:
+        soap-staging.ixs1.net: 
       soap:
-        soap.ixs1.net:
+        soap.ixs1.net: 
       ecards:
-        smtp.avonecards.com:
+        smtp.avonecards.com: 
       smtpi:
-        smtp.ewaydirect.com:
+        smtp.ewaydirect.com: 
       sftp:
-        sftp.ewaydirect.com:
+        sftp.ewaydirect.com: 
       ftp:
-        ftp.ewaydirect.com:
+        ftp.ewaydirect.com: 
     backends:
       soap:
         servers:
@@ -267,6 +267,9 @@ profiles:
         link.e.loviedoves.com: [http]
         link.e.healthcluez.com: [http]
         link.eml.rewadsadvisor.com: [http]
+        link.e.newratehub.com: [http]
+        link.e.trustedrateguide.com: [http]
+        link.e.theratesource.com: [http]
     backends:
       link:
         servers:
@@ -301,7 +304,7 @@ profiles:
   lb3:
     frontends:
       sftp:
-        sftp-test.ixs1.net:
+        sftp-test.ixs1.net: 
     backends:
       sftp:
         servers:
