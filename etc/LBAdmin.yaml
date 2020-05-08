@@ -267,9 +267,9 @@ profiles:
         link.e.loviedoves.com: [http]
         link.e.healthcluez.com: [http]
         link.eml.rewadsadvisor.com: [http]
-        link.e.newratehub.com: [http]
-        link.e.trustedrateguide.com: [http]
-        link.e.theratesource.com: [http]
+        link.e.newratehub.com: [http, https]
+        link.e.trustedrateguide.com: [http, https]
+        link.e.theratesource.com: [http, https]
     backends:
       link:
         servers:
