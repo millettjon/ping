@@ -814,6 +814,9 @@ cdn-data:
     static.e.healthcluez.com:
       provider: keycdn
       zone: z5
+    static.eml.rewadsadvisor.com:
+      provider: keycdn
+      zone: z5
   providers:
     default: keycdn
     keycdn:
