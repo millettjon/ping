@@ -264,7 +264,7 @@ profiles:
         link.e.consumerbenefitguide.com: [http, https]
         link.getinsurancepricing.csewd.net: [http, https]
         link.e.rewadsadvisor.com: [http, https]
-        link.e.loviedoves.com: [http]
+        link.e.loviedoves.com: [http, https]
         link.e.healthcluez.com: [http]
         link.eml.rewadsadvisor.com: [http, https]
         link.e.newratehub.com: [http, https]
